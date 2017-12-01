@@ -134,13 +134,50 @@ clean: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir
+
+# All Build rule for target.
+CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/all:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/depend
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target Learning_TCP_IP_socket_in_C_03_names_and_address_families"
+.PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/all
+
+# Include target in all.
+all: CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/rule
+
+# Convenience name for target.
+Learning_TCP_IP_socket_in_C_03_names_and_address_families: CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/rule
+
+.PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families
+
+# clean rule for target.
+CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/clean:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/clean
+.PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/daytime_client.dir
 
 # All Build rule for target.
 CMakeFiles/daytime_client.dir/all:
 	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/depend
 	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target daytime_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=12,13,14 "Built target daytime_client"
 .PHONY : CMakeFiles/daytime_client.dir/all
 
 # Include target in all.

@@ -12,12 +12,17 @@ add_executable(
         Learning_TCP_IP_socket_in_C_02_tcp_server
         Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c
         Learning_TCP_IP_socket_in_C/lib/Practical.c
-        Learning_TCP_IP_socket_in_C/lib/Practical.h
 )
 
 add_executable(
         Learning_TCP_IP_socket_in_C_02_tcp_client
         Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c
         Learning_TCP_IP_socket_in_C/lib/Practical.c
-        Learning_TCP_IP_socket_in_C/lib/Practical.h
 )
+
+
+add_executable(
+        Learning_TCP_IP_socket_in_C_03_names_and_address_families
+        Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c
+        Learning_TCP_IP_socket_in_C/lib/Practical.h
+        Learning_TCP_IP_socket_in_C/lib/AddressUtility.c Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c)

@@ -21,3 +21,4 @@ void DieWithUserMessage(const char* msg, const char* detail)
     fputc('\n', stderr);
     exit(1);
 }
+

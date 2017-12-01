@@ -137,6 +137,19 @@ Learning_TCP_IP_socket_in_C_02_tcp_server/fast:
 .PHONY : Learning_TCP_IP_socket_in_C_02_tcp_server/fast
 
 #=============================================================================
+# Target rules for targets named Learning_TCP_IP_socket_in_C_03_names_and_address_families
+
+# Build rule for target.
+Learning_TCP_IP_socket_in_C_03_names_and_address_families: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_03_names_and_address_families
+.PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families
+
+# fast build rule for target.
+Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build
+.PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast
+
+#=============================================================================
 # Target rules for targets named daytime_client
 
 # Build rule for target.
@@ -203,6 +216,87 @@ Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s:
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s
 .PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s
 
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o
+
+# target to build an object file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
+
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i
+
+# target to preprocess a source file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
+
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s
+
+# target to generate assembly for a file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
+
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o
+
+# target to build an object file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
+
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i
+
+# target to preprocess a source file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
+
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
+
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s
+
+# target to generate assembly for a file
+Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
+.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
+
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.o: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.o
+
+# target to build an object file
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
+
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.i: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.i
+
+# target to preprocess a source file
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
+
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.s: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.s
+
+# target to generate assembly for a file
+Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
+.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
+
 Learning_TCP_IP_socket_in_C/lib/Practical.o: Learning_TCP_IP_socket_in_C/lib/Practical.c.o
 
 .PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.o
@@ -232,6 +326,33 @@ Learning_TCP_IP_socket_in_C/lib/Practical.c.s:
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 .PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.s
+
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o
+
+# target to build an object file
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
+
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i
+
+# target to preprocess a source file
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
+
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
+
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s
+
+# target to generate assembly for a file
+Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
+.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
 
 daytime/daytime_client.o: daytime/daytime_client.c.o
 
@@ -297,6 +418,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_client"
 	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_server"
+	@echo "... Learning_TCP_IP_socket_in_C_03_names_and_address_families"
 	@echo "... daytime_client"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.i"
@@ -304,9 +426,21 @@ help:
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.o"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.i"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.s"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i"
+	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.o"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.i"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.s"
 	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.o"
 	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.i"
 	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.s"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i"
+	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s"
 	@echo "... daytime/daytime_client.o"
 	@echo "... daytime/daytime_client.i"
 	@echo "... daytime/daytime_client.s"
