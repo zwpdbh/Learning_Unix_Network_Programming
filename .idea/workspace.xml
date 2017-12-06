@@ -38,50 +38,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCPEchoServer.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPServerUtility.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c">
+      <file leaf-file-name="VoteClientTCP.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="51" />
+            <state relative-caret-position="570">
+              <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
+              <folding>
+                <element signature="e#322#341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VoteServerTCP.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressUtility.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
+      <file leaf-file-name="VoteEncodingBin.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="211">
+              <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelimFramer.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#43#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LengthFramer.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,6 +114,7 @@
       <find>SetupTCPServerSocket</find>
       <find>HandleTCPClient</find>
       <find>AcceptTCPConnection</find>
+      <find>GetNextMsg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,14 +136,10 @@
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteProtocol.h" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncoding.h" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c" />
         <option value="$PROJECT_DIR$/playground.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt" />
@@ -138,7 +149,11 @@
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c" />
       </list>
     </option>
   </component>
@@ -148,10 +163,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="37" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="391" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="469" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -204,12 +219,6 @@
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
               <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
-              <item name="ch03_names_and_address_families" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -319,7 +328,7 @@
       <workItem from="1512261660322" duration="8318000" />
       <workItem from="1512346940687" duration="19704000" />
       <workItem from="1512522084874" duration="2134000" />
-      <workItem from="1512535062759" duration="6655000" />
+      <workItem from="1512535062759" duration="12959000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -335,14 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512544778959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&gt;&gt; fix ch05 bug">
+      <created>1512545927178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512545927178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58835000" />
+    <option name="totallyTimeSpent" value="65139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
+    <frame x="0" y="391" width="1440" height="469" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23319027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -398,7 +414,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6" />
     <MESSAGE value="&lt;ch02, 03&gt; confirmed&#10;&gt;&gt; try ch05" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;ch02, 03&gt; confirmed&#10;&gt;&gt; try ch05" />
+    <MESSAGE value="&gt;&gt; fix ch05 bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="&gt;&gt; fix ch05 bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -575,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="53" column="40" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -595,6 +604,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,20 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,20 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -660,39 +643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#134#154#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,10 +715,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="327">
+          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="e#43#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -771,7 +770,33 @@
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#322#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="34" />
           <folding />
         </state>
       </provider>
