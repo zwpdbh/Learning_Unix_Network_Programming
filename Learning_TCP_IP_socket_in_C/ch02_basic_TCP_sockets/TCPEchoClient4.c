@@ -69,11 +69,11 @@ int main(int argc, char *argv[]) {
         }
 
         totalBytesRcvd += numbBytes;
-        buffer[numbBytes] = "\0";
+        buffer[numbBytes] = '\0';
         fputs(buffer, stdout);
     }
 
-    fputc("\n", stdout);
+    fputc('\n', stdout);
 
     close(sock);
     exit(0);

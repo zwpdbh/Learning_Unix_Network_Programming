@@ -13,7 +13,6 @@
 
 static const int MAXPENDING = 5;
 
-void HandleTCPClient(int);
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
@@ -66,33 +65,4 @@ int main(int argc, char* argv[]) {
         }
         HandleTCPClient(clntSock);
     }
-}
-
-void HandleTCPClient(int clntSocket) {
-    char buffer[BUFSIZ];
-
-    // receive message from client
-    ssize_t  numBytesRcvd = recv(clntSocket, buffer, BUFSIZ, 0);
-    if (numBytesRcvd < 0) {
-        DieWithSystemMessage("recv() failed");
-    }
-
-    // send received string and received agin until end of stream
-    while (numBytesRcvd > 0) { // 0 indicates end of stream
-        // echo message back to client
-        ssize_t numBytesSent = send(clntSocket, buffer, numBytesRcvd, 0);
-        if (numBytesSent < 0) {
-            DieWithSystemMessage("Send() failed");
-        } else if (numBytesSent != numBytesRcvd) {
-            DieWithUserMessage("send()", "send unexpected number of bytes");
-        }
-
-        // see if there is more data to receive
-        numBytesRcvd = recv(clntSocket, buffer, BUFSIZ, 0);
-        if (numBytesRcvd < 0) {
-            DieWithSystemMessage("recv() failed");
-        }
-    }
-
-    close(clntSocket);
 }

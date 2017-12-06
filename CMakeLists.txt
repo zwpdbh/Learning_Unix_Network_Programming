@@ -25,4 +25,17 @@ add_executable(
         Learning_TCP_IP_socket_in_C_03_names_and_address_families
         Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c
         Learning_TCP_IP_socket_in_C/lib/Practical.h
-        Learning_TCP_IP_socket_in_C/lib/AddressUtility.c Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c)
+        Learning_TCP_IP_socket_in_C/lib/AddressUtility.c Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c)
+
+add_executable(
+        Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
+        Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c)
+
+add_executable(
+        playground
+        playground.c)
+
+
+add_executable(
+        Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
+        Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteProtocol.h Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncoding.h Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c)
