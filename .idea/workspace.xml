@@ -19,57 +19,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cd25fb-ddae-4d6a-a4ce-2fda2a220c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c" afterPath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c" />
-      <change beforePath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c" afterPath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c" />
-      <change beforePath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h" afterPath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_TCP.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_Network_Programming.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/daytime/daytime_client.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/lib/unp.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/daytime_client.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,6 +57,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TCPServerUtility.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressUtility.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddressUtility.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="224">
               <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
@@ -170,7 +129,6 @@
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c" />
         <option value="$PROJECT_DIR$/playground.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.h" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt" />
@@ -180,6 +138,7 @@
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -251,6 +210,12 @@
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
               <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
               <item name="ch03_names_and_address_families" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
+              <item name="ch05_sending_and_receiving_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -354,7 +319,7 @@
       <workItem from="1512261660322" duration="8318000" />
       <workItem from="1512346940687" duration="19704000" />
       <workItem from="1512522084874" duration="2134000" />
-      <workItem from="1512535062759" duration="5835000" />
+      <workItem from="1512535062759" duration="6655000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -363,11 +328,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512108452168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&lt;ch02, 03&gt; confirmed&#10;&gt;&gt; try ch05">
+      <created>1512544778959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512544778959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58015000" />
+    <option name="totallyTimeSpent" value="58835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="6" />
@@ -425,7 +397,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6" />
-    <option name="LAST_COMMIT_MESSAGE" value="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6" />
+    <MESSAGE value="&lt;ch02, 03&gt; confirmed&#10;&gt;&gt; try ch05" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;ch02, 03&gt; confirmed&#10;&gt;&gt; try ch05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -705,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/Practical.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -797,8 +762,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="224">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
