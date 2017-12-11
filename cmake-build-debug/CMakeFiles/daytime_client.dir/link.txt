@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/daytime_client.dir/daytime/daytime_client.c.o CMakeFiles/daytime_client.dir/lib/unp.c.o  -o daytime_client 

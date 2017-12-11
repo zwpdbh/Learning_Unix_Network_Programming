@@ -43,10 +43,10 @@ RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C_Projects/Learning_Unix_Network_Programming
+CMAKE_SOURCE_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o: ../Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o   -c /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o   -c /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c > CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c > CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o: ../Learning_TCP_IP_socket_in_C/lib/Practical.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o   -c /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o   -c /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c > CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c > CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o.requires:
 
@@ -117,7 +117,7 @@ Learning_TCP_IP_socket_in_C_02_tcp_client: CMakeFiles/Learning_TCP_IP_socket_in_
 Learning_TCP_IP_socket_in_C_02_tcp_client: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
 Learning_TCP_IP_socket_in_C_02_tcp_client: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make
 Learning_TCP_IP_socket_in_C_02_tcp_client: CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Learning_TCP_IP_socket_in_C_02_tcp_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Learning_TCP_IP_socket_in_C_02_tcp_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/clean:
 .PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/clean
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend:
-	cd /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend
 

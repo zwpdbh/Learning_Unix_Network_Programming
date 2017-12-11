@@ -48,10 +48,10 @@ RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C_Projects/Learning_Unix_Network_Programming
+CMAKE_SOURCE_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named playground
+# Target rules for targets named Learning_C++_Concurrency
 
 # Build rule for target.
-playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 playground
-.PHONY : playground
+Learning_C++_Concurrency: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_C++_Concurrency
+.PHONY : Learning_C++_Concurrency
 
 # fast build rule for target.
-playground/fast:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/build
-.PHONY : playground/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_02_tcp_client
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_02_tcp_client
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_client/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client/fast
+Learning_C++_Concurrency/fast:
+	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/build
+.PHONY : Learning_C++_Concurrency/fast
 
 #=============================================================================
 # Target rules for targets named Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
@@ -189,17 +163,70 @@ Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast:
 .PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast
 
 #=============================================================================
-# Target rules for targets named daytime_client
+# Target rules for targets named Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
 
 # Build rule for target.
-daytime_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 daytime_client
-.PHONY : daytime_client
+Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
+.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
 
 # fast build rule for target.
-daytime_client/fast:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/build
-.PHONY : daytime_client/fast
+Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build
+.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast
+
+#=============================================================================
+# Target rules for targets named Learning_TCP_IP_socket_in_C_02_tcp_client
+
+# Build rule for target.
+Learning_TCP_IP_socket_in_C_02_tcp_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_02_tcp_client
+.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client
+
+# fast build rule for target.
+Learning_TCP_IP_socket_in_C_02_tcp_client/fast:
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build
+.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client/fast
+
+#=============================================================================
+# Target rules for targets named Learning_Unix_network_programming_daytime
+
+# Build rule for target.
+Learning_Unix_network_programming_daytime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_Unix_network_programming_daytime
+.PHONY : Learning_Unix_network_programming_daytime
+
+# fast build rule for target.
+Learning_Unix_network_programming_daytime/fast:
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/build
+.PHONY : Learning_Unix_network_programming_daytime/fast
+
+Learning_C++_Concurrency/playground/main.o: Learning_C++_Concurrency/playground/main.cpp.o
+
+.PHONY : Learning_C++_Concurrency/playground/main.o
+
+# target to build an object file
+Learning_C++_Concurrency/playground/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o
+.PHONY : Learning_C++_Concurrency/playground/main.cpp.o
+
+Learning_C++_Concurrency/playground/main.i: Learning_C++_Concurrency/playground/main.cpp.i
+
+.PHONY : Learning_C++_Concurrency/playground/main.i
+
+# target to preprocess a source file
+Learning_C++_Concurrency/playground/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i
+.PHONY : Learning_C++_Concurrency/playground/main.cpp.i
+
+Learning_C++_Concurrency/playground/main.s: Learning_C++_Concurrency/playground/main.cpp.s
+
+.PHONY : Learning_C++_Concurrency/playground/main.s
+
+# target to generate assembly for a file
+Learning_C++_Concurrency/playground/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s
+.PHONY : Learning_C++_Concurrency/playground/main.cpp.s
 
 Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o
 
@@ -639,8 +666,8 @@ Learning_TCP_IP_socket_in_C/lib/Practical.o: Learning_TCP_IP_socket_in_C/lib/Pra
 
 # target to build an object file
 Learning_TCP_IP_socket_in_C/lib/Practical.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
 .PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.o
 
 Learning_TCP_IP_socket_in_C/lib/Practical.i: Learning_TCP_IP_socket_in_C/lib/Practical.c.i
@@ -649,8 +676,8 @@ Learning_TCP_IP_socket_in_C/lib/Practical.i: Learning_TCP_IP_socket_in_C/lib/Pra
 
 # target to preprocess a source file
 Learning_TCP_IP_socket_in_C/lib/Practical.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
 .PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.i
 
 Learning_TCP_IP_socket_in_C/lib/Practical.s: Learning_TCP_IP_socket_in_C/lib/Practical.c.s
@@ -659,8 +686,8 @@ Learning_TCP_IP_socket_in_C/lib/Practical.s: Learning_TCP_IP_socket_in_C/lib/Pra
 
 # target to generate assembly for a file
 Learning_TCP_IP_socket_in_C/lib/Practical.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
+	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 .PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.s
 
 Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
@@ -723,7 +750,7 @@ daytime/daytime_client.o: daytime/daytime_client.c.o
 
 # target to build an object file
 daytime/daytime_client.c.o:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/daytime/daytime_client.c.o
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o
 .PHONY : daytime/daytime_client.c.o
 
 daytime/daytime_client.i: daytime/daytime_client.c.i
@@ -732,7 +759,7 @@ daytime/daytime_client.i: daytime/daytime_client.c.i
 
 # target to preprocess a source file
 daytime/daytime_client.c.i:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/daytime/daytime_client.c.i
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.i
 .PHONY : daytime/daytime_client.c.i
 
 daytime/daytime_client.s: daytime/daytime_client.c.s
@@ -741,7 +768,7 @@ daytime/daytime_client.s: daytime/daytime_client.c.s
 
 # target to generate assembly for a file
 daytime/daytime_client.c.s:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/daytime/daytime_client.c.s
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.s
 .PHONY : daytime/daytime_client.c.s
 
 lib/unp.o: lib/unp.c.o
@@ -750,7 +777,7 @@ lib/unp.o: lib/unp.c.o
 
 # target to build an object file
 lib/unp.c.o:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/lib/unp.c.o
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o
 .PHONY : lib/unp.c.o
 
 lib/unp.i: lib/unp.c.i
@@ -759,7 +786,7 @@ lib/unp.i: lib/unp.c.i
 
 # target to preprocess a source file
 lib/unp.c.i:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/lib/unp.c.i
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.i
 .PHONY : lib/unp.c.i
 
 lib/unp.s: lib/unp.c.s
@@ -768,35 +795,8 @@ lib/unp.s: lib/unp.c.s
 
 # target to generate assembly for a file
 lib/unp.c.s:
-	$(MAKE) -f CMakeFiles/daytime_client.dir/build.make CMakeFiles/daytime_client.dir/lib/unp.c.s
+	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.s
 .PHONY : lib/unp.c.s
-
-playground.o: playground.c.o
-
-.PHONY : playground.o
-
-# target to build an object file
-playground.c.o:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.c.o
-.PHONY : playground.c.o
-
-playground.i: playground.c.i
-
-.PHONY : playground.i
-
-# target to preprocess a source file
-playground.c.i:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.c.i
-.PHONY : playground.c.i
-
-playground.s: playground.c.s
-
-.PHONY : playground.s
-
-# target to generate assembly for a file
-playground.c.s:
-	$(MAKE) -f CMakeFiles/playground.dir/build.make CMakeFiles/playground.dir/playground.c.s
-.PHONY : playground.c.s
 
 # Help Target
 help:
@@ -805,14 +805,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... playground"
-	@echo "... Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"
-	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_client"
+	@echo "... Learning_C++_Concurrency"
 	@echo "... Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"
 	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_server"
 	@echo "... Learning_TCP_IP_socket_in_C_03_names_and_address_families"
-	@echo "... daytime_client"
+	@echo "... Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"
+	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_client"
+	@echo "... edit_cache"
+	@echo "... Learning_Unix_network_programming_daytime"
+	@echo "... Learning_C++_Concurrency/playground/main.o"
+	@echo "... Learning_C++_Concurrency/playground/main.i"
+	@echo "... Learning_C++_Concurrency/playground/main.s"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.i"
 	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.s"
@@ -876,9 +879,6 @@ help:
 	@echo "... lib/unp.o"
 	@echo "... lib/unp.i"
 	@echo "... lib/unp.s"
-	@echo "... playground.o"
-	@echo "... playground.i"
-	@echo "... playground.s"
 .PHONY : help
 
 

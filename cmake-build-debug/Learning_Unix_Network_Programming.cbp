@@ -8,38 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="playground">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+			<Target title="Learning_C++_Concurrency">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +43,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_C++_Concurrency"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="playground/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/playground" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+			<Target title="Learning_C++_Concurrency/fast">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,103 +65,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 playground/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_client">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_client"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_client/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_client/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_C++_Concurrency/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -185,15 +87,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -207,15 +109,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_server">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -229,15 +131,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_server"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_server/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -251,15 +153,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_server/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_03_names_and_address_families">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_03_names_and_address_families" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_03_names_and_address_families" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -273,15 +175,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_03_names_and_address_families" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_03_names_and_address_families" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -295,15 +197,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="daytime_client">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/daytime_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+			<Target title="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -317,15 +219,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 daytime_client"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="daytime_client/fast">
-				<Option output="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/daytime_client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+			<Target title="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -339,99 +241,197 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 daytime_client/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_client">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_TCP_IP_socket_in_C_02_tcp_client/fast">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TCP_IP_socket_in_C_02_tcp_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_Unix_network_programming_daytime">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Unix_network_programming_daytime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_Unix_network_programming_daytime"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_Unix_network_programming_daytime/fast">
+				<Option output="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Unix_network_programming_daytime" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_Unix_network_programming_daytime/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp">
+			<Option target="Learning_C++_Concurrency"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c">
 			<Option target="Learning_TCP_IP_socket_in_C_02_tcp_client"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c">
 			<Option target="Learning_TCP_IP_socket_in_C_02_tcp_server"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp">
 			<Option target="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c">
 			<Option target="Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncoding.h">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncoding.h">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteProtocol.h">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteProtocol.h">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c">
 			<Option target="Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.c">
+			<Option target="Learning_TCP_IP_socket_in_C_02_tcp_server"/>
 			<Option target="Learning_TCP_IP_socket_in_C_02_tcp_client"/>
-			<Option target="Learning_TCP_IP_socket_in_C_02_tcp_server"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.h">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/Practical.h">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c">
 			<Option target="Learning_TCP_IP_socket_in_C_03_names_and_address_families"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/config.h">
-			<Option target="daytime_client"/>
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_Unix_network_programming/config.h">
+			<Option target="Learning_Unix_network_programming_daytime"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c">
-			<Option target="daytime_client"/>
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c">
+			<Option target="Learning_Unix_network_programming_daytime"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/lib/unp.c">
-			<Option target="daytime_client"/>
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/lib/unp.c">
+			<Option target="Learning_Unix_network_programming_daytime"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/lib/unp.h">
-			<Option target="daytime_client"/>
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/lib/unp.h">
+			<Option target="Learning_Unix_network_programming_daytime"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/playground.c">
-			<Option target="playground"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
+		<Unit filename="/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
