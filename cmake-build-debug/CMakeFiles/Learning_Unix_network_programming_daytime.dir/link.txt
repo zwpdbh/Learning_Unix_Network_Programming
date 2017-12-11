@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o  -o Learning_Unix_network_programming_daytime 
