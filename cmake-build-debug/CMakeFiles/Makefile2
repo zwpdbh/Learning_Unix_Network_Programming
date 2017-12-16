@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programmi
 CMAKE_BINARY_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/learning_pthreads_01.dir
+
+# All Build rule for target.
+CMakeFiles/learning_pthreads_01.dir/all:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/depend
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target learning_pthreads_01"
+.PHONY : CMakeFiles/learning_pthreads_01.dir/all
+
+# Include target in all.
+all: CMakeFiles/learning_pthreads_01.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learning_pthreads_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learning_pthreads_01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learning_pthreads_01.dir/rule
+
+# Convenience name for target.
+learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/rule
+
+.PHONY : learning_pthreads_01
+
+# clean rule for target.
+CMakeFiles/learning_pthreads_01.dir/clean:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/clean
+.PHONY : CMakeFiles/learning_pthreads_01.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/learning_pthreads_01.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Learning_C++_Concurrency.dir
 
 # All Build rule for target.

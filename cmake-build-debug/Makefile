@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named learning_pthreads_01
+
+# Build rule for target.
+learning_pthreads_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_pthreads_01
+.PHONY : learning_pthreads_01
+
+# fast build rule for target.
+learning_pthreads_01/fast:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/build
+.PHONY : learning_pthreads_01/fast
+
+#=============================================================================
 # Target rules for targets named Learning_C++_Concurrency
 
 # Build rule for target.
@@ -744,6 +757,33 @@ Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s:
 	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s
 .PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s
 
+Parallel_Computing/learning_pthreads/01/main.o: Parallel_Computing/learning_pthreads/01/main.cpp.o
+
+.PHONY : Parallel_Computing/learning_pthreads/01/main.o
+
+# target to build an object file
+Parallel_Computing/learning_pthreads/01/main.cpp.o:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o
+.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.o
+
+Parallel_Computing/learning_pthreads/01/main.i: Parallel_Computing/learning_pthreads/01/main.cpp.i
+
+.PHONY : Parallel_Computing/learning_pthreads/01/main.i
+
+# target to preprocess a source file
+Parallel_Computing/learning_pthreads/01/main.cpp.i:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.i
+.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.i
+
+Parallel_Computing/learning_pthreads/01/main.s: Parallel_Computing/learning_pthreads/01/main.cpp.s
+
+.PHONY : Parallel_Computing/learning_pthreads/01/main.s
+
+# target to generate assembly for a file
+Parallel_Computing/learning_pthreads/01/main.cpp.s:
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.s
+.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.s
+
 daytime/daytime_client.o: daytime/daytime_client.c.o
 
 .PHONY : daytime/daytime_client.o
@@ -805,6 +845,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... learning_pthreads_01"
 	@echo "... Learning_C++_Concurrency"
 	@echo "... Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"
 	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_server"
@@ -873,6 +914,9 @@ help:
 	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.o"
 	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.i"
 	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.s"
+	@echo "... Parallel_Computing/learning_pthreads/01/main.o"
+	@echo "... Parallel_Computing/learning_pthreads/01/main.i"
+	@echo "... Parallel_Computing/learning_pthreads/01/main.s"
 	@echo "... daytime/daytime_client.o"
 	@echo "... daytime/daytime_client.i"
 	@echo "... daytime/daytime_client.s"

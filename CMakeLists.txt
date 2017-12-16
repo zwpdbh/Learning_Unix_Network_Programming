@@ -47,3 +47,11 @@ add_executable(
         Learning_C++_Concurrency
         Learning_C++_Concurrency/playground/main.cpp
 )
+
+
+# === for parallel computing
+#set(pthread_project Parallel_Computing/learning_pthreads)
+add_executable(
+        learning_pthreads_01
+        Parallel_Computing/learning_pthreads/01/main.cpp
+)
