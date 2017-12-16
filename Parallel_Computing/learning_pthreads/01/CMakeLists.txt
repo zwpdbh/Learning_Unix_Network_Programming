@@ -18,8 +18,6 @@ SET(GCC_LINK_FLAGS "-lpthread")
 
 SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_HEADER_PATH} ${GCC_SHARED_LIB_PATH} ${GCC_LINK_FLAGS}")
 
-#TARGET_LINK_LIBRARIES(pthread_01 pthread)
-
 
 include_directories("${PROJECT_SOURCE_DIR}")
 # contains the full path to the root of your project source directory (for example, to the nearest directory where
@@ -30,3 +28,11 @@ add_executable(
         pthread_01
         main.cpp
 )
+
+# ===
+#include_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/inc)
+#link_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/<lib or something similar>)
+#
+#add_executable(yourexe src1.c ...)
+#target_link_libraries(yourexe OpenCL)
+# ===

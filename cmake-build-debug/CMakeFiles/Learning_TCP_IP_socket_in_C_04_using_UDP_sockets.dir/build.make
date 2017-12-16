@@ -43,10 +43,10 @@ RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming
+CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/flags.ma
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o: CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/flags.make
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o: ../Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o -c /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp > CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp > CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o: CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/flags.make
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o: ../Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o   -c /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c > CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c > CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c -o CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o.requires:
 
@@ -117,7 +117,7 @@ Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: CMakeFiles/Learning_TCP_IP_soc
 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o
 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make
 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/clean:
 .PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/clean
 
 CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/depend:
-	cd /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/depend
 

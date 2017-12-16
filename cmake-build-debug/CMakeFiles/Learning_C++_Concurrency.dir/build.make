@@ -43,10 +43,10 @@ RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming
+CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Learning_C++_Concurrency.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Learning_C++_Concurrency.dir/flags.make
 
 CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o: CMakeFiles/Learning_C++_Concurrency.dir/flags.make
 CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o: ../Learning_C++_Concurrency/playground/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o -c /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp
 
 CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp > CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp > CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i
 
 CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp -o CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp -o CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s
 
 CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o.requires:
 
@@ -91,7 +91,7 @@ Learning_C_______Concurrency_EXTERNAL_OBJECTS =
 Learning_C++_Concurrency: CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o
 Learning_C++_Concurrency: CMakeFiles/Learning_C++_Concurrency.dir/build.make
 Learning_C++_Concurrency: CMakeFiles/Learning_C++_Concurrency.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Learning_C++_Concurrency"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Learning_C++_Concurrency"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Learning_C++_Concurrency.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/Learning_C++_Concurrency.dir/clean:
 .PHONY : CMakeFiles/Learning_C++_Concurrency.dir/clean
 
 CMakeFiles/Learning_C++_Concurrency.dir/depend:
-	cd /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Learning_C++_Concurrency.dir/depend
 

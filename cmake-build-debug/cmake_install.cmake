@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming
+# Install script for directory: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zw/code/C:C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
