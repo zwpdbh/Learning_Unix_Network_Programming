@@ -25,3 +25,4 @@ add_subdirectory(./Learning_C++_Concurrency/playground)
 # === for parallel computing
 add_subdirectory(./Parallel_Computing/learning_pthreads/01)
 add_subdirectory(./Parallel_Computing/learning_pthreads/02)
+add_subdirectory(./Parallel_Computing/learning_pthreads/03)

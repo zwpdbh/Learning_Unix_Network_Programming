@@ -266,6 +266,32 @@ pthread_join/fast:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build
 .PHONY : pthread_join/fast
 
+#=============================================================================
+# Target rules for targets named pthread_condition_variables
+
+# Build rule for target.
+pthread_condition_variables: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_condition_variables
+.PHONY : pthread_condition_variables
+
+# fast build rule for target.
+pthread_condition_variables/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build
+.PHONY : pthread_condition_variables/fast
+
+#=============================================================================
+# Target rules for targets named pthread_using_mutex
+
+# Build rule for target.
+pthread_using_mutex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_using_mutex
+.PHONY : pthread_using_mutex
+
+# fast build rule for target.
+pthread_using_mutex/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
+.PHONY : pthread_using_mutex/fast
+
 daytime/daytime_client.o: daytime/daytime_client.c.o
 
 .PHONY : daytime/daytime_client.o
@@ -340,6 +366,8 @@ help:
 	@echo "... simple_one"
 	@echo "... pthread_stack"
 	@echo "... pthread_join"
+	@echo "... pthread_condition_variables"
+	@echo "... pthread_using_mutex"
 	@echo "... daytime/daytime_client.o"
 	@echo "... daytime/daytime_client.i"
 	@echo "... daytime/daytime_client.s"

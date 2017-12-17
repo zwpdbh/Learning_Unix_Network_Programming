@@ -123,7 +123,7 @@ Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/preinstall:
 Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/all:
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/depend
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target tcp_echo_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target tcp_echo_client"
 .PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/all
 
 # Include target in all.
@@ -160,7 +160,7 @@ clean: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_cl
 Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/all:
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/depend
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=27,28,29,30,31 "Built target tcp_echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=31,32,33,34,35 "Built target tcp_echo_server"
 .PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/all
 
 # Include target in all.
@@ -311,7 +311,7 @@ Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/preinstall:
 Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/all:
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/depend
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=32,33,34,35,36,37 "Built target vote_client_binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=36,37,38,39,40,41 "Built target vote_client_binary"
 .PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/all
 
 # Include target in all.
@@ -348,7 +348,7 @@ clean: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vo
 Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/all:
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/depend
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=38,39,40,41,42,43,44 "Built target vote_server_binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=42,43,44,45,46,47,48 "Built target vote_server_binary"
 .PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/all
 
 # Include target in all.
@@ -497,7 +497,7 @@ clean: Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir
 Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target simple_one"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target simple_one"
 .PHONY : Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/all
 
 # Include target in all.
@@ -554,7 +554,7 @@ Parallel_Computing/learning_pthreads/02/preinstall:
 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target pthread_stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target pthread_stack"
 .PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/all
 
 # Include target in all.
@@ -591,7 +591,7 @@ clean: Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/clea
 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target pthread_join"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target pthread_join"
 .PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/all
 
 # Include target in all.
@@ -618,6 +618,100 @@ Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/clean:
 
 # clean rule for target.
 clean: Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory Parallel_Computing/learning_pthreads/03
+
+# Convenience name for "all" pass in the directory.
+Parallel_Computing/learning_pthreads/03/all: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all
+Parallel_Computing/learning_pthreads/03/all: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/all
+
+.PHONY : Parallel_Computing/learning_pthreads/03/all
+
+# Convenience name for "clean" pass in the directory.
+Parallel_Computing/learning_pthreads/03/clean: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/clean
+Parallel_Computing/learning_pthreads/03/clean: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/clean
+
+.PHONY : Parallel_Computing/learning_pthreads/03/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Parallel_Computing/learning_pthreads/03/preinstall:
+
+.PHONY : Parallel_Computing/learning_pthreads/03/preinstall
+
+#=============================================================================
+# Target rules for target Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir
+
+# All Build rule for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/depend
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target pthread_condition_variables"
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all
+
+# Include target in all.
+all: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule
+
+# Convenience name for target.
+pthread_condition_variables: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule
+
+.PHONY : pthread_condition_variables
+
+# clean rule for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/clean:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/clean
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/clean
+
+# clean rule for target.
+clean: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir
+
+# All Build rule for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/all:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/depend
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target pthread_using_mutex"
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/all
+
+# Include target in all.
+all: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule
+
+# Convenience name for target.
+pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule
+
+.PHONY : pthread_using_mutex
+
+# clean rule for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/clean:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/clean
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/clean
+
+# clean rule for target.
+clean: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/clean
 
 .PHONY : clean
 

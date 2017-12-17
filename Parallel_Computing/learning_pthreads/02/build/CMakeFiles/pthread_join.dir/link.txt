@@ -1,1 +1,1 @@
-/usr/bin/g++   -I/usr/include -L/usr/lib -lpthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_join.dir/pthread_join.cpp.o  -o ../bin/pthread_join 
+/usr/bin/g++  -g  -I/usr/include -L/usr/lib -lpthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_join.dir/pthread_join.cpp.o  -o ../bin/pthread_join 

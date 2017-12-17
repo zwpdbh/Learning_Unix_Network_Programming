@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pthread_stack
+
+# Build rule for target.
+pthread_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_stack
+.PHONY : pthread_stack
+
+# fast build rule for target.
+pthread_stack/fast:
+	$(MAKE) -f CMakeFiles/pthread_stack.dir/build.make CMakeFiles/pthread_stack.dir/build
+.PHONY : pthread_stack/fast
+
+#=============================================================================
 # Target rules for targets named pthread_join
 
 # Build rule for target.
@@ -150,6 +163,33 @@ pthread_join.cpp.s:
 	$(MAKE) -f CMakeFiles/pthread_join.dir/build.make CMakeFiles/pthread_join.dir/pthread_join.cpp.s
 .PHONY : pthread_join.cpp.s
 
+pthread_stack.o: pthread_stack.cpp.o
+
+.PHONY : pthread_stack.o
+
+# target to build an object file
+pthread_stack.cpp.o:
+	$(MAKE) -f CMakeFiles/pthread_stack.dir/build.make CMakeFiles/pthread_stack.dir/pthread_stack.cpp.o
+.PHONY : pthread_stack.cpp.o
+
+pthread_stack.i: pthread_stack.cpp.i
+
+.PHONY : pthread_stack.i
+
+# target to preprocess a source file
+pthread_stack.cpp.i:
+	$(MAKE) -f CMakeFiles/pthread_stack.dir/build.make CMakeFiles/pthread_stack.dir/pthread_stack.cpp.i
+.PHONY : pthread_stack.cpp.i
+
+pthread_stack.s: pthread_stack.cpp.s
+
+.PHONY : pthread_stack.s
+
+# target to generate assembly for a file
+pthread_stack.cpp.s:
+	$(MAKE) -f CMakeFiles/pthread_stack.dir/build.make CMakeFiles/pthread_stack.dir/pthread_stack.cpp.s
+.PHONY : pthread_stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... pthread_stack"
 	@echo "... pthread_join"
 	@echo "... pthread_join.o"
 	@echo "... pthread_join.i"
 	@echo "... pthread_join.s"
+	@echo "... pthread_stack.o"
+	@echo "... pthread_stack.i"
+	@echo "... pthread_stack.s"
 .PHONY : help
 
 

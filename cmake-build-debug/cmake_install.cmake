@@ -35,6 +35,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/cmake_install.cmake")
 
 endif()
 

@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt"
   "../Parallel_Computing/learning_pthreads/01/CMakeLists.txt"
   "../Parallel_Computing/learning_pthreads/02/CMakeLists.txt"
+  "../Parallel_Computing/learning_pthreads/03/CMakeLists.txt"
   "CMakeFiles/3.9.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.4/CMakeSystem.cmake"
@@ -57,6 +58,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Learning_C++_Concurrency/playground/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Parallel_Computing/learning_pthreads/03/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -73,4 +75,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/DependInfo.cmake"
+  "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/DependInfo.cmake"
+  "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/DependInfo.cmake"
   )
