@@ -4,6 +4,7 @@
     <generated>
       <config projectName="Learning_Unix_Network_Programming" targetName="Learning_Unix_network_programming_daytime" />
       <config projectName="Learning_Unix_Network_Programming" targetName="vote_client_binary" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="concurrency_playground" />
       <config projectName="Learning_Unix_Network_Programming" targetName="multiple_arguments" />
       <config projectName="Learning_Unix_Network_Programming" targetName="tcp_echo_server" />
       <config projectName="Learning_Unix_Network_Programming" targetName="03_tcp_echo_server" />
@@ -13,6 +14,7 @@
       <config projectName="Learning_Unix_Network_Programming" targetName="03_tcp_echo_client" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_join" />
       <config projectName="Learning_Unix_Network_Programming" targetName="Learning_C++_Concurrency" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="pthread_stack" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -23,35 +25,340 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cd25fb-ddae-4d6a-a4ce-2fda2a220c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt" afterPath="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/CMakeLists.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/bin/pthread_01" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/build.make" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/flags.make" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/link.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/progress.make" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/Makefile" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/main.cpp" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/simple_one.cpp" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" afterPath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/bin/Learning_C++_Concurrency_playground" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeCache.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/CMakeOutput.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/main.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Learning_C++_Concurrency_playground.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Makefile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/Makefile2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/cmake.check_cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/feature_tests.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/feature_tests.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/feature_tests.cxx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Learning_C++_Concurrency/playground/build/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/bin/03_tcp_echo_client" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/03_tcp_echo_server" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/learning_C++_Concurrency_playground" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/multiple_arguments" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/simple_one" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/tcp_echo_client" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/tcp_echo_server" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/vote_client_binary" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/vote_server_binary" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Learning_Unix_network_programming_daytime.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/10" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/11" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/12" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/13" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/14" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/15" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/16" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/17" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/18" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/19" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/20" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/21" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/22" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/23" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/24" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/25" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/26" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/27" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/28" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/29" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/30" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/31" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/32" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/33" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/34" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/35" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/36" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/37" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/38" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/39" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/40" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/41" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/42" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/9" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/main.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_C++_Concurrency/playground/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/TCPEchoClient4.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/TCPEchoServer4.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/__/lib/AddressUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/__/lib/TCPServerUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/TCPEchoClient.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/__/lib/AddressUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/__/lib/TCPClientUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/TCPEchoServer.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/__/lib/AddressUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/__/lib/TCPServerUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/DelimFramer.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/VoteClientTCP.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/VoteEncodingText.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/__/lib/TCPClientUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/C.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/DelimFramer.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/VoteEncodingText.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/VoteServerTCP.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/__/lib/AddressUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/__/lib/Practical.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/__/lib/TCPServerUtility.c.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Learning_Unix_network_programming_daytime" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/simple_one.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/01/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/pthread_join.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/Parallel_Computing/learning_pthreads/02/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_network_programming_daytime.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_Unix_network_programming_daytime.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_C++_Concurrency.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/progress.make" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/progress.make" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_C++_Concurrency" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C_02_tcp_client" afterPath="" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/daytime_client" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/playground" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,14 +380,44 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pthread_join.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pthread_stack.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_stack.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pthread_join.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_join.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -144,15 +481,15 @@
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c" />
-        <option value="$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/playground/main.cpp" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/main.cpp" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp" />
-        <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_join.cpp" />
+        <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -162,7 +499,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="358" />
     <option name="width" value="1440" />
     <option name="height" value="502" />
@@ -214,16 +551,6 @@
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Learning_C++_Concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,10 +595,16 @@
     <configuration name="Learning_Unix_network_programming_daytime" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="Learning_Unix_network_programming_daytime" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_join">
       <envs />
     </configuration>
+    <configuration name="concurrency_playground" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="concurrency_playground" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="concurrency_playground">
+      <envs />
+    </configuration>
     <configuration name="multiple_arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="multiple_arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_join">
       <envs />
     </configuration>
     <configuration name="pthread_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_join">
+      <envs />
+    </configuration>
+    <configuration name="pthread_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_stack">
       <envs />
     </configuration>
     <configuration name="simple_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="simple_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_join">
@@ -289,17 +622,19 @@
     <configuration name="vote_server_binary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="vote_server_binary" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_join">
       <envs />
     </configuration>
-    <list size="10">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Application.Learning_Unix_network_programming_daytime" />
-      <item index="1" class="java.lang.String" itemvalue="Application.tcp_echo_client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.tcp_echo_server" />
-      <item index="3" class="java.lang.String" itemvalue="Application.03_tcp_echo_client" />
-      <item index="4" class="java.lang.String" itemvalue="Application.03_tcp_echo_server" />
-      <item index="5" class="java.lang.String" itemvalue="Application.vote_client_binary" />
-      <item index="6" class="java.lang.String" itemvalue="Application.vote_server_binary" />
-      <item index="7" class="java.lang.String" itemvalue="Application.multiple_arguments" />
-      <item index="8" class="java.lang.String" itemvalue="Application.simple_one" />
-      <item index="9" class="java.lang.String" itemvalue="Application.pthread_join" />
+      <item index="1" class="java.lang.String" itemvalue="Application.concurrency_playground" />
+      <item index="2" class="java.lang.String" itemvalue="Application.tcp_echo_client" />
+      <item index="3" class="java.lang.String" itemvalue="Application.tcp_echo_server" />
+      <item index="4" class="java.lang.String" itemvalue="Application.03_tcp_echo_client" />
+      <item index="5" class="java.lang.String" itemvalue="Application.03_tcp_echo_server" />
+      <item index="6" class="java.lang.String" itemvalue="Application.vote_client_binary" />
+      <item index="7" class="java.lang.String" itemvalue="Application.vote_server_binary" />
+      <item index="8" class="java.lang.String" itemvalue="Application.multiple_arguments" />
+      <item index="9" class="java.lang.String" itemvalue="Application.simple_one" />
+      <item index="10" class="java.lang.String" itemvalue="Application.pthread_join" />
+      <item index="11" class="java.lang.String" itemvalue="Application.pthread_stack" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -336,7 +671,7 @@
       <workItem from="1513420624891" duration="294000" />
       <workItem from="1513421323492" duration="1021000" />
       <workItem from="1513454885698" duration="1142000" />
-      <workItem from="1513463928905" duration="4583000" />
+      <workItem from="1513463928905" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -377,15 +712,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79797000" />
+    <option name="totallyTimeSpent" value="80421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="358" width="1440" height="502" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5013477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27493262" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -446,13 +781,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,22 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
@@ -784,14 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_join.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -799,6 +1103,38 @@
           <folding>
             <element signature="e#43#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_stack.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

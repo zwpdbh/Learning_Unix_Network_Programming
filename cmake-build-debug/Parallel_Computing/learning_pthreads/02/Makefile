@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/rule
+.PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/rule
+
+# Convenience name for target.
+pthread_stack: Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/rule
+
+.PHONY : pthread_stack
+
+# fast build rule for target.
+pthread_stack/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build
+.PHONY : pthread_stack/fast
+
+# Convenience name for target.
 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/rule:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/rule
 .PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/rule
@@ -152,6 +167,33 @@ pthread_join.cpp.s:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/pthread_join.cpp.s
 .PHONY : pthread_join.cpp.s
 
+pthread_stack.o: pthread_stack.cpp.o
+
+.PHONY : pthread_stack.o
+
+# target to build an object file
+pthread_stack.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/pthread_stack.cpp.o
+.PHONY : pthread_stack.cpp.o
+
+pthread_stack.i: pthread_stack.cpp.i
+
+.PHONY : pthread_stack.i
+
+# target to preprocess a source file
+pthread_stack.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/pthread_stack.cpp.i
+.PHONY : pthread_stack.cpp.i
+
+pthread_stack.s: pthread_stack.cpp.s
+
+.PHONY : pthread_stack.s
+
+# target to generate assembly for a file
+pthread_stack.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/pthread_stack.cpp.s
+.PHONY : pthread_stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,10 +202,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... pthread_stack"
 	@echo "... pthread_join"
 	@echo "... pthread_join.o"
 	@echo "... pthread_join.i"
 	@echo "... pthread_join.s"
+	@echo "... pthread_stack.o"
+	@echo "... pthread_stack.i"
+	@echo "... pthread_stack.s"
 .PHONY : help
 
 

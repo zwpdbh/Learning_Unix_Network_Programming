@@ -30,3 +30,5 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GCC_HEADER_PATH} ${GCC_SHARED_LIB_PATH
 add_executable(
         pthread_join
         pthread_join.cpp)
+
+add_executable(pthread_stack pthread_stack.cpp)

@@ -202,17 +202,17 @@ vote_server_binary/fast:
 .PHONY : vote_server_binary/fast
 
 #=============================================================================
-# Target rules for targets named learning_C++_Concurrency_playground
+# Target rules for targets named concurrency_playground
 
 # Build rule for target.
-learning_C++_Concurrency_playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_C++_Concurrency_playground
-.PHONY : learning_C++_Concurrency_playground
+concurrency_playground: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 concurrency_playground
+.PHONY : concurrency_playground
 
 # fast build rule for target.
-learning_C++_Concurrency_playground/fast:
-	$(MAKE) -f Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build.make Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build
-.PHONY : learning_C++_Concurrency_playground/fast
+concurrency_playground/fast:
+	$(MAKE) -f Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build.make Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build
+.PHONY : concurrency_playground/fast
 
 #=============================================================================
 # Target rules for targets named multiple_arguments
@@ -239,6 +239,19 @@ simple_one: cmake_check_build_system
 simple_one/fast:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build
 .PHONY : simple_one/fast
+
+#=============================================================================
+# Target rules for targets named pthread_stack
+
+# Build rule for target.
+pthread_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_stack
+.PHONY : pthread_stack
+
+# fast build rule for target.
+pthread_stack/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build
+.PHONY : pthread_stack/fast
 
 #=============================================================================
 # Target rules for targets named pthread_join
@@ -322,9 +335,10 @@ help:
 	@echo "... 03_tcp_echo_server"
 	@echo "... vote_client_binary"
 	@echo "... vote_server_binary"
-	@echo "... learning_C++_Concurrency_playground"
+	@echo "... concurrency_playground"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
+	@echo "... pthread_stack"
 	@echo "... pthread_join"
 	@echo "... daytime/daytime_client.o"
 	@echo "... daytime/daytime_client.i"

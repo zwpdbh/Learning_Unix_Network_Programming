@@ -68,8 +68,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/DependInfo.cmake"
   "Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/DependInfo.cmake"
   "Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/DependInfo.cmake"
-  "Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/DependInfo.cmake"
+  "Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/DependInfo.cmake"
+  "Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/DependInfo.cmake"
   )
