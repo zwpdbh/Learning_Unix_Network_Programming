@@ -9,7 +9,7 @@ set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR})
 include_directories("${PROJECT_SOURCE_DIR}")
 
 add_executable(
-        tcp_echo_server
+        03_tcp_echo_server
         TCPEchoServer.c
         ../lib/Practical.c
         ../lib/TCPServerUtility.c
@@ -17,7 +17,7 @@ add_executable(
 )
 
 add_executable(
-        tcp_echo_client
+        03_tcp_echo_client
         TCPEchoClient.c
         ../lib/Practical.c
         ../lib/TCPClientUtility.c

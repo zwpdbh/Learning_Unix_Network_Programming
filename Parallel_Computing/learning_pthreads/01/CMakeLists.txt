@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.9)
 
 # set project name
-project(TCP_IP_sockets_in_C_ch05)
+project(pthreads_creating_and_terminating)
 
 set(CMAKE_C_COMPILER /usr/bin/gcc)
 set(CMAKE_CXX_COMPILER /usr/bin/g++)
@@ -29,11 +29,18 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_HEADER_PATH} ${GCC_SHARED_LIB_PAT
 
 
 add_executable(
-        pthread_01
-        main.cpp
+        simple_one
+        simple_one.cpp
 )
 
-# ===
+add_executable(
+        multiple_arguments
+        multiple_arguments.cpp
+)
+
+
+
+# === another way to set include and link directory
 #include_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/inc)
 #link_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/<lib or something similar>)
 #

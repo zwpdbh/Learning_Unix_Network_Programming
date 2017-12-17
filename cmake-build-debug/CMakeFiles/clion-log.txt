@@ -1,18 +1,27 @@
 "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming
--- The C compiler identification is AppleClang 9.0.0.9000038
--- The CXX compiler identification is AppleClang 9.0.0.9000038
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build.make.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/depend.make.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/flags.make.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/link.txt.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Could not create /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/cmake_clean.cmake
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/DependInfo.cmake.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/Makefile.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/CMakeDirectoryInformation.cmake.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/cmake_install.cmake.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/playground.cbp.tmp
+CMake Error: : System Error: Not a directory
 -- Generating done
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/progress.make.tmp
+CMake Error: : System Error: Not a directory
+CMake Error: Cannot open file for write: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground//CMakeFiles/progress.marks.tmp
+CMake Error: : System Error: Not a directory
 -- Build files have been written to: /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug

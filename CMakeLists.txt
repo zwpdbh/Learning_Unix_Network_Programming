@@ -10,48 +10,18 @@ add_executable(
 
 
 # === for Learning_TCP_IP_socket_in_C
-# chapter 02
-add_executable(
-        Learning_TCP_IP_socket_in_C_02_tcp_server
-        Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c
-        Learning_TCP_IP_socket_in_C/lib/Practical.c
-)
+add_subdirectory(./Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets)
+add_subdirectory(./Learning_TCP_IP_socket_in_C/ch03_names_and_address_families)
+#add_subdirectory(./Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets)
+add_subdirectory(./Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data)
 
-add_executable(
-        Learning_TCP_IP_socket_in_C_02_tcp_client
-        Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c
-        Learning_TCP_IP_socket_in_C/lib/Practical.c
-)
-
-
-add_executable(
-        Learning_TCP_IP_socket_in_C_03_names_and_address_families
-        Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c
-        Learning_TCP_IP_socket_in_C/lib/Practical.h
-        Learning_TCP_IP_socket_in_C/lib/AddressUtility.c Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c)
-
-add_executable(
-        Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-        Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c)
-
-add_executable(
-        Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
-        Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c
-        Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c
-        Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteProtocol.h
-        Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Framer.h Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncoding.h Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c)
 
 
 # === for learning concurrent programming in C++
-add_executable(
-        Learning_C++_Concurrency
-        Learning_C++_Concurrency/playground/main.cpp
-)
+add_subdirectory(./Learning_C++_Concurrency/playground)
+
 
 
 # === for parallel computing
-#set(pthread_project Parallel_Computing/learning_pthreads)
-add_executable(
-        learning_pthreads_01
-        Parallel_Computing/learning_pthreads/01/main.cpp
-)
+add_subdirectory(./Parallel_Computing/learning_pthreads/01)
+add_subdirectory(./Parallel_Computing/learning_pthreads/02)

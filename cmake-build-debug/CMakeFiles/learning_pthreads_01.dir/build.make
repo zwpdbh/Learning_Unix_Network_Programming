@@ -57,41 +57,67 @@ include CMakeFiles/learning_pthreads_01.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learning_pthreads_01.dir/flags.make
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o: CMakeFiles/learning_pthreads_01.dir/flags.make
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o: ../Parallel_Computing/learning_pthreads/01/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/main.cpp
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o: CMakeFiles/learning_pthreads_01.dir/flags.make
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o: ../Parallel_Computing/learning_pthreads/01/simple_one.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/simple_one.cpp
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/main.cpp > CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.i
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/simple_one.cpp > CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.i
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/main.cpp -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.s
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/simple_one.cpp -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.s
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.requires:
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.requires:
 
-.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.requires
+.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.requires
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.provides: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.provides.build
-.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.provides
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.provides: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.requires
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.provides.build
+.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.provides
 
-CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.provides.build: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.provides.build: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o
+
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o: CMakeFiles/learning_pthreads_01.dir/flags.make
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o: ../Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp > CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.i
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp -o CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.s
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.requires:
+
+.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.requires
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.provides: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.requires
+	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.provides.build
+.PHONY : CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.provides
+
+CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.provides.build: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o
 
 
 # Object files for target learning_pthreads_01
 learning_pthreads_01_OBJECTS = \
-"CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o"
+"CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o" \
+"CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o"
 
 # External object files for target learning_pthreads_01
 learning_pthreads_01_EXTERNAL_OBJECTS =
 
-learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o
+learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o
+learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o
 learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/build.make
 learning_pthreads_01: CMakeFiles/learning_pthreads_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learning_pthreads_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable learning_pthreads_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learning_pthreads_01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/learning_pthreads_01.dir/build: learning_pthreads_01
 
 .PHONY : CMakeFiles/learning_pthreads_01.dir/build
 
-CMakeFiles/learning_pthreads_01.dir/requires: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o.requires
+CMakeFiles/learning_pthreads_01.dir/requires: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o.requires
+CMakeFiles/learning_pthreads_01.dir/requires: CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o.requires
 
 .PHONY : CMakeFiles/learning_pthreads_01.dir/requires
 

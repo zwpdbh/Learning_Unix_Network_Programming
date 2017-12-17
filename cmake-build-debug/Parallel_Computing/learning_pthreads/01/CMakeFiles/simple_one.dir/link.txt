@@ -1,0 +1,1 @@
+/usr/bin/g++   -I/usr/include -L/usr/lib -lpthread -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/simple_one.dir/simple_one.cpp.o  -o ../../../../bin/simple_one 

@@ -195,6 +195,36 @@ Learning_Unix_Network_Programming_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Pro
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//Value Computed by CMake
+TCP_IP_sockets_in_C_ch03_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families
+
+//Value Computed by CMake
+TCP_IP_sockets_in_C_ch03_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families
+
+//Value Computed by CMake
+TCP_IP_sockets_in_C_ch05_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data
+
+//Value Computed by CMake
+TCP_IP_sockets_in_C_ch05_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data
+
+//Value Computed by CMake
+playground_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground
+
+//Value Computed by CMake
+playground_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground
+
+//Value Computed by CMake
+pthreads_creating_and_terminating_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01
+
+//Value Computed by CMake
+pthreads_creating_and_terminating_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01
+
+//Value Computed by CMake
+pthreads_joining_and_detaching_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02
+
+//Value Computed by CMake
+pthreads_joining_and_detaching_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02
+
 
 ########################
 # INTERNAL cache entries
@@ -294,7 +324,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

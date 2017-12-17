@@ -22,7 +22,6 @@ int main(int argc, char* argv[]) {
     for (t = 0; t < NUM_Threads; t++) {
         printf("In main: creating thread %ld\n", t);
         rc = pthread_create(&threads[t], NULL, printHellow, (void*) t);
-
         if (rc) {
             printf("Error, return code from pthread_create() is %d\n", rc);
             exit(-1);

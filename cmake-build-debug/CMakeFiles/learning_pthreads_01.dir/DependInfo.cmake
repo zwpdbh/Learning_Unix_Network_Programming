@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/main.cpp" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o"
+  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp.o"
+  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/simple_one.cpp" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/simple_one.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

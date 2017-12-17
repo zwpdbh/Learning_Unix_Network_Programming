@@ -111,97 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named learning_pthreads_01
-
-# Build rule for target.
-learning_pthreads_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learning_pthreads_01
-.PHONY : learning_pthreads_01
-
-# fast build rule for target.
-learning_pthreads_01/fast:
-	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/build
-.PHONY : learning_pthreads_01/fast
-
-#=============================================================================
-# Target rules for targets named Learning_C++_Concurrency
-
-# Build rule for target.
-Learning_C++_Concurrency: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_C++_Concurrency
-.PHONY : Learning_C++_Concurrency
-
-# fast build rule for target.
-Learning_C++_Concurrency/fast:
-	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/build
-.PHONY : Learning_C++_Concurrency/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
-.PHONY : Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_02_tcp_server
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_02_tcp_server
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_server
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_server/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_server/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_03_names_and_address_families
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_03_names_and_address_families: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_03_names_and_address_families
-.PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_03_names_and_address_families/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_04_using_UDP_sockets: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_04_using_UDP_sockets/fast
-
-#=============================================================================
-# Target rules for targets named Learning_TCP_IP_socket_in_C_02_tcp_client
-
-# Build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_TCP_IP_socket_in_C_02_tcp_client
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client
-
-# fast build rule for target.
-Learning_TCP_IP_socket_in_C_02_tcp_client/fast:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build
-.PHONY : Learning_TCP_IP_socket_in_C_02_tcp_client/fast
-
-#=============================================================================
 # Target rules for targets named Learning_Unix_network_programming_daytime
 
 # Build rule for target.
@@ -214,575 +123,135 @@ Learning_Unix_network_programming_daytime/fast:
 	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/build
 .PHONY : Learning_Unix_network_programming_daytime/fast
 
-Learning_C++_Concurrency/playground/main.o: Learning_C++_Concurrency/playground/main.cpp.o
-
-.PHONY : Learning_C++_Concurrency/playground/main.o
-
-# target to build an object file
-Learning_C++_Concurrency/playground/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.o
-.PHONY : Learning_C++_Concurrency/playground/main.cpp.o
-
-Learning_C++_Concurrency/playground/main.i: Learning_C++_Concurrency/playground/main.cpp.i
-
-.PHONY : Learning_C++_Concurrency/playground/main.i
-
-# target to preprocess a source file
-Learning_C++_Concurrency/playground/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.i
-.PHONY : Learning_C++_Concurrency/playground/main.cpp.i
-
-Learning_C++_Concurrency/playground/main.s: Learning_C++_Concurrency/playground/main.cpp.s
-
-.PHONY : Learning_C++_Concurrency/playground/main.s
-
-# target to generate assembly for a file
-Learning_C++_Concurrency/playground/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Learning_C++_Concurrency.dir/build.make CMakeFiles/Learning_C++_Concurrency.dir/Learning_C++_Concurrency/playground/main.cpp.s
-.PHONY : Learning_C++_Concurrency/playground/main.cpp.s
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.o
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.i: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.i
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.s: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c.s
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.o: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.o
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.i: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.i
-
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.s: Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c.s
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.o
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.i
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.c.s
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.o
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.i
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.c.s
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.o: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.o
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.i: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.i
-
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.s: Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.c.s
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.o: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.o
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.i: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.i
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.s: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.cpp.s
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.o: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.o
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.i: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.i
-
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.s: Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_04_using_UDP_sockets.dir/Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.c.s
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.o: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.o
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.i: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.i
-
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.s: Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data.dir/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c.s
-
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.o: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.o
-
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.i: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.i
-
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.s: Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/lib/AddressUtility.c.s
-
-Learning_TCP_IP_socket_in_C/lib/Practical.o: Learning_TCP_IP_socket_in_C/lib/Practical.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/lib/Practical.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.o
-
-Learning_TCP_IP_socket_in_C/lib/Practical.i: Learning_TCP_IP_socket_in_C/lib/Practical.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/lib/Practical.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.i
-
-Learning_TCP_IP_socket_in_C/lib/Practical.s: Learning_TCP_IP_socket_in_C/lib/Practical.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/lib/Practical.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_server.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_02_tcp_client.dir/Learning_TCP_IP_socket_in_C/lib/Practical.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/lib/Practical.c.s
-
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.o
-
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.i
-
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s: Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.c.s
-
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.o: Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.o
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.o
-
-# target to build an object file
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.o:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.o
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.o
-
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.i: Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.i
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.i
-
-# target to preprocess a source file
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.i:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.i
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.i
-
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.s: Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s
-
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.s
-
-# target to generate assembly for a file
-Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s:
-	$(MAKE) -f CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/build.make CMakeFiles/Learning_TCP_IP_socket_in_C_03_names_and_address_families.dir/Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s
-.PHONY : Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.c.s
-
-Parallel_Computing/learning_pthreads/01/main.o: Parallel_Computing/learning_pthreads/01/main.cpp.o
-
-.PHONY : Parallel_Computing/learning_pthreads/01/main.o
-
-# target to build an object file
-Parallel_Computing/learning_pthreads/01/main.cpp.o:
-	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.o
-.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.o
-
-Parallel_Computing/learning_pthreads/01/main.i: Parallel_Computing/learning_pthreads/01/main.cpp.i
-
-.PHONY : Parallel_Computing/learning_pthreads/01/main.i
-
-# target to preprocess a source file
-Parallel_Computing/learning_pthreads/01/main.cpp.i:
-	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.i
-.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.i
-
-Parallel_Computing/learning_pthreads/01/main.s: Parallel_Computing/learning_pthreads/01/main.cpp.s
-
-.PHONY : Parallel_Computing/learning_pthreads/01/main.s
-
-# target to generate assembly for a file
-Parallel_Computing/learning_pthreads/01/main.cpp.s:
-	$(MAKE) -f CMakeFiles/learning_pthreads_01.dir/build.make CMakeFiles/learning_pthreads_01.dir/Parallel_Computing/learning_pthreads/01/main.cpp.s
-.PHONY : Parallel_Computing/learning_pthreads/01/main.cpp.s
+#=============================================================================
+# Target rules for targets named tcp_echo_client
+
+# Build rule for target.
+tcp_echo_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcp_echo_client
+.PHONY : tcp_echo_client
+
+# fast build rule for target.
+tcp_echo_client/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/build
+.PHONY : tcp_echo_client/fast
+
+#=============================================================================
+# Target rules for targets named tcp_echo_server
+
+# Build rule for target.
+tcp_echo_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcp_echo_server
+.PHONY : tcp_echo_server
+
+# fast build rule for target.
+tcp_echo_server/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build.make Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/build
+.PHONY : tcp_echo_server/fast
+
+#=============================================================================
+# Target rules for targets named 03_tcp_echo_client
+
+# Build rule for target.
+03_tcp_echo_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03_tcp_echo_client
+.PHONY : 03_tcp_echo_client
+
+# fast build rule for target.
+03_tcp_echo_client/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/build.make Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_client.dir/build
+.PHONY : 03_tcp_echo_client/fast
+
+#=============================================================================
+# Target rules for targets named 03_tcp_echo_server
+
+# Build rule for target.
+03_tcp_echo_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 03_tcp_echo_server
+.PHONY : 03_tcp_echo_server
+
+# fast build rule for target.
+03_tcp_echo_server/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/build.make Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/03_tcp_echo_server.dir/build
+.PHONY : 03_tcp_echo_server/fast
+
+#=============================================================================
+# Target rules for targets named vote_client_binary
+
+# Build rule for target.
+vote_client_binary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vote_client_binary
+.PHONY : vote_client_binary
+
+# fast build rule for target.
+vote_client_binary/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/build
+.PHONY : vote_client_binary/fast
+
+#=============================================================================
+# Target rules for targets named vote_server_binary
+
+# Build rule for target.
+vote_server_binary: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vote_server_binary
+.PHONY : vote_server_binary
+
+# fast build rule for target.
+vote_server_binary/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build.make Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/build
+.PHONY : vote_server_binary/fast
+
+#=============================================================================
+# Target rules for targets named learning_C++_Concurrency_playground
+
+# Build rule for target.
+learning_C++_Concurrency_playground: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learning_C++_Concurrency_playground
+.PHONY : learning_C++_Concurrency_playground
+
+# fast build rule for target.
+learning_C++_Concurrency_playground/fast:
+	$(MAKE) -f Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build.make Learning_C++_Concurrency/playground/CMakeFiles/learning_C++_Concurrency_playground.dir/build
+.PHONY : learning_C++_Concurrency_playground/fast
+
+#=============================================================================
+# Target rules for targets named multiple_arguments
+
+# Build rule for target.
+multiple_arguments: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiple_arguments
+.PHONY : multiple_arguments
+
+# fast build rule for target.
+multiple_arguments/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build
+.PHONY : multiple_arguments/fast
+
+#=============================================================================
+# Target rules for targets named simple_one
+
+# Build rule for target.
+simple_one: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_one
+.PHONY : simple_one
+
+# fast build rule for target.
+simple_one/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build
+.PHONY : simple_one/fast
+
+#=============================================================================
+# Target rules for targets named pthread_join
+
+# Build rule for target.
+pthread_join: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_join
+.PHONY : pthread_join
+
+# fast build rule for target.
+pthread_join/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build
+.PHONY : pthread_join/fast
 
 daytime/daytime_client.o: daytime/daytime_client.c.o
 
@@ -845,78 +314,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... learning_pthreads_01"
-	@echo "... Learning_C++_Concurrency"
-	@echo "... Learning_TCP_IP_socket_in_C_05_sending_and_receiving_data"
-	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_server"
-	@echo "... Learning_TCP_IP_socket_in_C_03_names_and_address_families"
-	@echo "... Learning_TCP_IP_socket_in_C_04_using_UDP_sockets"
-	@echo "... Learning_TCP_IP_socket_in_C_02_tcp_client"
 	@echo "... edit_cache"
 	@echo "... Learning_Unix_network_programming_daytime"
-	@echo "... Learning_C++_Concurrency/playground/main.o"
-	@echo "... Learning_C++_Concurrency/playground/main.i"
-	@echo "... Learning_C++_Concurrency/playground/main.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/GetAddrInfo.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoClient.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/TCPEchoServer.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoClient.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch04_using_UDP_sockets/UDPEchoServer.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/BruteForceCoding.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TestSizes.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingBin.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteEncodingText.s"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.o"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.i"
-	@echo "... Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.s"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.o"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.i"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/AddressUtility.s"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.o"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.i"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/Practical.s"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.o"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.i"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPClientUtility.s"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.o"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.i"
-	@echo "... Learning_TCP_IP_socket_in_C/lib/TCPServerUtility.s"
-	@echo "... Parallel_Computing/learning_pthreads/01/main.o"
-	@echo "... Parallel_Computing/learning_pthreads/01/main.i"
-	@echo "... Parallel_Computing/learning_pthreads/01/main.s"
+	@echo "... tcp_echo_client"
+	@echo "... tcp_echo_server"
+	@echo "... 03_tcp_echo_client"
+	@echo "... 03_tcp_echo_server"
+	@echo "... vote_client_binary"
+	@echo "... vote_server_binary"
+	@echo "... learning_C++_Concurrency_playground"
+	@echo "... multiple_arguments"
+	@echo "... simple_one"
+	@echo "... pthread_join"
 	@echo "... daytime/daytime_client.o"
 	@echo "... daytime/daytime_client.i"
 	@echo "... daytime/daytime_client.s"

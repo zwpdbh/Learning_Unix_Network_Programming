@@ -60,39 +60,76 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/pthread_01.dir
+# Target rules for target CMakeFiles/multiple_arguments.dir
 
 # All Build rule for target.
-CMakeFiles/pthread_01.dir/all:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/depend
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles --progress-num=1,2 "Built target pthread_01"
-.PHONY : CMakeFiles/pthread_01.dir/all
+CMakeFiles/multiple_arguments.dir/all:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/depend
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles --progress-num=1,2 "Built target multiple_arguments"
+.PHONY : CMakeFiles/multiple_arguments.dir/all
 
 # Include target in all.
-all: CMakeFiles/pthread_01.dir/all
+all: CMakeFiles/multiple_arguments.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pthread_01.dir/rule: cmake_check_build_system
+CMakeFiles/multiple_arguments.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthread_01.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multiple_arguments.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles 0
-.PHONY : CMakeFiles/pthread_01.dir/rule
+.PHONY : CMakeFiles/multiple_arguments.dir/rule
 
 # Convenience name for target.
-pthread_01: CMakeFiles/pthread_01.dir/rule
+multiple_arguments: CMakeFiles/multiple_arguments.dir/rule
 
-.PHONY : pthread_01
-
-# clean rule for target.
-CMakeFiles/pthread_01.dir/clean:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/clean
-.PHONY : CMakeFiles/pthread_01.dir/clean
+.PHONY : multiple_arguments
 
 # clean rule for target.
-clean: CMakeFiles/pthread_01.dir/clean
+CMakeFiles/multiple_arguments.dir/clean:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/clean
+.PHONY : CMakeFiles/multiple_arguments.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/multiple_arguments.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple_one.dir
+
+# All Build rule for target.
+CMakeFiles/simple_one.dir/all:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/depend
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles --progress-num=3,4 "Built target simple_one"
+.PHONY : CMakeFiles/simple_one.dir/all
+
+# Include target in all.
+all: CMakeFiles/simple_one.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple_one.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/simple_one.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/build/CMakeFiles 0
+.PHONY : CMakeFiles/simple_one.dir/rule
+
+# Convenience name for target.
+simple_one: CMakeFiles/simple_one.dir/rule
+
+.PHONY : simple_one
+
+# clean rule for target.
+CMakeFiles/simple_one.dir/clean:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/clean
+.PHONY : CMakeFiles/simple_one.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/simple_one.dir/clean
 
 .PHONY : clean
 

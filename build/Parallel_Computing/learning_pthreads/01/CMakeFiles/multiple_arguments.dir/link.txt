@@ -1,0 +1,1 @@
+/usr/bin/g++   -I/usr/include -L/usr/lib -lpthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.o  -o ../../../../bin/multiple_arguments 

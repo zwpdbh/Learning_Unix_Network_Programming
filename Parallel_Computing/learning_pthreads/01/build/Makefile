@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pthread_01
+# Target rules for targets named multiple_arguments
 
 # Build rule for target.
-pthread_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_01
-.PHONY : pthread_01
+multiple_arguments: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiple_arguments
+.PHONY : multiple_arguments
 
 # fast build rule for target.
-pthread_01/fast:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/build
-.PHONY : pthread_01/fast
+multiple_arguments/fast:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/build
+.PHONY : multiple_arguments/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named simple_one
 
-.PHONY : main.o
+# Build rule for target.
+simple_one: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_one
+.PHONY : simple_one
+
+# fast build rule for target.
+simple_one/fast:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/build
+.PHONY : simple_one/fast
+
+multiple_arguments.o: multiple_arguments.cpp.o
+
+.PHONY : multiple_arguments.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/main.cpp.o
-.PHONY : main.cpp.o
+multiple_arguments.cpp.o:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.o
+.PHONY : multiple_arguments.cpp.o
 
-main.i: main.cpp.i
+multiple_arguments.i: multiple_arguments.cpp.i
 
-.PHONY : main.i
+.PHONY : multiple_arguments.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/main.cpp.i
-.PHONY : main.cpp.i
+multiple_arguments.cpp.i:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.i
+.PHONY : multiple_arguments.cpp.i
 
-main.s: main.cpp.s
+multiple_arguments.s: multiple_arguments.cpp.s
 
-.PHONY : main.s
+.PHONY : multiple_arguments.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/pthread_01.dir/build.make CMakeFiles/pthread_01.dir/main.cpp.s
-.PHONY : main.cpp.s
+multiple_arguments.cpp.s:
+	$(MAKE) -f CMakeFiles/multiple_arguments.dir/build.make CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.s
+.PHONY : multiple_arguments.cpp.s
+
+simple_one.o: simple_one.cpp.o
+
+.PHONY : simple_one.o
+
+# target to build an object file
+simple_one.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/simple_one.cpp.o
+.PHONY : simple_one.cpp.o
+
+simple_one.i: simple_one.cpp.i
+
+.PHONY : simple_one.i
+
+# target to preprocess a source file
+simple_one.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/simple_one.cpp.i
+.PHONY : simple_one.cpp.i
+
+simple_one.s: simple_one.cpp.s
+
+.PHONY : simple_one.s
+
+# target to generate assembly for a file
+simple_one.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_one.dir/build.make CMakeFiles/simple_one.dir/simple_one.cpp.s
+.PHONY : simple_one.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... pthread_01"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... multiple_arguments"
+	@echo "... simple_one"
+	@echo "... multiple_arguments.o"
+	@echo "... multiple_arguments.i"
+	@echo "... multiple_arguments.s"
+	@echo "... simple_one.o"
+	@echo "... simple_one.i"
+	@echo "... simple_one.s"
 .PHONY : help
 
 
