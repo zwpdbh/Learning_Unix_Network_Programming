@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o"
+  "CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o"
   "../../../../bin/pthread_condition_variables.pdb"
   "../../../../bin/pthread_condition_variables"
 )

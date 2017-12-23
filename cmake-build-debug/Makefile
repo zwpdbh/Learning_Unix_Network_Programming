@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Learning_Unix_network_programming_daytime
-
-# Build rule for target.
-Learning_Unix_network_programming_daytime: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_Unix_network_programming_daytime
-.PHONY : Learning_Unix_network_programming_daytime
-
-# fast build rule for target.
-Learning_Unix_network_programming_daytime/fast:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/build
-.PHONY : Learning_Unix_network_programming_daytime/fast
-
-#=============================================================================
 # Target rules for targets named tcp_echo_client
 
 # Build rule for target.
@@ -202,6 +189,19 @@ vote_server_binary/fast:
 .PHONY : vote_server_binary/fast
 
 #=============================================================================
+# Target rules for targets named hex_to_ipv4
+
+# Build rule for target.
+hex_to_ipv4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hex_to_ipv4
+.PHONY : hex_to_ipv4
+
+# fast build rule for target.
+hex_to_ipv4/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/build.make Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/build
+.PHONY : hex_to_ipv4/fast
+
+#=============================================================================
 # Target rules for targets named concurrency_playground
 
 # Build rule for target.
@@ -213,6 +213,19 @@ concurrency_playground: cmake_check_build_system
 concurrency_playground/fast:
 	$(MAKE) -f Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build.make Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build
 .PHONY : concurrency_playground/fast
+
+#=============================================================================
+# Target rules for targets named share_variable_01
+
+# Build rule for target.
+share_variable_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 share_variable_01
+.PHONY : share_variable_01
+
+# fast build rule for target.
+share_variable_01/fast:
+	$(MAKE) -f Learning_C++_Concurrency/demo/CMakeFiles/share_variable_01.dir/build.make Learning_C++_Concurrency/demo/CMakeFiles/share_variable_01.dir/build
+.PHONY : share_variable_01/fast
 
 #=============================================================================
 # Target rules for targets named multiple_arguments
@@ -241,6 +254,19 @@ simple_one/fast:
 .PHONY : simple_one/fast
 
 #=============================================================================
+# Target rules for targets named pthread_another_join
+
+# Build rule for target.
+pthread_another_join: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_another_join
+.PHONY : pthread_another_join
+
+# fast build rule for target.
+pthread_another_join/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build
+.PHONY : pthread_another_join/fast
+
+#=============================================================================
 # Target rules for targets named pthread_stack
 
 # Build rule for target.
@@ -252,6 +278,19 @@ pthread_stack: cmake_check_build_system
 pthread_stack/fast:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build
 .PHONY : pthread_stack/fast
+
+#=============================================================================
+# Target rules for targets named pthread_cleanup_handler
+
+# Build rule for target.
+pthread_cleanup_handler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_cleanup_handler
+.PHONY : pthread_cleanup_handler
+
+# fast build rule for target.
+pthread_cleanup_handler/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build
+.PHONY : pthread_cleanup_handler/fast
 
 #=============================================================================
 # Target rules for targets named pthread_join
@@ -267,6 +306,32 @@ pthread_join/fast:
 .PHONY : pthread_join/fast
 
 #=============================================================================
+# Target rules for targets named pthread_mutex_02_2
+
+# Build rule for target.
+pthread_mutex_02_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_02_2
+.PHONY : pthread_mutex_02_2
+
+# fast build rule for target.
+pthread_mutex_02_2/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build
+.PHONY : pthread_mutex_02_2/fast
+
+#=============================================================================
+# Target rules for targets named pthread_mutex_02_1
+
+# Build rule for target.
+pthread_mutex_02_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_02_1
+.PHONY : pthread_mutex_02_1
+
+# fast build rule for target.
+pthread_mutex_02_1/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build
+.PHONY : pthread_mutex_02_1/fast
+
+#=============================================================================
 # Target rules for targets named pthread_condition_variables
 
 # Build rule for target.
@@ -280,71 +345,30 @@ pthread_condition_variables/fast:
 .PHONY : pthread_condition_variables/fast
 
 #=============================================================================
-# Target rules for targets named pthread_using_mutex
+# Target rules for targets named pthread_mutex_01
 
 # Build rule for target.
-pthread_using_mutex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_using_mutex
-.PHONY : pthread_using_mutex
+pthread_mutex_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_01
+.PHONY : pthread_mutex_01
 
 # fast build rule for target.
-pthread_using_mutex/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
-.PHONY : pthread_using_mutex/fast
+pthread_mutex_01/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build
+.PHONY : pthread_mutex_01/fast
 
-daytime/daytime_client.o: daytime/daytime_client.c.o
+#=============================================================================
+# Target rules for targets named hello_world
 
-.PHONY : daytime/daytime_client.o
+# Build rule for target.
+hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_world
+.PHONY : hello_world
 
-# target to build an object file
-daytime/daytime_client.c.o:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o
-.PHONY : daytime/daytime_client.c.o
-
-daytime/daytime_client.i: daytime/daytime_client.c.i
-
-.PHONY : daytime/daytime_client.i
-
-# target to preprocess a source file
-daytime/daytime_client.c.i:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.i
-.PHONY : daytime/daytime_client.c.i
-
-daytime/daytime_client.s: daytime/daytime_client.c.s
-
-.PHONY : daytime/daytime_client.s
-
-# target to generate assembly for a file
-daytime/daytime_client.c.s:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.s
-.PHONY : daytime/daytime_client.c.s
-
-lib/unp.o: lib/unp.c.o
-
-.PHONY : lib/unp.o
-
-# target to build an object file
-lib/unp.c.o:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o
-.PHONY : lib/unp.c.o
-
-lib/unp.i: lib/unp.c.i
-
-.PHONY : lib/unp.i
-
-# target to preprocess a source file
-lib/unp.c.i:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.i
-.PHONY : lib/unp.c.i
-
-lib/unp.s: lib/unp.c.s
-
-.PHONY : lib/unp.s
-
-# target to generate assembly for a file
-lib/unp.c.s:
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.s
-.PHONY : lib/unp.c.s
+# fast build rule for target.
+hello_world/fast:
+	$(MAKE) -f Learning_Wt/CMakeFiles/hello_world.dir/build.make Learning_Wt/CMakeFiles/hello_world.dir/build
+.PHONY : hello_world/fast
 
 # Help Target
 help:
@@ -354,26 +378,26 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Learning_Unix_network_programming_daytime"
 	@echo "... tcp_echo_client"
 	@echo "... tcp_echo_server"
 	@echo "... 03_tcp_echo_client"
 	@echo "... 03_tcp_echo_server"
 	@echo "... vote_client_binary"
 	@echo "... vote_server_binary"
+	@echo "... hex_to_ipv4"
 	@echo "... concurrency_playground"
+	@echo "... share_variable_01"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
+	@echo "... pthread_another_join"
 	@echo "... pthread_stack"
+	@echo "... pthread_cleanup_handler"
 	@echo "... pthread_join"
+	@echo "... pthread_mutex_02_2"
+	@echo "... pthread_mutex_02_1"
 	@echo "... pthread_condition_variables"
-	@echo "... pthread_using_mutex"
-	@echo "... daytime/daytime_client.o"
-	@echo "... daytime/daytime_client.i"
-	@echo "... daytime/daytime_client.s"
-	@echo "... lib/unp.o"
-	@echo "... lib/unp.i"
-	@echo "... lib/unp.s"
+	@echo "... pthread_mutex_01"
+	@echo "... hello_world"
 .PHONY : help
 
 

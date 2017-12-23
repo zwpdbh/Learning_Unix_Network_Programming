@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/condition_variables.c" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o"
+  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

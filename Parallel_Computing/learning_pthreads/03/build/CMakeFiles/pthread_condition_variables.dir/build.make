@@ -57,38 +57,38 @@ include CMakeFiles/pthread_condition_variables.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pthread_condition_variables.dir/flags.make
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o: CMakeFiles/pthread_condition_variables.dir/flags.make
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o: ../condition_variables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/condition_variables.c
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o: CMakeFiles/pthread_condition_variables.dir/flags.make
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o: ../pthread_condition_variables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pthread_condition_variables.dir/condition_variables.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/condition_variables.c > CMakeFiles/pthread_condition_variables.dir/condition_variables.c.i
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c > CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.i
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pthread_condition_variables.dir/condition_variables.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/condition_variables.c -o CMakeFiles/pthread_condition_variables.dir/condition_variables.c.s
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c -o CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.s
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.requires:
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.requires:
 
-.PHONY : CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.requires
+.PHONY : CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.requires
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.provides: CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.requires
-	$(MAKE) -f CMakeFiles/pthread_condition_variables.dir/build.make CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.provides.build
-.PHONY : CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.provides
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.provides: CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.requires
+	$(MAKE) -f CMakeFiles/pthread_condition_variables.dir/build.make CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.provides.build
+.PHONY : CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.provides
 
-CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.provides.build: CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o
+CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.provides.build: CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o
 
 
 # Object files for target pthread_condition_variables
 pthread_condition_variables_OBJECTS = \
-"CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o"
+"CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o"
 
 # External object files for target pthread_condition_variables
 pthread_condition_variables_EXTERNAL_OBJECTS =
 
-../bin/pthread_condition_variables: CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o
+../bin/pthread_condition_variables: CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o
 ../bin/pthread_condition_variables: CMakeFiles/pthread_condition_variables.dir/build.make
 ../bin/pthread_condition_variables: CMakeFiles/pthread_condition_variables.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/pthread_condition_variables"
@@ -99,7 +99,7 @@ CMakeFiles/pthread_condition_variables.dir/build: ../bin/pthread_condition_varia
 
 .PHONY : CMakeFiles/pthread_condition_variables.dir/build
 
-CMakeFiles/pthread_condition_variables.dir/requires: CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o.requires
+CMakeFiles/pthread_condition_variables.dir/requires: CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o.requires
 
 .PHONY : CMakeFiles/pthread_condition_variables.dir/requires
 

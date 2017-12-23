@@ -57,38 +57,38 @@ include Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.d
 # Include the compile flags for this target's objects.
 include Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/flags.make
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/flags.make
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o: ../Parallel_Computing/learning_pthreads/03/using_mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o"
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/using_mutex.c
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/flags.make
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o: ../Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o"
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pthread_using_mutex.dir/using_mutex.c.i"
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/using_mutex.c > CMakeFiles/pthread_using_mutex.dir/using_mutex.c.i
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.i"
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c > CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.i
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pthread_using_mutex.dir/using_mutex.c.s"
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/using_mutex.c -o CMakeFiles/pthread_using_mutex.dir/using_mutex.c.s
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.s"
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03 && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c -o CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.s
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.requires:
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.requires:
 
-.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.requires
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.requires
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.provides: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.requires
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.provides.build
-.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.provides
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.provides: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.requires
+	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.provides.build
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.provides
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.provides.build: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.provides.build: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o
 
 
 # Object files for target pthread_using_mutex
 pthread_using_mutex_OBJECTS = \
-"CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o"
+"CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o"
 
 # External object files for target pthread_using_mutex
 pthread_using_mutex_EXTERNAL_OBJECTS =
 
-../bin/pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o
+../bin/pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o
 ../bin/pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make
 ../bin/pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../../../bin/pthread_using_mutex"
@@ -99,7 +99,7 @@ Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
 
 .PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
 
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/requires: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o.requires
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/requires: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o.requires
 
 .PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/requires
 

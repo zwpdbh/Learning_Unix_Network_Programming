@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/rule
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/rule
+
+# Convenience name for target.
+pthread_mutex_02_2: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/rule
+
+.PHONY : pthread_mutex_02_2
+
+# fast build rule for target.
+pthread_mutex_02_2/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build
+.PHONY : pthread_mutex_02_2/fast
+
+# Convenience name for target.
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/rule
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/rule
+
+# Convenience name for target.
+pthread_mutex_02_1: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/rule
+
+.PHONY : pthread_mutex_02_1
+
+# fast build rule for target.
+pthread_mutex_02_1/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build
+.PHONY : pthread_mutex_02_1/fast
+
+# Convenience name for target.
 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule
 .PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/rule
@@ -126,73 +156,127 @@ pthread_condition_variables/fast:
 .PHONY : pthread_condition_variables/fast
 
 # Convenience name for target.
-Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule
-.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule
+Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/rule
+.PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/rule
 
 # Convenience name for target.
-pthread_using_mutex: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/rule
+pthread_mutex_01: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/rule
 
-.PHONY : pthread_using_mutex
+.PHONY : pthread_mutex_01
 
 # fast build rule for target.
-pthread_using_mutex/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build
-.PHONY : pthread_using_mutex/fast
+pthread_mutex_01/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build
+.PHONY : pthread_mutex_01/fast
 
-condition_variables.o: condition_variables.c.o
+pthread_condition_variables.o: pthread_condition_variables.c.o
 
-.PHONY : condition_variables.o
-
-# target to build an object file
-condition_variables.c.o:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/condition_variables.c.o
-.PHONY : condition_variables.c.o
-
-condition_variables.i: condition_variables.c.i
-
-.PHONY : condition_variables.i
-
-# target to preprocess a source file
-condition_variables.c.i:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/condition_variables.c.i
-.PHONY : condition_variables.c.i
-
-condition_variables.s: condition_variables.c.s
-
-.PHONY : condition_variables.s
-
-# target to generate assembly for a file
-condition_variables.c.s:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/condition_variables.c.s
-.PHONY : condition_variables.c.s
-
-using_mutex.o: using_mutex.c.o
-
-.PHONY : using_mutex.o
+.PHONY : pthread_condition_variables.o
 
 # target to build an object file
-using_mutex.c.o:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o
-.PHONY : using_mutex.c.o
+pthread_condition_variables.c.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o
+.PHONY : pthread_condition_variables.c.o
 
-using_mutex.i: using_mutex.c.i
+pthread_condition_variables.i: pthread_condition_variables.c.i
 
-.PHONY : using_mutex.i
+.PHONY : pthread_condition_variables.i
 
 # target to preprocess a source file
-using_mutex.c.i:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.i
-.PHONY : using_mutex.c.i
+pthread_condition_variables.c.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.i
+.PHONY : pthread_condition_variables.c.i
 
-using_mutex.s: using_mutex.c.s
+pthread_condition_variables.s: pthread_condition_variables.c.s
 
-.PHONY : using_mutex.s
+.PHONY : pthread_condition_variables.s
 
 # target to generate assembly for a file
-using_mutex.c.s:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.s
-.PHONY : using_mutex.c.s
+pthread_condition_variables.c.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.s
+.PHONY : pthread_condition_variables.c.s
+
+pthread_mutex_01.o: pthread_mutex_01.c.o
+
+.PHONY : pthread_mutex_01.o
+
+# target to build an object file
+pthread_mutex_01.c.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/pthread_mutex_01.c.o
+.PHONY : pthread_mutex_01.c.o
+
+pthread_mutex_01.i: pthread_mutex_01.c.i
+
+.PHONY : pthread_mutex_01.i
+
+# target to preprocess a source file
+pthread_mutex_01.c.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/pthread_mutex_01.c.i
+.PHONY : pthread_mutex_01.c.i
+
+pthread_mutex_01.s: pthread_mutex_01.c.s
+
+.PHONY : pthread_mutex_01.s
+
+# target to generate assembly for a file
+pthread_mutex_01.c.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/pthread_mutex_01.c.s
+.PHONY : pthread_mutex_01.c.s
+
+pthread_mutex_02_1.o: pthread_mutex_02_1.c.o
+
+.PHONY : pthread_mutex_02_1.o
+
+# target to build an object file
+pthread_mutex_02_1.c.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/pthread_mutex_02_1.c.o
+.PHONY : pthread_mutex_02_1.c.o
+
+pthread_mutex_02_1.i: pthread_mutex_02_1.c.i
+
+.PHONY : pthread_mutex_02_1.i
+
+# target to preprocess a source file
+pthread_mutex_02_1.c.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/pthread_mutex_02_1.c.i
+.PHONY : pthread_mutex_02_1.c.i
+
+pthread_mutex_02_1.s: pthread_mutex_02_1.c.s
+
+.PHONY : pthread_mutex_02_1.s
+
+# target to generate assembly for a file
+pthread_mutex_02_1.c.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/pthread_mutex_02_1.c.s
+.PHONY : pthread_mutex_02_1.c.s
+
+pthread_mutex_02_2.o: pthread_mutex_02_2.c.o
+
+.PHONY : pthread_mutex_02_2.o
+
+# target to build an object file
+pthread_mutex_02_2.c.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/pthread_mutex_02_2.c.o
+.PHONY : pthread_mutex_02_2.c.o
+
+pthread_mutex_02_2.i: pthread_mutex_02_2.c.i
+
+.PHONY : pthread_mutex_02_2.i
+
+# target to preprocess a source file
+pthread_mutex_02_2.c.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/pthread_mutex_02_2.c.i
+.PHONY : pthread_mutex_02_2.c.i
+
+pthread_mutex_02_2.s: pthread_mutex_02_2.c.s
+
+.PHONY : pthread_mutex_02_2.s
+
+# target to generate assembly for a file
+pthread_mutex_02_2.c.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/pthread_mutex_02_2.c.s
+.PHONY : pthread_mutex_02_2.c.s
 
 # Help Target
 help:
@@ -200,16 +284,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... pthread_mutex_02_2"
 	@echo "... edit_cache"
+	@echo "... pthread_mutex_02_1"
+	@echo "... rebuild_cache"
 	@echo "... pthread_condition_variables"
-	@echo "... pthread_using_mutex"
-	@echo "... condition_variables.o"
-	@echo "... condition_variables.i"
-	@echo "... condition_variables.s"
-	@echo "... using_mutex.o"
-	@echo "... using_mutex.i"
-	@echo "... using_mutex.s"
+	@echo "... pthread_mutex_01"
+	@echo "... pthread_condition_variables.o"
+	@echo "... pthread_condition_variables.i"
+	@echo "... pthread_condition_variables.s"
+	@echo "... pthread_mutex_01.o"
+	@echo "... pthread_mutex_01.i"
+	@echo "... pthread_mutex_01.s"
+	@echo "... pthread_mutex_02_1.o"
+	@echo "... pthread_mutex_02_1.i"
+	@echo "... pthread_mutex_02_1.s"
+	@echo "... pthread_mutex_02_2.o"
+	@echo "... pthread_mutex_02_2.i"
+	@echo "... pthread_mutex_02_2.s"
 .PHONY : help
 
 

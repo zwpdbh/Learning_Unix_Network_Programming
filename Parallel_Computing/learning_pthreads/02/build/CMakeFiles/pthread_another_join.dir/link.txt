@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_another_join.dir/another_join.c.o  -o ../bin/pthread_another_join 

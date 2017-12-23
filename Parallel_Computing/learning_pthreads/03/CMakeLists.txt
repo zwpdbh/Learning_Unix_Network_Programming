@@ -29,10 +29,21 @@ SET(CMAKE_CXX_FLAGS  "${GNU_COMPILE_OPTIONS} ${CMAKE_CXX_FLAGS} ${GCC_HEADER_PAT
 
 
 add_executable(
-        pthread_using_mutex
-        using_mutex.c
+        pthread_mutex_01
+        pthread_mutex_01.c
 )
 
 add_executable(
         pthread_condition_variables
-        condition_variables.c)
+        pthread_condition_variables.c)
+
+add_executable(
+        pthread_mutex_02_1
+        pthread_mutex_02_1.c)
+
+add_executable(pthread_mutex_02_2
+        pthread_mutex_02_2.c)
+
+#add_executable(
+#        pthread_mutex_timedlock
+#        pthread_mutex_timedlock_01.c)

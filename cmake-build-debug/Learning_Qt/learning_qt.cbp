@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learning_qt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Learning_TCP_IP_socket_in_C\;CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\;CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\;CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\;CMake Files\Learning_TCP_IP_socket_in_C\my_tools\;CMake Files\Learning_C++_Concurrency\;CMake Files\Learning_C++_Concurrency\playground\;CMake Files\Learning_C++_Concurrency\demo\;CMake Files\Parallel_Computing\;CMake Files\Parallel_Computing\learning_pthreads\;CMake Files\Parallel_Computing\learning_pthreads\01\;CMake Files\Parallel_Computing\learning_pthreads\02\;CMake Files\Parallel_Computing\learning_pthreads\03\;CMake Files\Learning_Wt\;CMake Files\Learning_Qt\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\anaconda2\;CMake Files\..\..\..\anaconda2\lib\;CMake Files\..\..\..\anaconda2\lib\cmake\;CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_demo">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/qt_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt"/>
+					<Add directory="/Users/zw/anaconda2/include/qt"/>
+					<Add directory="/Users/zw/anaconda2/include/qt/QtCore"/>
+					<Add directory="/Users/zw/anaconda2/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 qt_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_demo/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/qt_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt"/>
+					<Add directory="/Users/zw/anaconda2/include/qt"/>
+					<Add directory="/Users/zw/anaconda2/include/qt/QtCore"/>
+					<Add directory="/Users/zw/anaconda2/./mkspecs/macx-clang"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 qt_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt/main.cpp">
+			<Option target="qt_demo"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\playground\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\playground\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\demo\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\demo\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\01\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\01\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\02\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\02\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\03\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\03\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Qt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Qt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/../../../anaconda2/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\anaconda2\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

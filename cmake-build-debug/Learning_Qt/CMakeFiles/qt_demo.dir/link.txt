@@ -1,0 +1,1 @@
+/usr/bin/g++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/qt_demo.dir/main.cpp.o  -o ../../bin/qt_demo -Wl,-rpath,/Users/zw/anaconda2/lib /Users/zw/anaconda2/lib/libQt5Core.5.6.2.dylib 

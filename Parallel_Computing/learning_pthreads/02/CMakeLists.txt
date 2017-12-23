@@ -33,3 +33,13 @@ add_executable(
         pthread_join.cpp)
 
 add_executable(pthread_stack pthread_stack.cpp)
+
+
+add_executable(
+        pthread_another_join
+        another_join.c
+)
+
+add_executable(pthread_cleanup_handler
+        pthread_another_handler.c
+        )

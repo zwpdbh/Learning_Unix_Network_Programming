@@ -1,1 +1,1 @@
-/usr/bin/gcc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o  -o ../../../../bin/pthread_using_mutex 
+/usr/bin/gcc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o  -o ../../../../bin/pthread_using_mutex 

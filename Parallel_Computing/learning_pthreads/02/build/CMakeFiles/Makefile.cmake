@@ -46,6 +46,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/pthread_another_join.dir/DependInfo.cmake"
   "CMakeFiles/pthread_stack.dir/DependInfo.cmake"
+  "CMakeFiles/pthread_cleanup_handler.dir/DependInfo.cmake"
   "CMakeFiles/pthread_join.dir/DependInfo.cmake"
   )

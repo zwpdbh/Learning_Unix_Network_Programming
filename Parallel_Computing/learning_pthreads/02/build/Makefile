@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pthread_another_join
+
+# Build rule for target.
+pthread_another_join: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_another_join
+.PHONY : pthread_another_join
+
+# fast build rule for target.
+pthread_another_join/fast:
+	$(MAKE) -f CMakeFiles/pthread_another_join.dir/build.make CMakeFiles/pthread_another_join.dir/build
+.PHONY : pthread_another_join/fast
+
+#=============================================================================
 # Target rules for targets named pthread_stack
 
 # Build rule for target.
@@ -124,6 +137,19 @@ pthread_stack/fast:
 .PHONY : pthread_stack/fast
 
 #=============================================================================
+# Target rules for targets named pthread_cleanup_handler
+
+# Build rule for target.
+pthread_cleanup_handler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_cleanup_handler
+.PHONY : pthread_cleanup_handler
+
+# fast build rule for target.
+pthread_cleanup_handler/fast:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/build
+.PHONY : pthread_cleanup_handler/fast
+
+#=============================================================================
 # Target rules for targets named pthread_join
 
 # Build rule for target.
@@ -135,6 +161,60 @@ pthread_join: cmake_check_build_system
 pthread_join/fast:
 	$(MAKE) -f CMakeFiles/pthread_join.dir/build.make CMakeFiles/pthread_join.dir/build
 .PHONY : pthread_join/fast
+
+another_join.o: another_join.c.o
+
+.PHONY : another_join.o
+
+# target to build an object file
+another_join.c.o:
+	$(MAKE) -f CMakeFiles/pthread_another_join.dir/build.make CMakeFiles/pthread_another_join.dir/another_join.c.o
+.PHONY : another_join.c.o
+
+another_join.i: another_join.c.i
+
+.PHONY : another_join.i
+
+# target to preprocess a source file
+another_join.c.i:
+	$(MAKE) -f CMakeFiles/pthread_another_join.dir/build.make CMakeFiles/pthread_another_join.dir/another_join.c.i
+.PHONY : another_join.c.i
+
+another_join.s: another_join.c.s
+
+.PHONY : another_join.s
+
+# target to generate assembly for a file
+another_join.c.s:
+	$(MAKE) -f CMakeFiles/pthread_another_join.dir/build.make CMakeFiles/pthread_another_join.dir/another_join.c.s
+.PHONY : another_join.c.s
+
+pthread_another_handler.o: pthread_another_handler.c.o
+
+.PHONY : pthread_another_handler.o
+
+# target to build an object file
+pthread_another_handler.c.o:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_another_handler.c.o
+.PHONY : pthread_another_handler.c.o
+
+pthread_another_handler.i: pthread_another_handler.c.i
+
+.PHONY : pthread_another_handler.i
+
+# target to preprocess a source file
+pthread_another_handler.c.i:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_another_handler.c.i
+.PHONY : pthread_another_handler.c.i
+
+pthread_another_handler.s: pthread_another_handler.c.s
+
+.PHONY : pthread_another_handler.s
+
+# target to generate assembly for a file
+pthread_another_handler.c.s:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_another_handler.c.s
+.PHONY : pthread_another_handler.c.s
 
 pthread_join.o: pthread_join.cpp.o
 
@@ -197,9 +277,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... pthread_another_join"
 	@echo "... edit_cache"
 	@echo "... pthread_stack"
+	@echo "... pthread_cleanup_handler"
 	@echo "... pthread_join"
+	@echo "... another_join.o"
+	@echo "... another_join.i"
+	@echo "... another_join.s"
+	@echo "... pthread_another_handler.o"
+	@echo "... pthread_another_handler.i"
+	@echo "... pthread_another_handler.s"
 	@echo "... pthread_join.o"
 	@echo "... pthread_join.i"
 	@echo "... pthread_join.s"

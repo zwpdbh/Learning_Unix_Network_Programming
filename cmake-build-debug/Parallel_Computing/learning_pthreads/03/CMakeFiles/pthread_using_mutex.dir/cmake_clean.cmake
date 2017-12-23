@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o"
+  "CMakeFiles/pthread_using_mutex.dir/pthread_mutex_01.c.o"
   "../../../../bin/pthread_using_mutex.pdb"
   "../../../../bin/pthread_using_mutex"
 )

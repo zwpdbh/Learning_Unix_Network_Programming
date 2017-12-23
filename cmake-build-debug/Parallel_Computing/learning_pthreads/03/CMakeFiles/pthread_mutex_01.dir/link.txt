@@ -1,1 +1,1 @@
-/usr/bin/g++  -g  -I/usr/include -L/usr/lib -lpthread -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_mutex_01.dir/using_mutex.cpp.o  -o ../../../../bin/pthread_mutex_01 
+/usr/bin/gcc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_mutex_01.dir/pthread_mutex_01.c.o  -o ../../../../bin/pthread_mutex_01 

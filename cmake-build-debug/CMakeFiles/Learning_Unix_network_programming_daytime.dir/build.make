@@ -57,76 +57,7 @@ include CMakeFiles/Learning_Unix_network_programming_daytime.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Learning_Unix_network_programming_daytime.dir/flags.make
 
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o: CMakeFiles/Learning_Unix_network_programming_daytime.dir/flags.make
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o: ../daytime/daytime_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c > CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.i
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c -o CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.s
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.requires:
-
-.PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.requires
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.provides: CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.requires
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.provides.build
-.PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.provides
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.provides.build: CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o
-
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o: CMakeFiles/Learning_Unix_network_programming_daytime.dir/flags.make
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o: ../lib/unp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/lib/unp.c
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/lib/unp.c > CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.i
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/lib/unp.c -o CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.s
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.requires:
-
-.PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.requires
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.provides: CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.requires
-	$(MAKE) -f CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.provides.build
-.PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.provides
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.provides.build: CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o
-
-
-# Object files for target Learning_Unix_network_programming_daytime
-Learning_Unix_network_programming_daytime_OBJECTS = \
-"CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o" \
-"CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o"
-
-# External object files for target Learning_Unix_network_programming_daytime
-Learning_Unix_network_programming_daytime_EXTERNAL_OBJECTS =
-
-Learning_Unix_network_programming_daytime: CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o
-Learning_Unix_network_programming_daytime: CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o
-Learning_Unix_network_programming_daytime: CMakeFiles/Learning_Unix_network_programming_daytime.dir/build.make
-Learning_Unix_network_programming_daytime: CMakeFiles/Learning_Unix_network_programming_daytime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Learning_Unix_network_programming_daytime"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Learning_Unix_network_programming_daytime.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/build: Learning_Unix_network_programming_daytime
-
-.PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/build
-
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/requires: CMakeFiles/Learning_Unix_network_programming_daytime.dir/daytime/daytime_client.c.o.requires
-CMakeFiles/Learning_Unix_network_programming_daytime.dir/requires: CMakeFiles/Learning_Unix_network_programming_daytime.dir/lib/unp.c.o.requires
+CMakeFiles/Learning_Unix_network_programming_daytime.dir/requires:
 
 .PHONY : CMakeFiles/Learning_Unix_network_programming_daytime.dir/requires
 

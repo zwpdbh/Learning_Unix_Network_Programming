@@ -5,7 +5,7 @@
 		<Option title="Learning_Unix_Network_Programming"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Learning_TCP_IP_socket_in_C\;CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\;CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\;CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\;CMake Files\Learning_C++_Concurrency\;CMake Files\Learning_C++_Concurrency\playground\;CMake Files\Parallel_Computing\;CMake Files\Parallel_Computing\learning_pthreads\;CMake Files\Parallel_Computing\learning_pthreads\01\;CMake Files\Parallel_Computing\learning_pthreads\02\;CMake Files\Parallel_Computing\learning_pthreads\03\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Learning_TCP_IP_socket_in_C\;CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\;CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\;CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\;CMake Files\Learning_TCP_IP_socket_in_C\my_tools\;CMake Files\Learning_C++_Concurrency\;CMake Files\Learning_C++_Concurrency\playground\;CMake Files\Learning_C++_Concurrency\demo\;CMake Files\Parallel_Computing\;CMake Files\Parallel_Computing\learning_pthreads\;CMake Files\Parallel_Computing\learning_pthreads\01\;CMake Files\Parallel_Computing\learning_pthreads\02\;CMake Files\Parallel_Computing\learning_pthreads\03\;CMake Files\Learning_Wt\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
@@ -32,50 +32,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_Unix_network_programming_daytime">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Unix_network_programming_daytime" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_Unix_network_programming_daytime"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Learning_Unix_network_programming_daytime/fast">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Unix_network_programming_daytime" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_Unix_network_programming_daytime/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -357,6 +313,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="hex_to_ipv4">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hex_to_ipv4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 hex_to_ipv4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hex_to_ipv4/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hex_to_ipv4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 hex_to_ipv4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="concurrency_playground">
 				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/concurrency_playground" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
@@ -401,6 +403,52 @@
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="share_variable_01">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/share_variable_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 share_variable_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="share_variable_01/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/share_variable_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 share_variable_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="multiple_arguments">
@@ -495,6 +543,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pthread_another_join">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_another_join" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 pthread_another_join"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_another_join/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_another_join" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 pthread_another_join/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pthread_stack">
 				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_stack" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
@@ -536,6 +630,52 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 pthread_stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_cleanup_handler">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_cleanup_handler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 pthread_cleanup_handler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_cleanup_handler/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_cleanup_handler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 pthread_cleanup_handler/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
@@ -587,6 +727,98 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pthread_mutex_02_2">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_02_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_02_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_mutex_02_2/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_02_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_02_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_mutex_02_1">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_02_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_02_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_mutex_02_1/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_02_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_02_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pthread_condition_variables">
 				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_condition_variables" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
@@ -633,8 +865,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pthread_using_mutex">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_using_mutex" prefix_auto="0" extension_auto="0"/>
+			<Target title="pthread_mutex_01">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -650,14 +882,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_using_mutex"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_01"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="pthread_using_mutex/fast">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_using_mutex" prefix_auto="0" extension_auto="0"/>
+			<Target title="pthread_mutex_01/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_mutex_01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -673,13 +905,68 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_using_mutex/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 pthread_mutex_01/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 hello_world"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 hello_world/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/csapp.c">
+			<Option target="share_variable_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/csapp.h">
+			<Option target="share_variable_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/sharing.c">
+			<Option target="share_variable_01"/>
+		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/main.cpp">
 			<Option target="concurrency_playground"/>
 		</Unit>
@@ -740,8 +1027,11 @@
 			<Option target="03_tcp_echo_server"/>
 			<Option target="vote_server_binary"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Unix_network_programming/config.h">
-			<Option target="Learning_Unix_network_programming_daytime"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/hex_to_ipv4.c">
+			<Option target="hex_to_ipv4"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/wt_hello_world.cpp">
+			<Option target="hello_world"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp">
 			<Option target="multiple_arguments"/>
@@ -749,26 +1039,29 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/simple_one.cpp">
 			<Option target="simple_one"/>
 		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/another_join.c">
+			<Option target="pthread_another_join"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/pthread_another_handler.c">
+			<Option target="pthread_cleanup_handler"/>
+		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/pthread_join.cpp">
 			<Option target="pthread_join"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/pthread_stack.cpp">
 			<Option target="pthread_stack"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/condition_variables.c">
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c">
 			<Option target="pthread_condition_variables"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/using_mutex.c">
-			<Option target="pthread_using_mutex"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c">
+			<Option target="pthread_mutex_01"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/daytime/daytime_client.c">
-			<Option target="Learning_Unix_network_programming_daytime"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_02_1.c">
+			<Option target="pthread_mutex_02_1"/>
 		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/lib/unp.c">
-			<Option target="Learning_Unix_network_programming_daytime"/>
-		</Unit>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/lib/unp.h">
-			<Option target="Learning_Unix_network_programming_daytime"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/pthread_mutex_02_2.c">
+			<Option target="pthread_mutex_02_2"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -791,11 +1084,23 @@
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\"/>
 		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\playground\"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\playground\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\demo\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_C++_Concurrency\demo\"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\01\"/>
@@ -814,6 +1119,12 @@
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\03\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

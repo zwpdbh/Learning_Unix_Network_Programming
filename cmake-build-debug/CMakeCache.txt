@@ -195,6 +195,9 @@ Learning_Unix_Network_Programming_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Pro
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/Users/zw/anaconda2/lib/cmake/Qt5Core
+
 //Value Computed by CMake
 TCP_IP_sockets_in_C_ch03_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families
 
@@ -208,10 +211,34 @@ TCP_IP_sockets_in_C_ch05_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Lea
 TCP_IP_sockets_in_C_ch05_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data
 
 //Value Computed by CMake
+Wt_web_development_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt
+
+//Value Computed by CMake
+Wt_web_development_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt
+
+//Value Computed by CMake
+concurrency_demo_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo
+
+//Value Computed by CMake
+concurrency_demo_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/demo
+
+//Value Computed by CMake
 learning_concurrency_in_C++_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/playground
 
 //Value Computed by CMake
 learning_concurrency_in_C++_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_C++_Concurrency/playground
+
+//Value Computed by CMake
+learning_qt_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Qt
+
+//Value Computed by CMake
+learning_qt_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Qt
+
+//Value Computed by CMake
+my_tools_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools
+
+//Value Computed by CMake
+my_tools_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools
 
 //Value Computed by CMake
 pthreads_creating_and_terminating_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01
@@ -330,7 +357,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
