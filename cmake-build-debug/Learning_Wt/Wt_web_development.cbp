@@ -17,8 +17,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_world">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hello_world" prefix_auto="0" extension_auto="0"/>
+			<Target title="wt_demo_01">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/wt_demo_01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -34,14 +34,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 hello_world"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 wt_demo_01"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_world/fast">
-				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/hello_world" prefix_auto="0" extension_auto="0"/>
+			<Target title="wt_demo_01/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/wt_demo_01" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -57,15 +57,27 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 hello_world/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 wt_demo_01/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/wt_hello_world.cpp">
-			<Option target="hello_world"/>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.cpp">
+			<Option target="wt_demo_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.h">
+			<Option target="wt_demo_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoDialog.cpp">
+			<Option target="wt_demo_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoDialog.h">
+			<Option target="wt_demo_01"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/wt_demo_01_main.cpp">
+			<Option target="wt_demo_01"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

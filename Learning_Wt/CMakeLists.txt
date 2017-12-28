@@ -29,7 +29,7 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_HEADER_PATH} ${GCC_SHARED_LIB_PAT
 
 
 add_executable(
-        hello_world
-        wt_hello_world.cpp)
+        wt_demo_01
+        01/wt_demo_01_main.cpp 01/DemoApplication.cpp 01/DemoApplication.h 01/DemoDialog.cpp 01/DemoDialog.h)
 
 

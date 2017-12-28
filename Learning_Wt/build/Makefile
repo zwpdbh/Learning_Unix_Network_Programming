@@ -111,44 +111,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_world
+# Target rules for targets named wt_demo_01
 
 # Build rule for target.
-hello_world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_world
-.PHONY : hello_world
+wt_demo_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wt_demo_01
+.PHONY : wt_demo_01
 
 # fast build rule for target.
-hello_world/fast:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
+wt_demo_01/fast:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/build
+.PHONY : wt_demo_01/fast
 
-wt_hello_world.o: wt_hello_world.cpp.o
+01/DemoApplication.o: 01/DemoApplication.cpp.o
 
-.PHONY : wt_hello_world.o
+.PHONY : 01/DemoApplication.o
 
 # target to build an object file
-wt_hello_world.cpp.o:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/wt_hello_world.cpp.o
-.PHONY : wt_hello_world.cpp.o
+01/DemoApplication.cpp.o:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.o
+.PHONY : 01/DemoApplication.cpp.o
 
-wt_hello_world.i: wt_hello_world.cpp.i
+01/DemoApplication.i: 01/DemoApplication.cpp.i
 
-.PHONY : wt_hello_world.i
+.PHONY : 01/DemoApplication.i
 
 # target to preprocess a source file
-wt_hello_world.cpp.i:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/wt_hello_world.cpp.i
-.PHONY : wt_hello_world.cpp.i
+01/DemoApplication.cpp.i:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.i
+.PHONY : 01/DemoApplication.cpp.i
 
-wt_hello_world.s: wt_hello_world.cpp.s
+01/DemoApplication.s: 01/DemoApplication.cpp.s
 
-.PHONY : wt_hello_world.s
+.PHONY : 01/DemoApplication.s
 
 # target to generate assembly for a file
-wt_hello_world.cpp.s:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/wt_hello_world.cpp.s
-.PHONY : wt_hello_world.cpp.s
+01/DemoApplication.cpp.s:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.s
+.PHONY : 01/DemoApplication.cpp.s
+
+01/DemoDialog.o: 01/DemoDialog.cpp.o
+
+.PHONY : 01/DemoDialog.o
+
+# target to build an object file
+01/DemoDialog.cpp.o:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.o
+.PHONY : 01/DemoDialog.cpp.o
+
+01/DemoDialog.i: 01/DemoDialog.cpp.i
+
+.PHONY : 01/DemoDialog.i
+
+# target to preprocess a source file
+01/DemoDialog.cpp.i:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.i
+.PHONY : 01/DemoDialog.cpp.i
+
+01/DemoDialog.s: 01/DemoDialog.cpp.s
+
+.PHONY : 01/DemoDialog.s
+
+# target to generate assembly for a file
+01/DemoDialog.cpp.s:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.s
+.PHONY : 01/DemoDialog.cpp.s
+
+01/wt_demo_01_main.o: 01/wt_demo_01_main.cpp.o
+
+.PHONY : 01/wt_demo_01_main.o
+
+# target to build an object file
+01/wt_demo_01_main.cpp.o:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.o
+.PHONY : 01/wt_demo_01_main.cpp.o
+
+01/wt_demo_01_main.i: 01/wt_demo_01_main.cpp.i
+
+.PHONY : 01/wt_demo_01_main.i
+
+# target to preprocess a source file
+01/wt_demo_01_main.cpp.i:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.i
+.PHONY : 01/wt_demo_01_main.cpp.i
+
+01/wt_demo_01_main.s: 01/wt_demo_01_main.cpp.s
+
+.PHONY : 01/wt_demo_01_main.s
+
+# target to generate assembly for a file
+01/wt_demo_01_main.cpp.s:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.s
+.PHONY : 01/wt_demo_01_main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hello_world"
-	@echo "... wt_hello_world.o"
-	@echo "... wt_hello_world.i"
-	@echo "... wt_hello_world.s"
+	@echo "... wt_demo_01"
+	@echo "... 01/DemoApplication.o"
+	@echo "... 01/DemoApplication.i"
+	@echo "... 01/DemoApplication.s"
+	@echo "... 01/DemoDialog.o"
+	@echo "... 01/DemoDialog.i"
+	@echo "... 01/DemoDialog.s"
+	@echo "... 01/wt_demo_01_main.o"
+	@echo "... 01/wt_demo_01_main.i"
+	@echo "... 01/wt_demo_01_main.s"
 .PHONY : help
 
 

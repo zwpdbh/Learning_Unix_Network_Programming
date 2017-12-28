@@ -46,5 +46,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hello_world.dir/DependInfo.cmake"
+  "CMakeFiles/wt_demo_01.dir/DependInfo.cmake"
   )

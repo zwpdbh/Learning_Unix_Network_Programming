@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake"
+CMAKE_COMMAND = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
+RM = "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,46 +111,100 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Learning_Wt/CMakeFiles/hello_world.dir/rule:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Learning_Wt/CMakeFiles/hello_world.dir/rule
-.PHONY : Learning_Wt/CMakeFiles/hello_world.dir/rule
+Learning_Wt/CMakeFiles/wt_demo_01.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Learning_Wt/CMakeFiles/wt_demo_01.dir/rule
+.PHONY : Learning_Wt/CMakeFiles/wt_demo_01.dir/rule
 
 # Convenience name for target.
-hello_world: Learning_Wt/CMakeFiles/hello_world.dir/rule
+wt_demo_01: Learning_Wt/CMakeFiles/wt_demo_01.dir/rule
 
-.PHONY : hello_world
+.PHONY : wt_demo_01
 
 # fast build rule for target.
-hello_world/fast:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/hello_world.dir/build.make Learning_Wt/CMakeFiles/hello_world.dir/build
-.PHONY : hello_world/fast
+wt_demo_01/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/build
+.PHONY : wt_demo_01/fast
 
-wt_hello_world.o: wt_hello_world.cpp.o
+01/DemoApplication.o: 01/DemoApplication.cpp.o
 
-.PHONY : wt_hello_world.o
+.PHONY : 01/DemoApplication.o
 
 # target to build an object file
-wt_hello_world.cpp.o:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/hello_world.dir/build.make Learning_Wt/CMakeFiles/hello_world.dir/wt_hello_world.cpp.o
-.PHONY : wt_hello_world.cpp.o
+01/DemoApplication.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.o
+.PHONY : 01/DemoApplication.cpp.o
 
-wt_hello_world.i: wt_hello_world.cpp.i
+01/DemoApplication.i: 01/DemoApplication.cpp.i
 
-.PHONY : wt_hello_world.i
+.PHONY : 01/DemoApplication.i
 
 # target to preprocess a source file
-wt_hello_world.cpp.i:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/hello_world.dir/build.make Learning_Wt/CMakeFiles/hello_world.dir/wt_hello_world.cpp.i
-.PHONY : wt_hello_world.cpp.i
+01/DemoApplication.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.i
+.PHONY : 01/DemoApplication.cpp.i
 
-wt_hello_world.s: wt_hello_world.cpp.s
+01/DemoApplication.s: 01/DemoApplication.cpp.s
 
-.PHONY : wt_hello_world.s
+.PHONY : 01/DemoApplication.s
 
 # target to generate assembly for a file
-wt_hello_world.cpp.s:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/hello_world.dir/build.make Learning_Wt/CMakeFiles/hello_world.dir/wt_hello_world.cpp.s
-.PHONY : wt_hello_world.cpp.s
+01/DemoApplication.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoApplication.cpp.s
+.PHONY : 01/DemoApplication.cpp.s
+
+01/DemoDialog.o: 01/DemoDialog.cpp.o
+
+.PHONY : 01/DemoDialog.o
+
+# target to build an object file
+01/DemoDialog.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.o
+.PHONY : 01/DemoDialog.cpp.o
+
+01/DemoDialog.i: 01/DemoDialog.cpp.i
+
+.PHONY : 01/DemoDialog.i
+
+# target to preprocess a source file
+01/DemoDialog.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.i
+.PHONY : 01/DemoDialog.cpp.i
+
+01/DemoDialog.s: 01/DemoDialog.cpp.s
+
+.PHONY : 01/DemoDialog.s
+
+# target to generate assembly for a file
+01/DemoDialog.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/DemoDialog.cpp.s
+.PHONY : 01/DemoDialog.cpp.s
+
+01/wt_demo_01_main.o: 01/wt_demo_01_main.cpp.o
+
+.PHONY : 01/wt_demo_01_main.o
+
+# target to build an object file
+01/wt_demo_01_main.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.o
+.PHONY : 01/wt_demo_01_main.cpp.o
+
+01/wt_demo_01_main.i: 01/wt_demo_01_main.cpp.i
+
+.PHONY : 01/wt_demo_01_main.i
+
+# target to preprocess a source file
+01/wt_demo_01_main.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.i
+.PHONY : 01/wt_demo_01_main.cpp.i
+
+01/wt_demo_01_main.s: 01/wt_demo_01_main.cpp.s
+
+.PHONY : 01/wt_demo_01_main.s
+
+# target to generate assembly for a file
+01/wt_demo_01_main.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/01/wt_demo_01_main.cpp.s
+.PHONY : 01/wt_demo_01_main.cpp.s
 
 # Help Target
 help:
@@ -160,10 +214,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hello_world"
-	@echo "... wt_hello_world.o"
-	@echo "... wt_hello_world.i"
-	@echo "... wt_hello_world.s"
+	@echo "... wt_demo_01"
+	@echo "... 01/DemoApplication.o"
+	@echo "... 01/DemoApplication.i"
+	@echo "... 01/DemoApplication.s"
+	@echo "... 01/DemoDialog.o"
+	@echo "... 01/DemoDialog.i"
+	@echo "... 01/DemoDialog.s"
+	@echo "... 01/wt_demo_01_main.o"
+	@echo "... 01/wt_demo_01_main.i"
+	@echo "... 01/wt_demo_01_main.s"
 .PHONY : help
 
 

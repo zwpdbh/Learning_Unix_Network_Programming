@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.cpp
+DemoApplication.h
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.h
+
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.h
+Wt/WApplication.h
+-
+Wt/WEnvironment.h
+-
+
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoDialog.cpp
+DemoDialog.h
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoDialog.h
+
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoDialog.h
+Wt/WPushButton.h
+-
+Wt/WString.h
+-
+sstream
+-
+string
+-
+
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/wt_demo_01_main.cpp
+DemoApplication.h
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/01/DemoApplication.h
+

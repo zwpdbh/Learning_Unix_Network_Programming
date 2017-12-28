@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_world.dir
+# Target rules for target CMakeFiles/wt_demo_01.dir
 
 # All Build rule for target.
-CMakeFiles/hello_world.dir/all:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/depend
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build/CMakeFiles --progress-num=1,2 "Built target hello_world"
-.PHONY : CMakeFiles/hello_world.dir/all
+CMakeFiles/wt_demo_01.dir/all:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/depend
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build/CMakeFiles --progress-num=1,2,3,4 "Built target wt_demo_01"
+.PHONY : CMakeFiles/wt_demo_01.dir/all
 
 # Include target in all.
-all: CMakeFiles/hello_world.dir/all
+all: CMakeFiles/wt_demo_01.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hello_world.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_world.dir/all
+CMakeFiles/wt_demo_01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wt_demo_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/build/CMakeFiles 0
-.PHONY : CMakeFiles/hello_world.dir/rule
+.PHONY : CMakeFiles/wt_demo_01.dir/rule
 
 # Convenience name for target.
-hello_world: CMakeFiles/hello_world.dir/rule
+wt_demo_01: CMakeFiles/wt_demo_01.dir/rule
 
-.PHONY : hello_world
-
-# clean rule for target.
-CMakeFiles/hello_world.dir/clean:
-	$(MAKE) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/clean
-.PHONY : CMakeFiles/hello_world.dir/clean
+.PHONY : wt_demo_01
 
 # clean rule for target.
-clean: CMakeFiles/hello_world.dir/clean
+CMakeFiles/wt_demo_01.dir/clean:
+	$(MAKE) -f CMakeFiles/wt_demo_01.dir/build.make CMakeFiles/wt_demo_01.dir/clean
+.PHONY : CMakeFiles/wt_demo_01.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/wt_demo_01.dir/clean
 
 .PHONY : clean
 

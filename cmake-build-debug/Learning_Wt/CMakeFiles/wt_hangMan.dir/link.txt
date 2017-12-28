@@ -1,0 +1,1 @@
+/usr/bin/g++   -I/usr/local/include -L/usr/local/lib -lwthttp -lwt -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/wt_hangMan.dir/HangmanWidget.cpp.o  -o ../../bin/wt_hangMan 
