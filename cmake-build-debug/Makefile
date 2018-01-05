@@ -202,32 +202,6 @@ hex_to_ipv4/fast:
 .PHONY : hex_to_ipv4/fast
 
 #=============================================================================
-# Target rules for targets named concurrency_playground
-
-# Build rule for target.
-concurrency_playground: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 concurrency_playground
-.PHONY : concurrency_playground
-
-# fast build rule for target.
-concurrency_playground/fast:
-	$(MAKE) -f Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build.make Learning_C++_Concurrency/playground/CMakeFiles/concurrency_playground.dir/build
-.PHONY : concurrency_playground/fast
-
-#=============================================================================
-# Target rules for targets named share_variable_01
-
-# Build rule for target.
-share_variable_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 share_variable_01
-.PHONY : share_variable_01
-
-# fast build rule for target.
-share_variable_01/fast:
-	$(MAKE) -f Learning_C++_Concurrency/demo/CMakeFiles/share_variable_01.dir/build.make Learning_C++_Concurrency/demo/CMakeFiles/share_variable_01.dir/build
-.PHONY : share_variable_01/fast
-
-#=============================================================================
 # Target rules for targets named multiple_arguments
 
 # Build rule for target.
@@ -398,8 +372,6 @@ help:
 	@echo "... vote_client_binary"
 	@echo "... vote_server_binary"
 	@echo "... hex_to_ipv4"
-	@echo "... concurrency_playground"
-	@echo "... share_variable_01"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
 	@echo "... pthread_another_join"
