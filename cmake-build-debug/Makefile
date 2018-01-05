@@ -370,6 +370,19 @@ wt_demo_01/fast:
 	$(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/build
 .PHONY : wt_demo_01/fast
 
+#=============================================================================
+# Target rules for targets named OpenMP_demo_01
+
+# Build rule for target.
+OpenMP_demo_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMP_demo_01
+.PHONY : OpenMP_demo_01
+
+# fast build rule for target.
+OpenMP_demo_01/fast:
+	$(MAKE) -f Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build.make Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build
+.PHONY : OpenMP_demo_01/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -398,6 +411,7 @@ help:
 	@echo "... pthread_condition_variables"
 	@echo "... pthread_mutex_01"
 	@echo "... wt_demo_01"
+	@echo "... OpenMP_demo_01"
 .PHONY : help
 
 

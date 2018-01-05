@@ -232,10 +232,10 @@ my_tools_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Netwo
 my_tools_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools
 
 //Value Computed by CMake
-pthreads_creating_and_terminating_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01
+pthreads_creating_and_terminating_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_OpenMP/01
 
 //Value Computed by CMake
-pthreads_creating_and_terminating_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01
+pthreads_creating_and_terminating_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_OpenMP/01
 
 //Value Computed by CMake
 pthreads_joining_and_detaching_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02
@@ -348,7 +348,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

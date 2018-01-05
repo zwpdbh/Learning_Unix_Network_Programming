@@ -25,3 +25,6 @@ add_subdirectory(./Parallel_Computing/learning_pthreads/03)
 
 # === for Wt web
 add_subdirectory(./Learning_Wt)
+
+# === for Learning OpenMP
+add_subdirectory(./Parallel_Computing/learning_OpenMP/01)
