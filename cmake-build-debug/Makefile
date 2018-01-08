@@ -202,6 +202,19 @@ hex_to_ipv4/fast:
 .PHONY : hex_to_ipv4/fast
 
 #=============================================================================
+# Target rules for targets named wt_demo_01
+
+# Build rule for target.
+wt_demo_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wt_demo_01
+.PHONY : wt_demo_01
+
+# fast build rule for target.
+wt_demo_01/fast:
+	$(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/build
+.PHONY : wt_demo_01/fast
+
+#=============================================================================
 # Target rules for targets named multiple_arguments
 
 # Build rule for target.
@@ -332,19 +345,6 @@ pthread_mutex_01/fast:
 .PHONY : pthread_mutex_01/fast
 
 #=============================================================================
-# Target rules for targets named wt_demo_01
-
-# Build rule for target.
-wt_demo_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wt_demo_01
-.PHONY : wt_demo_01
-
-# fast build rule for target.
-wt_demo_01/fast:
-	$(MAKE) -f Learning_Wt/CMakeFiles/wt_demo_01.dir/build.make Learning_Wt/CMakeFiles/wt_demo_01.dir/build
-.PHONY : wt_demo_01/fast
-
-#=============================================================================
 # Target rules for targets named OpenMP_demo_01
 
 # Build rule for target.
@@ -356,6 +356,19 @@ OpenMP_demo_01: cmake_check_build_system
 OpenMP_demo_01/fast:
 	$(MAKE) -f Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build.make Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build
 .PHONY : OpenMP_demo_01/fast
+
+#=============================================================================
+# Target rules for targets named c++_concurrency_hello_world
+
+# Build rule for target.
+c++_concurrency_hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 c++_concurrency_hello_world
+.PHONY : c++_concurrency_hello_world
+
+# fast build rule for target.
+c++_concurrency_hello_world/fast:
+	$(MAKE) -f Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build.make Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build
+.PHONY : c++_concurrency_hello_world/fast
 
 # Help Target
 help:
@@ -372,6 +385,7 @@ help:
 	@echo "... vote_client_binary"
 	@echo "... vote_server_binary"
 	@echo "... hex_to_ipv4"
+	@echo "... wt_demo_01"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
 	@echo "... pthread_another_join"
@@ -382,8 +396,8 @@ help:
 	@echo "... pthread_mutex_02_1"
 	@echo "... pthread_condition_variables"
 	@echo "... pthread_mutex_01"
-	@echo "... wt_demo_01"
 	@echo "... OpenMP_demo_01"
+	@echo "... c++_concurrency_hello_world"
 .PHONY : help
 
 

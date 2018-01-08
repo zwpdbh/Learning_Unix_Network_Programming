@@ -12,14 +12,16 @@ add_subdirectory(./Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data)
 add_subdirectory(./Learning_TCP_IP_socket_in_C/my_tools)
 
 
-# === for parallel computing
+# === for Wt web
+add_subdirectory(./Learning_Wt)
+
+# === for PThread
 add_subdirectory(./Parallel_Computing/learning_pthreads/01)
 add_subdirectory(./Parallel_Computing/learning_pthreads/02)
 add_subdirectory(./Parallel_Computing/learning_pthreads/03)
 
-
-# === for Wt web
-add_subdirectory(./Learning_Wt)
-
 # === for Learning OpenMP
 add_subdirectory(./Parallel_Computing/learning_OpenMP/01)
+
+# === for C++ Concurrency
+add_subdirectory(./Learning_C++_Concurrency/02_managing_threads)

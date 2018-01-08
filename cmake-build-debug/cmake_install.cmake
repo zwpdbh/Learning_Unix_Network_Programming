@@ -33,11 +33,12 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/01/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/02/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_pthreads/03/cmake_install.cmake")
-  include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_Wt/cmake_install.cmake")
   include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_OpenMP/01/cmake_install.cmake")
+  include("/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/02_managing_threads/cmake_install.cmake")
 
 endif()
 

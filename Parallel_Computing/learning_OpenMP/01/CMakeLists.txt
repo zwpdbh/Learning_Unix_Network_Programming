@@ -33,7 +33,7 @@ include_directories("${PROJECT_SOURCE_DIR}")
 add_executable(
         OpenMP_demo_01
         OpenMP_demo_01_main.c
-)
+        omp.h)
 
 
 # === another way to set include and link directory

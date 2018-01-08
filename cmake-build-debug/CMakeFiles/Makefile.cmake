@@ -31,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/Platform/UnixPaths.cmake"
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../Learning_C++_Concurrency/02_managing_threads/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt"
@@ -58,11 +59,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Learning_Wt/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Learning_Wt/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_OpenMP/01/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Learning_C++_Concurrency/02_managing_threads/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -74,6 +76,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/DependInfo.cmake"
   "Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/DependInfo.cmake"
   "Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/DependInfo.cmake"
+  "Learning_Wt/CMakeFiles/wt_demo_01.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/DependInfo.cmake"
@@ -84,6 +87,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/DependInfo.cmake"
-  "Learning_Wt/CMakeFiles/wt_demo_01.dir/DependInfo.cmake"
   "Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/DependInfo.cmake"
+  "Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/DependInfo.cmake"
   )
