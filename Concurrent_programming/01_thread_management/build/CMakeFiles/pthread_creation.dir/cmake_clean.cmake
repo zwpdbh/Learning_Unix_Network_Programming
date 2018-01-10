@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o"
-  "../../../bin/pthread_creation.pdb"
-  "../../../bin/pthread_creation"
+  "../bin/pthread_creation.pdb"
+  "../bin/pthread_creation"
 )
 
 # Per-language clean rules from dependency scanning.

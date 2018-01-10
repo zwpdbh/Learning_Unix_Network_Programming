@@ -125,32 +125,32 @@ pthread_creation/fast:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
 .PHONY : pthread_creation/fast
 
-main_pthread_creation.o: main_pthread_creation.c.o
+pthread_creation_main.o: pthread_creation_main.c.o
 
-.PHONY : main_pthread_creation.o
+.PHONY : pthread_creation_main.o
 
 # target to build an object file
-main_pthread_creation.c.o:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/main_pthread_creation.c.o
-.PHONY : main_pthread_creation.c.o
+pthread_creation_main.c.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o
+.PHONY : pthread_creation_main.c.o
 
-main_pthread_creation.i: main_pthread_creation.c.i
+pthread_creation_main.i: pthread_creation_main.c.i
 
-.PHONY : main_pthread_creation.i
+.PHONY : pthread_creation_main.i
 
 # target to preprocess a source file
-main_pthread_creation.c.i:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/main_pthread_creation.c.i
-.PHONY : main_pthread_creation.c.i
+pthread_creation_main.c.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/pthread_creation_main.c.i
+.PHONY : pthread_creation_main.c.i
 
-main_pthread_creation.s: main_pthread_creation.c.s
+pthread_creation_main.s: pthread_creation_main.c.s
 
-.PHONY : main_pthread_creation.s
+.PHONY : pthread_creation_main.s
 
 # target to generate assembly for a file
-main_pthread_creation.c.s:
-	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/main_pthread_creation.c.s
-.PHONY : main_pthread_creation.c.s
+pthread_creation_main.c.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s
+.PHONY : pthread_creation_main.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... pthread_creation"
-	@echo "... main_pthread_creation.o"
-	@echo "... main_pthread_creation.i"
-	@echo "... main_pthread_creation.s"
+	@echo "... pthread_creation_main.o"
+	@echo "... pthread_creation_main.i"
+	@echo "... pthread_creation_main.s"
 .PHONY : help
 
 
