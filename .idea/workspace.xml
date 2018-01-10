@@ -4,7 +4,9 @@
     <generated>
       <config projectName="Learning_Unix_Network_Programming" targetName="concurrency_playground" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_mutex_02_1" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="tcp_server" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_mutex_02_2" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="tcp_client" />
       <config projectName="Learning_Unix_Network_Programming" targetName="simple_one" />
       <config projectName="Learning_Unix_Network_Programming" targetName="c++_concurrency_hello_world" />
       <config projectName="Learning_Unix_Network_Programming" targetName="vote_server_binary" />
@@ -16,8 +18,8 @@
       <config projectName="Learning_Unix_Network_Programming" targetName="wt_demo_01" />
       <config projectName="Learning_Unix_Network_Programming" targetName="vote_client_binary" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_condition_variables" />
-      <config projectName="Learning_Unix_Network_Programming" targetName="multiple_arguments" />
       <config projectName="Learning_Unix_Network_Programming" targetName="OpenMP_demo_01" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="multiple_arguments" />
       <config projectName="Learning_Unix_Network_Programming" targetName="tcp_echo_server" />
       <config projectName="Learning_Unix_Network_Programming" targetName="share_variable_01" />
       <config projectName="Learning_Unix_Network_Programming" targetName="03_tcp_echo_server" />
@@ -37,38 +39,25 @@
     <list default="true" id="a1cd25fb-ddae-4d6a-a4ce-2fda2a220c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_C++_Concurrency/02_managing_threads/02_managing_threads.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_C++_Concurrency/02_managing_threads/02_managing_threads.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCP_IP_sockets_in_C_ch03.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCP_IP_sockets_in_C_ch03.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TCP_IP_sockets_in_C_ch05.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TCP_IP_sockets_in_C_ch05.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/my_tools.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/my_tools.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/Wt_web_development.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/Wt_web_development.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/pthreads_creating_and_terminating.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/pthreads_creating_and_terminating.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/pthreads_mutex.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/pthreads_mutex.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
     </list>
@@ -88,25 +77,43 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/CMakeLists.txt">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="560">
+              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_hello_world.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/main_hello_world.cpp">
+      <file leaf-file-name="tcp_client.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_client.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding>
-                <element signature="e#44#63#0" expanded="true" />
-              </folding>
+              <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_server.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_server.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteServerTCP.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/DelimFramer.c" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/playground/main.cpp" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/main.cpp" />
@@ -187,9 +191,12 @@
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c" />
         <option value="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/main_hello_world.cpp" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_client.c" />
+        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_server.c" />
       </list>
     </option>
   </component>
@@ -200,10 +207,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="61" />
-    <option name="width" value="1397" />
-    <option name="height" value="799" />
+    <option name="x" value="40" />
+    <option name="y" value="59" />
+    <option name="width" value="1400" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,13 +262,19 @@
             <path>
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Learning_C++_Concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Learning_C++_Concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="02_managing_threads" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02_basic_TCP_sockets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning_TCP_IP_socket_in_C" type="462c0819:PsiDirectoryNode" />
+              <item name="ch02_my_trial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,18 +288,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial" />
+      <recent name="$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads" />
+      <recent name="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01" />
+      <recent name="$PROJECT_DIR$/Learning_C++_Concurrency/demo" />
+      <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/my_tools" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02" />
       <recent name="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03" />
       <recent name="$PROJECT_DIR$/Learning_Unix_network_programming" />
       <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/lib" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads" />
-      <recent name="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01" />
-      <recent name="$PROJECT_DIR$/Learning_C++_Concurrency/demo" />
-      <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/my_tools" />
-      <recent name="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,46 +315,52 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.multiple_arguments">
-    <configuration name="OpenMP_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="OpenMP_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="OpenMP_demo_01">
+    <configuration name="OpenMP_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="OpenMP_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="c++_concurrency_hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="c++_concurrency_hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="c++_concurrency_hello_world">
+    <configuration name="c++_concurrency_hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="c++_concurrency_hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="multiple_arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="multiple_arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_stack">
+    <configuration name="multiple_arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="multiple_arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_another_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_another_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_another_join">
+    <configuration name="pthread_another_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_another_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_cleanup_handler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_cleanup_handler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="pthread_cleanup_handler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_cleanup_handler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_condition_variables" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_condition_variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_condition_variables">
+    <configuration name="pthread_condition_variables" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_condition_variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_stack">
+    <configuration name="pthread_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_mutex_01">
+    <configuration name="pthread_mutex_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_02_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_mutex_02_1">
+    <configuration name="pthread_mutex_02_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_02_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_mutex_02_2">
+    <configuration name="pthread_mutex_02_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="pthread_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_stack">
+    <configuration name="pthread_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="simple_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="simple_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_stack">
+    <configuration name="simple_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="simple_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <configuration name="wt_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="wt_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="wt_demo_01">
+    <configuration name="tcp_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="tcp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
       <envs />
     </configuration>
-    <list size="13">
+    <configuration name="tcp_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="tcp_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_server">
+      <envs />
+    </configuration>
+    <configuration name="wt_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="wt_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
+      <envs />
+    </configuration>
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Application.wt_demo_01" />
       <item index="1" class="java.lang.String" itemvalue="Application.OpenMP_demo_01" />
       <item index="2" class="java.lang.String" itemvalue="Application.multiple_arguments" />
@@ -355,6 +374,8 @@
       <item index="10" class="java.lang.String" itemvalue="Application.pthread_mutex_02_1" />
       <item index="11" class="java.lang.String" itemvalue="Application.pthread_mutex_02_2" />
       <item index="12" class="java.lang.String" itemvalue="Application.c++_concurrency_hello_world" />
+      <item index="13" class="java.lang.String" itemvalue="Application.tcp_client" />
+      <item index="14" class="java.lang.String" itemvalue="Application.tcp_server" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -402,7 +423,8 @@
       <workItem from="1513998686120" duration="9395000" />
       <workItem from="1514427681684" duration="670000" />
       <workItem from="1515112019018" duration="229000" />
-      <workItem from="1515126290964" duration="5175000" />
+      <workItem from="1515126290964" duration="5687000" />
+      <workItem from="1515567602883" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -443,18 +465,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128509000" />
+    <option name="totallyTimeSpent" value="129556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16094421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25107297" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43809524" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4407008" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26280323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,6 +487,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -514,34 +535,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/LengthFramer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/VoteClientTCP.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_join.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/another_join.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -570,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
@@ -584,13 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3168">
-          <caret line="198" column="18" lean-forward="false" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.h" />
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -621,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1664">
           <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,38 +685,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.c" />
     <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-261">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/sharing.c" />
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/playground_main.c" />
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/main_hello_world.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/sharing.c">
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoServer4.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -756,72 +746,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground_main.c">
+    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#159#175#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="e#593#611#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+        <state relative-caret-position="224">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/main_hello_world.cpp">
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#44#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="560">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_client.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state relative-caret-position="96">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/tcp_server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -220,6 +220,12 @@ Wt_web_development_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_
 Wt_web_development_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt
 
 //Value Computed by CMake
+ch02_my_trial_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial
+
+//Value Computed by CMake
+ch02_my_trial_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_my_trial
+
+//Value Computed by CMake
 concurrency_demo_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Learning_C++_Concurrency/demo
 
 //Value Computed by CMake
@@ -354,7 +360,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

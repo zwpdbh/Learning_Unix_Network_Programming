@@ -202,6 +202,32 @@ hex_to_ipv4/fast:
 .PHONY : hex_to_ipv4/fast
 
 #=============================================================================
+# Target rules for targets named tcp_client
+
+# Build rule for target.
+tcp_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcp_client
+.PHONY : tcp_client
+
+# fast build rule for target.
+tcp_client/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/build.make Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/build
+.PHONY : tcp_client/fast
+
+#=============================================================================
+# Target rules for targets named tcp_server
+
+# Build rule for target.
+tcp_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tcp_server
+.PHONY : tcp_server
+
+# fast build rule for target.
+tcp_server/fast:
+	$(MAKE) -f Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/build.make Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/build
+.PHONY : tcp_server/fast
+
+#=============================================================================
 # Target rules for targets named wt_demo_01
 
 # Build rule for target.
@@ -385,6 +411,8 @@ help:
 	@echo "... vote_client_binary"
 	@echo "... vote_server_binary"
 	@echo "... hex_to_ipv4"
+	@echo "... tcp_client"
+	@echo "... tcp_server"
 	@echo "... wt_demo_01"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
