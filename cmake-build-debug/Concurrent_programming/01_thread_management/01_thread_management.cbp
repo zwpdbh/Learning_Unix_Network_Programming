@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="01_thread_management"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Concurrent_programming\;CMake Files\Concurrent_programming\01_thread_management\;CMake Files\Learning_TCP_IP_socket_in_C\;CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\;CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\;CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\;CMake Files\Learning_TCP_IP_socket_in_C\my_tools\;CMake Files\Learning_TCP_IP_socket_in_C\ch02_my_trial\;CMake Files\Learning_Wt\;CMake Files\Parallel_Computing\;CMake Files\Parallel_Computing\learning_pthreads\;CMake Files\Parallel_Computing\learning_pthreads\01\;CMake Files\Parallel_Computing\learning_pthreads\02\;CMake Files\Parallel_Computing\learning_pthreads\03\;CMake Files\Parallel_Computing\learning_OpenMP\;CMake Files\Parallel_Computing\learning_OpenMP\01\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_creation">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_creation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 pthread_creation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_creation/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_creation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 pthread_creation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/main_pthread_creation.c">
+			<Option target="pthread_creation"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/apue.h">
+			<Option target="pthread_creation"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Concurrent_programming\01_thread_management\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Concurrent_programming\01_thread_management\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_basic_TCP_sockets\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch03_names_and_address_families\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch05_sending_and_receiving_data\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\my_tools\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_my_trial\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_TCP_IP_socket_in_C\ch02_my_trial\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_Wt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Learning_Wt\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\01\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\01\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\02\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\02\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\03\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_pthreads/03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_pthreads\03\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_OpenMP\01\"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Parallel_Computing\learning_OpenMP\01\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
