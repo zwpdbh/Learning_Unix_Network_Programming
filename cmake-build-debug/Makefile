@@ -384,17 +384,17 @@ OpenMP_demo_01/fast:
 .PHONY : OpenMP_demo_01/fast
 
 #=============================================================================
-# Target rules for targets named c++_concurrency_hello_world
+# Target rules for targets named pthread_creation
 
 # Build rule for target.
-c++_concurrency_hello_world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 c++_concurrency_hello_world
-.PHONY : c++_concurrency_hello_world
+pthread_creation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_creation
+.PHONY : pthread_creation
 
 # fast build rule for target.
-c++_concurrency_hello_world/fast:
-	$(MAKE) -f Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build.make Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build
-.PHONY : c++_concurrency_hello_world/fast
+pthread_creation/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
+.PHONY : pthread_creation/fast
 
 # Help Target
 help:
@@ -425,7 +425,7 @@ help:
 	@echo "... pthread_condition_variables"
 	@echo "... pthread_mutex_01"
 	@echo "... OpenMP_demo_01"
-	@echo "... c++_concurrency_hello_world"
+	@echo "... pthread_creation"
 .PHONY : help
 
 

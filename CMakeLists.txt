@@ -26,5 +26,5 @@ add_subdirectory(./Parallel_Computing/learning_pthreads/03)
 # === for Learning OpenMP
 add_subdirectory(./Parallel_Computing/learning_OpenMP/01)
 
-# === for C++ Concurrency
-add_subdirectory(./Learning_C++_Concurrency/02_managing_threads)
+# === for Concurrent_programming
+add_subdirectory(./Concurrent_programming/01_thread_management)

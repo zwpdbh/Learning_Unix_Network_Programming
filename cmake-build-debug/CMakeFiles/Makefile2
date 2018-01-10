@@ -366,7 +366,7 @@ Learning_TCP_IP_socket_in_C/my_tools/preinstall:
 Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/all:
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/build.make Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/depend
 	$(MAKE) -f Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/build.make Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target hex_to_ipv4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target hex_to_ipv4"
 .PHONY : Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/all
 
 # Include target in all.
@@ -572,7 +572,7 @@ Parallel_Computing/learning_pthreads/01/preinstall:
 Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target multiple_arguments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target multiple_arguments"
 .PHONY : Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/all
 
 # Include target in all.
@@ -670,7 +670,7 @@ Parallel_Computing/learning_pthreads/02/preinstall:
 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target pthread_another_join"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target pthread_another_join"
 .PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/all
 
 # Include target in all.
@@ -744,7 +744,7 @@ clean: Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/clea
 Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target pthread_cleanup_handler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target pthread_cleanup_handler"
 .PHONY : Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/all
 
 # Include target in all.
@@ -916,7 +916,7 @@ clean: Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir
 Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all:
 	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/depend
 	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target pthread_condition_variables"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target pthread_condition_variables"
 .PHONY : Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/all
 
 # Include target in all.
@@ -1039,57 +1039,57 @@ clean: Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Learning_C++_Concurrency/02_managing_threads
+# Directory level rules for directory Concurrent_programming/01_thread_management
 
 # Convenience name for "all" pass in the directory.
-Learning_C++_Concurrency/02_managing_threads/all: Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/all
+Concurrent_programming/01_thread_management/all: Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/all
 
-.PHONY : Learning_C++_Concurrency/02_managing_threads/all
+.PHONY : Concurrent_programming/01_thread_management/all
 
 # Convenience name for "clean" pass in the directory.
-Learning_C++_Concurrency/02_managing_threads/clean: Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/clean
+Concurrent_programming/01_thread_management/clean: Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/clean
 
-.PHONY : Learning_C++_Concurrency/02_managing_threads/clean
+.PHONY : Concurrent_programming/01_thread_management/clean
 
 # Convenience name for "preinstall" pass in the directory.
-Learning_C++_Concurrency/02_managing_threads/preinstall:
+Concurrent_programming/01_thread_management/preinstall:
 
-.PHONY : Learning_C++_Concurrency/02_managing_threads/preinstall
+.PHONY : Concurrent_programming/01_thread_management/preinstall
 
 #=============================================================================
-# Target rules for target Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir
+# Target rules for target Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir
 
 # All Build rule for target.
-Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/all:
-	$(MAKE) -f Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build.make Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/depend
-	$(MAKE) -f Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build.make Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target c++_concurrency_hello_world"
-.PHONY : Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/all
+Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/all:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/depend
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target pthread_creation"
+.PHONY : Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/all
 
 # Include target in all.
-all: Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/all
+all: Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/rule: cmake_check_build_system
+Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/CMakeFiles 0
-.PHONY : Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/rule
+.PHONY : Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule
 
 # Convenience name for target.
-c++_concurrency_hello_world: Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/rule
+pthread_creation: Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule
 
-.PHONY : c++_concurrency_hello_world
-
-# clean rule for target.
-Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/clean:
-	$(MAKE) -f Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/build.make Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/clean
-.PHONY : Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/clean
+.PHONY : pthread_creation
 
 # clean rule for target.
-clean: Learning_C++_Concurrency/02_managing_threads/CMakeFiles/c++_concurrency_hello_world.dir/clean
+Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/clean:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/clean
+.PHONY : Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/clean
+
+# clean rule for target.
+clean: Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/clean
 
 .PHONY : clean
 
