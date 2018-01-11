@@ -384,6 +384,32 @@ OpenMP_demo_01/fast:
 .PHONY : OpenMP_demo_01/fast
 
 #=============================================================================
+# Target rules for targets named cplus_creation
+
+# Build rule for target.
+cplus_creation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cplus_creation
+.PHONY : cplus_creation
+
+# fast build rule for target.
+cplus_creation/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build
+.PHONY : cplus_creation/fast
+
+#=============================================================================
+# Target rules for targets named pthread_fetch_exit_code_from_thread_termination
+
+# Build rule for target.
+pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_fetch_exit_code_from_thread_termination
+.PHONY : pthread_fetch_exit_code_from_thread_termination
+
+# fast build rule for target.
+pthread_fetch_exit_code_from_thread_termination/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
+
+#=============================================================================
 # Target rules for targets named pthread_creation
 
 # Build rule for target.
@@ -425,6 +451,8 @@ help:
 	@echo "... pthread_condition_variables"
 	@echo "... pthread_mutex_01"
 	@echo "... OpenMP_demo_01"
+	@echo "... cplus_creation"
+	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... pthread_creation"
 .PHONY : help
 

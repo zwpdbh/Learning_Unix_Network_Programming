@@ -17,6 +17,98 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="cplus_creation">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/cplus_creation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 cplus_creation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cplus_creation/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/cplus_creation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 cplus_creation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_fetch_exit_code_from_thread_termination">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_fetch_exit_code_from_thread_termination" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 pthread_fetch_exit_code_from_thread_termination"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pthread_fetch_exit_code_from_thread_termination/fast">
+				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_fetch_exit_code_from_thread_termination" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 pthread_fetch_exit_code_from_thread_termination/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="pthread_creation">
 				<Option output="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin/pthread_creation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/bin"/>
@@ -64,8 +156,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/cplus_creation_main.cpp">
+			<Option target="cplus_creation"/>
+		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.c">
 			<Option target="pthread_creation"/>
+		</Unit>
+		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_fetch_exit_code_from_thread_termination.cpp">
+			<Option target="pthread_fetch_exit_code_from_thread_termination"/>
 		</Unit>
 		<Unit filename="/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -36,6 +36,15 @@ add_executable(
         pthread_creation_main.c
 )
 
+add_executable(
+        cplus_creation
+        cplus_creation_main.cpp
+)
+
+add_executable(
+        pthread_fetch_exit_code_from_thread_termination
+        pthread_fetch_exit_code_from_thread_termination.cpp
+)
 
 # === another way to set include and link directory
 #include_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/inc)

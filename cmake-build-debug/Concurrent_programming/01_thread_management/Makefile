@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/rule
+.PHONY : Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/rule
+
+# Convenience name for target.
+cplus_creation: Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/rule
+
+.PHONY : cplus_creation
+
+# fast build rule for target.
+cplus_creation/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build
+.PHONY : cplus_creation/fast
+
+# Convenience name for target.
+Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule
+.PHONY : Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule
+
+# Convenience name for target.
+pthread_fetch_exit_code_from_thread_termination: Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule
+
+.PHONY : pthread_fetch_exit_code_from_thread_termination
+
+# fast build rule for target.
+pthread_fetch_exit_code_from_thread_termination/fast:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
+
+# Convenience name for target.
 Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule
 .PHONY : Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/rule
@@ -124,6 +154,33 @@ pthread_creation: Concurrent_programming/01_thread_management/CMakeFiles/pthread
 pthread_creation/fast:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
 .PHONY : pthread_creation/fast
+
+cplus_creation_main.o: cplus_creation_main.cpp.o
+
+.PHONY : cplus_creation_main.o
+
+# target to build an object file
+cplus_creation_main.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/cplus_creation_main.cpp.o
+.PHONY : cplus_creation_main.cpp.o
+
+cplus_creation_main.i: cplus_creation_main.cpp.i
+
+.PHONY : cplus_creation_main.i
+
+# target to preprocess a source file
+cplus_creation_main.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/cplus_creation_main.cpp.i
+.PHONY : cplus_creation_main.cpp.i
+
+cplus_creation_main.s: cplus_creation_main.cpp.s
+
+.PHONY : cplus_creation_main.s
+
+# target to generate assembly for a file
+cplus_creation_main.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/cplus_creation_main.cpp.s
+.PHONY : cplus_creation_main.cpp.s
 
 pthread_creation_main.o: pthread_creation_main.c.o
 
@@ -152,6 +209,33 @@ pthread_creation_main.c.s:
 	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s
 .PHONY : pthread_creation_main.c.s
 
+pthread_fetch_exit_code_from_thread_termination.o: pthread_fetch_exit_code_from_thread_termination.cpp.o
+
+.PHONY : pthread_fetch_exit_code_from_thread_termination.o
+
+# target to build an object file
+pthread_fetch_exit_code_from_thread_termination.cpp.o:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/pthread_fetch_exit_code_from_thread_termination.cpp.o
+.PHONY : pthread_fetch_exit_code_from_thread_termination.cpp.o
+
+pthread_fetch_exit_code_from_thread_termination.i: pthread_fetch_exit_code_from_thread_termination.cpp.i
+
+.PHONY : pthread_fetch_exit_code_from_thread_termination.i
+
+# target to preprocess a source file
+pthread_fetch_exit_code_from_thread_termination.cpp.i:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/pthread_fetch_exit_code_from_thread_termination.cpp.i
+.PHONY : pthread_fetch_exit_code_from_thread_termination.cpp.i
+
+pthread_fetch_exit_code_from_thread_termination.s: pthread_fetch_exit_code_from_thread_termination.cpp.s
+
+.PHONY : pthread_fetch_exit_code_from_thread_termination.s
+
+# target to generate assembly for a file
+pthread_fetch_exit_code_from_thread_termination.cpp.s:
+	cd /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug && $(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/pthread_fetch_exit_code_from_thread_termination.cpp.s
+.PHONY : pthread_fetch_exit_code_from_thread_termination.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,10 +244,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... cplus_creation"
+	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... pthread_creation"
+	@echo "... cplus_creation_main.o"
+	@echo "... cplus_creation_main.i"
+	@echo "... cplus_creation_main.s"
 	@echo "... pthread_creation_main.o"
 	@echo "... pthread_creation_main.i"
 	@echo "... pthread_creation_main.s"
+	@echo "... pthread_fetch_exit_code_from_thread_termination.o"
+	@echo "... pthread_fetch_exit_code_from_thread_termination.i"
+	@echo "... pthread_fetch_exit_code_from_thread_termination.s"
 .PHONY : help
 
 

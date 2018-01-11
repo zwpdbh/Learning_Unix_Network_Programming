@@ -60,13 +60,87 @@ CMAKE_SOURCE_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/cplus_creation.dir
+
+# All Build rule for target.
+CMakeFiles/cplus_creation.dir/all:
+	$(MAKE) -f CMakeFiles/cplus_creation.dir/build.make CMakeFiles/cplus_creation.dir/depend
+	$(MAKE) -f CMakeFiles/cplus_creation.dir/build.make CMakeFiles/cplus_creation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=1,2 "Built target cplus_creation"
+.PHONY : CMakeFiles/cplus_creation.dir/all
+
+# Include target in all.
+all: CMakeFiles/cplus_creation.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cplus_creation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cplus_creation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles 0
+.PHONY : CMakeFiles/cplus_creation.dir/rule
+
+# Convenience name for target.
+cplus_creation: CMakeFiles/cplus_creation.dir/rule
+
+.PHONY : cplus_creation
+
+# clean rule for target.
+CMakeFiles/cplus_creation.dir/clean:
+	$(MAKE) -f CMakeFiles/cplus_creation.dir/build.make CMakeFiles/cplus_creation.dir/clean
+.PHONY : CMakeFiles/cplus_creation.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cplus_creation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir
+
+# All Build rule for target.
+CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/all:
+	$(MAKE) -f CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/depend
+	$(MAKE) -f CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=5,6 "Built target pthread_fetch_exit_code_from_thread_termination"
+.PHONY : CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/all
+
+# Include target in all.
+all: CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles 0
+.PHONY : CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule
+
+# Convenience name for target.
+pthread_fetch_exit_code_from_thread_termination: CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/rule
+
+.PHONY : pthread_fetch_exit_code_from_thread_termination
+
+# clean rule for target.
+CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/clean:
+	$(MAKE) -f CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/clean
+.PHONY : CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pthread_creation.dir
 
 # All Build rule for target.
 CMakeFiles/pthread_creation.dir/all:
 	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/depend
 	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=1,2 "Built target pthread_creation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=3,4 "Built target pthread_creation"
 .PHONY : CMakeFiles/pthread_creation.dir/all
 
 # Include target in all.

@@ -92,5 +92,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/DependInfo.cmake"
   "Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/DependInfo.cmake"
+  "Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/DependInfo.cmake"
+  "Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/DependInfo.cmake"
   "Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/DependInfo.cmake"
   )
