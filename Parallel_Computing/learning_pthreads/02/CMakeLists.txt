@@ -40,6 +40,7 @@ add_executable(
         another_join.c
 )
 
-add_executable(pthread_cleanup_handler
-        pthread_another_handler.c
-        )
+#
+#add_executable(pthread_cleanup_handler
+#        pthread_another_handler.c
+#        )

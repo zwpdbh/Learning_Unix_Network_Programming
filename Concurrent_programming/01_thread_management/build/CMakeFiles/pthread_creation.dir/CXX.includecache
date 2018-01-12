@@ -6,29 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/apue.cpp
-apue.h
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/apue.h
-
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/apue.h
+/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.cpp
+pthread.h
+-
 sys/types.h
--
-sys/stat.h
--
-sys/termios.h
--
-sys/ioctl.h
--
-stdio.h
 -
 stdlib.h
 -
-stddef.h
--
-string.h
+stdio.h
 -
 unistd.h
--
-signal.h
 -
 

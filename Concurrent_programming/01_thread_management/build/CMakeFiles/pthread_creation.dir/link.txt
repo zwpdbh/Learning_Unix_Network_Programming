@@ -1,1 +1,1 @@
-/usr/bin/gcc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o  -o ../bin/pthread_creation 
+/usr/bin/g++   -I/usr/include -L/usr/lib -lpthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o  -o ../bin/pthread_creation 

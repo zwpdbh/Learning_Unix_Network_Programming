@@ -57,41 +57,41 @@ include CMakeFiles/pthread_creation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pthread_creation.dir/flags.make
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o: CMakeFiles/pthread_creation.dir/flags.make
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o: ../pthread_creation_main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o   -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.c
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o: CMakeFiles/pthread_creation.dir/flags.make
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o: ../pthread_creation_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o -c /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.cpp
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pthread_creation.dir/pthread_creation_main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.c > CMakeFiles/pthread_creation.dir/pthread_creation_main.c.i
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.cpp > CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.i
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.c -o CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/pthread_creation_main.cpp -o CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.s
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.requires:
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.requires:
 
-.PHONY : CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.requires
+.PHONY : CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.requires
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.provides: CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.requires
-	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.provides.build
-.PHONY : CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.provides
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.provides: CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.provides.build
+.PHONY : CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.provides
 
-CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.provides.build: CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o
+CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.provides.build: CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o
 
 
 # Object files for target pthread_creation
 pthread_creation_OBJECTS = \
-"CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o"
+"CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o"
 
 # External object files for target pthread_creation
 pthread_creation_EXTERNAL_OBJECTS =
 
-../bin/pthread_creation: CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o
+../bin/pthread_creation: CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o
 ../bin/pthread_creation: CMakeFiles/pthread_creation.dir/build.make
 ../bin/pthread_creation: CMakeFiles/pthread_creation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../bin/pthread_creation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/01_thread_management/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/pthread_creation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pthread_creation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/pthread_creation.dir/build: ../bin/pthread_creation
 
 .PHONY : CMakeFiles/pthread_creation.dir/build
 
-CMakeFiles/pthread_creation.dir/requires: CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o.requires
+CMakeFiles/pthread_creation.dir/requires: CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o.requires
 
 .PHONY : CMakeFiles/pthread_creation.dir/requires
 

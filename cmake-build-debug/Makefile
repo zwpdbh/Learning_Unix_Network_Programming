@@ -267,19 +267,6 @@ simple_one/fast:
 .PHONY : simple_one/fast
 
 #=============================================================================
-# Target rules for targets named pthread_another_join
-
-# Build rule for target.
-pthread_another_join: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_another_join
-.PHONY : pthread_another_join
-
-# fast build rule for target.
-pthread_another_join/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build
-.PHONY : pthread_another_join/fast
-
-#=============================================================================
 # Target rules for targets named pthread_stack
 
 # Build rule for target.
@@ -293,17 +280,17 @@ pthread_stack/fast:
 .PHONY : pthread_stack/fast
 
 #=============================================================================
-# Target rules for targets named pthread_cleanup_handler
+# Target rules for targets named pthread_another_join
 
 # Build rule for target.
-pthread_cleanup_handler: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_cleanup_handler
-.PHONY : pthread_cleanup_handler
+pthread_another_join: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_another_join
+.PHONY : pthread_another_join
 
 # fast build rule for target.
-pthread_cleanup_handler/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_cleanup_handler.dir/build
-.PHONY : pthread_cleanup_handler/fast
+pthread_another_join/fast:
+	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build
+.PHONY : pthread_another_join/fast
 
 #=============================================================================
 # Target rules for targets named pthread_join
@@ -397,19 +384,6 @@ cplus_creation/fast:
 .PHONY : cplus_creation/fast
 
 #=============================================================================
-# Target rules for targets named pthread_fetch_exit_code_from_thread_termination
-
-# Build rule for target.
-pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_fetch_exit_code_from_thread_termination
-.PHONY : pthread_fetch_exit_code_from_thread_termination
-
-# fast build rule for target.
-pthread_fetch_exit_code_from_thread_termination/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
-.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
-
-#=============================================================================
 # Target rules for targets named pthread_creation
 
 # Build rule for target.
@@ -421,6 +395,45 @@ pthread_creation: cmake_check_build_system
 pthread_creation/fast:
 	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
 .PHONY : pthread_creation/fast
+
+#=============================================================================
+# Target rules for targets named pthread_cleanup_handler
+
+# Build rule for target.
+pthread_cleanup_handler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_cleanup_handler
+.PHONY : pthread_cleanup_handler
+
+# fast build rule for target.
+pthread_cleanup_handler/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_cleanup_handler.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_cleanup_handler.dir/build
+.PHONY : pthread_cleanup_handler/fast
+
+#=============================================================================
+# Target rules for targets named cplus_waiting_in_eceptional_circumstances
+
+# Build rule for target.
+cplus_waiting_in_eceptional_circumstances: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cplus_waiting_in_eceptional_circumstances
+.PHONY : cplus_waiting_in_eceptional_circumstances
+
+# fast build rule for target.
+cplus_waiting_in_eceptional_circumstances/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build
+.PHONY : cplus_waiting_in_eceptional_circumstances/fast
+
+#=============================================================================
+# Target rules for targets named pthread_fetch_exit_code_from_thread_termination
+
+# Build rule for target.
+pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_fetch_exit_code_from_thread_termination
+.PHONY : pthread_fetch_exit_code_from_thread_termination
+
+# fast build rule for target.
+pthread_fetch_exit_code_from_thread_termination/fast:
+	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
 
 # Help Target
 help:
@@ -442,9 +455,8 @@ help:
 	@echo "... wt_demo_01"
 	@echo "... multiple_arguments"
 	@echo "... simple_one"
-	@echo "... pthread_another_join"
 	@echo "... pthread_stack"
-	@echo "... pthread_cleanup_handler"
+	@echo "... pthread_another_join"
 	@echo "... pthread_join"
 	@echo "... pthread_mutex_02_2"
 	@echo "... pthread_mutex_02_1"
@@ -452,8 +464,10 @@ help:
 	@echo "... pthread_mutex_01"
 	@echo "... OpenMP_demo_01"
 	@echo "... cplus_creation"
-	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... pthread_creation"
+	@echo "... pthread_cleanup_handler"
+	@echo "... cplus_waiting_in_eceptional_circumstances"
+	@echo "... pthread_fetch_exit_code_from_thread_termination"
 .PHONY : help
 
 

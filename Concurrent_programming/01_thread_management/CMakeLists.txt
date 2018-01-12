@@ -33,7 +33,17 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${GCC_HEADER_PATH} ${GCC_SHARED_LIB_PAT
 # illustrate the creation of threads using pthread
 add_executable(
         pthread_creation
-        pthread_creation_main.c
+        pthread_creation_main.cpp
+)
+
+add_executable(
+        pthread_fetch_exit_code_from_thread_termination
+        pthread_fetch_exit_code_from_thread_termination.cpp
+)
+
+add_executable(
+        pthread_cleanup_handler
+        pthread_cleanup_handler.cpp
 )
 
 add_executable(
@@ -42,8 +52,8 @@ add_executable(
 )
 
 add_executable(
-        pthread_fetch_exit_code_from_thread_termination
-        pthread_fetch_exit_code_from_thread_termination.cpp
+        cplus_waiting_in_eceptional_circumstances
+        cplus_waiting_in_eceptional_circumstances.cpp
 )
 
 # === another way to set include and link directory

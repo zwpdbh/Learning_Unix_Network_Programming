@@ -124,19 +124,6 @@ cplus_creation/fast:
 .PHONY : cplus_creation/fast
 
 #=============================================================================
-# Target rules for targets named pthread_fetch_exit_code_from_thread_termination
-
-# Build rule for target.
-pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_fetch_exit_code_from_thread_termination
-.PHONY : pthread_fetch_exit_code_from_thread_termination
-
-# fast build rule for target.
-pthread_fetch_exit_code_from_thread_termination/fast:
-	$(MAKE) -f CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
-.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
-
-#=============================================================================
 # Target rules for targets named pthread_creation
 
 # Build rule for target.
@@ -148,6 +135,45 @@ pthread_creation: cmake_check_build_system
 pthread_creation/fast:
 	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/build
 .PHONY : pthread_creation/fast
+
+#=============================================================================
+# Target rules for targets named pthread_cleanup_handler
+
+# Build rule for target.
+pthread_cleanup_handler: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_cleanup_handler
+.PHONY : pthread_cleanup_handler
+
+# fast build rule for target.
+pthread_cleanup_handler/fast:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/build
+.PHONY : pthread_cleanup_handler/fast
+
+#=============================================================================
+# Target rules for targets named cplus_waiting_in_eceptional_circumstances
+
+# Build rule for target.
+cplus_waiting_in_eceptional_circumstances: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cplus_waiting_in_eceptional_circumstances
+.PHONY : cplus_waiting_in_eceptional_circumstances
+
+# fast build rule for target.
+cplus_waiting_in_eceptional_circumstances/fast:
+	$(MAKE) -f CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build
+.PHONY : cplus_waiting_in_eceptional_circumstances/fast
+
+#=============================================================================
+# Target rules for targets named pthread_fetch_exit_code_from_thread_termination
+
+# Build rule for target.
+pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pthread_fetch_exit_code_from_thread_termination
+.PHONY : pthread_fetch_exit_code_from_thread_termination
+
+# fast build rule for target.
+pthread_fetch_exit_code_from_thread_termination/fast:
+	$(MAKE) -f CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+.PHONY : pthread_fetch_exit_code_from_thread_termination/fast
 
 cplus_creation_main.o: cplus_creation_main.cpp.o
 
@@ -176,32 +202,86 @@ cplus_creation_main.cpp.s:
 	$(MAKE) -f CMakeFiles/cplus_creation.dir/build.make CMakeFiles/cplus_creation.dir/cplus_creation_main.cpp.s
 .PHONY : cplus_creation_main.cpp.s
 
-pthread_creation_main.o: pthread_creation_main.c.o
+cplus_waiting_in_eceptional_circumstances.o: cplus_waiting_in_eceptional_circumstances.cpp.o
+
+.PHONY : cplus_waiting_in_eceptional_circumstances.o
+
+# target to build an object file
+cplus_waiting_in_eceptional_circumstances.cpp.o:
+	$(MAKE) -f CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/cplus_waiting_in_eceptional_circumstances.cpp.o
+.PHONY : cplus_waiting_in_eceptional_circumstances.cpp.o
+
+cplus_waiting_in_eceptional_circumstances.i: cplus_waiting_in_eceptional_circumstances.cpp.i
+
+.PHONY : cplus_waiting_in_eceptional_circumstances.i
+
+# target to preprocess a source file
+cplus_waiting_in_eceptional_circumstances.cpp.i:
+	$(MAKE) -f CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/cplus_waiting_in_eceptional_circumstances.cpp.i
+.PHONY : cplus_waiting_in_eceptional_circumstances.cpp.i
+
+cplus_waiting_in_eceptional_circumstances.s: cplus_waiting_in_eceptional_circumstances.cpp.s
+
+.PHONY : cplus_waiting_in_eceptional_circumstances.s
+
+# target to generate assembly for a file
+cplus_waiting_in_eceptional_circumstances.cpp.s:
+	$(MAKE) -f CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/cplus_waiting_in_eceptional_circumstances.cpp.s
+.PHONY : cplus_waiting_in_eceptional_circumstances.cpp.s
+
+pthread_cleanup_handler.o: pthread_cleanup_handler.cpp.o
+
+.PHONY : pthread_cleanup_handler.o
+
+# target to build an object file
+pthread_cleanup_handler.cpp.o:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_cleanup_handler.cpp.o
+.PHONY : pthread_cleanup_handler.cpp.o
+
+pthread_cleanup_handler.i: pthread_cleanup_handler.cpp.i
+
+.PHONY : pthread_cleanup_handler.i
+
+# target to preprocess a source file
+pthread_cleanup_handler.cpp.i:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_cleanup_handler.cpp.i
+.PHONY : pthread_cleanup_handler.cpp.i
+
+pthread_cleanup_handler.s: pthread_cleanup_handler.cpp.s
+
+.PHONY : pthread_cleanup_handler.s
+
+# target to generate assembly for a file
+pthread_cleanup_handler.cpp.s:
+	$(MAKE) -f CMakeFiles/pthread_cleanup_handler.dir/build.make CMakeFiles/pthread_cleanup_handler.dir/pthread_cleanup_handler.cpp.s
+.PHONY : pthread_cleanup_handler.cpp.s
+
+pthread_creation_main.o: pthread_creation_main.cpp.o
 
 .PHONY : pthread_creation_main.o
 
 # target to build an object file
-pthread_creation_main.c.o:
-	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o
-.PHONY : pthread_creation_main.c.o
+pthread_creation_main.cpp.o:
+	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.o
+.PHONY : pthread_creation_main.cpp.o
 
-pthread_creation_main.i: pthread_creation_main.c.i
+pthread_creation_main.i: pthread_creation_main.cpp.i
 
 .PHONY : pthread_creation_main.i
 
 # target to preprocess a source file
-pthread_creation_main.c.i:
-	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.c.i
-.PHONY : pthread_creation_main.c.i
+pthread_creation_main.cpp.i:
+	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.i
+.PHONY : pthread_creation_main.cpp.i
 
-pthread_creation_main.s: pthread_creation_main.c.s
+pthread_creation_main.s: pthread_creation_main.cpp.s
 
 .PHONY : pthread_creation_main.s
 
 # target to generate assembly for a file
-pthread_creation_main.c.s:
-	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.c.s
-.PHONY : pthread_creation_main.c.s
+pthread_creation_main.cpp.s:
+	$(MAKE) -f CMakeFiles/pthread_creation.dir/build.make CMakeFiles/pthread_creation.dir/pthread_creation_main.cpp.s
+.PHONY : pthread_creation_main.cpp.s
 
 pthread_fetch_exit_code_from_thread_termination.o: pthread_fetch_exit_code_from_thread_termination.cpp.o
 
@@ -237,13 +317,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... cplus_creation"
-	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... pthread_creation"
+	@echo "... pthread_cleanup_handler"
+	@echo "... cplus_waiting_in_eceptional_circumstances"
+	@echo "... edit_cache"
+	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... cplus_creation_main.o"
 	@echo "... cplus_creation_main.i"
 	@echo "... cplus_creation_main.s"
+	@echo "... cplus_waiting_in_eceptional_circumstances.o"
+	@echo "... cplus_waiting_in_eceptional_circumstances.i"
+	@echo "... cplus_waiting_in_eceptional_circumstances.s"
+	@echo "... pthread_cleanup_handler.o"
+	@echo "... pthread_cleanup_handler.i"
+	@echo "... pthread_cleanup_handler.s"
 	@echo "... pthread_creation_main.o"
 	@echo "... pthread_creation_main.i"
 	@echo "... pthread_creation_main.s"
