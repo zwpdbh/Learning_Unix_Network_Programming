@@ -380,7 +380,7 @@ cplus_creation: cmake_check_build_system
 
 # fast build rule for target.
 cplus_creation/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/build
+	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/cplus_creation.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/cplus_creation.dir/build
 .PHONY : cplus_creation/fast
 
 #=============================================================================
@@ -393,7 +393,7 @@ pthread_creation: cmake_check_build_system
 
 # fast build rule for target.
 pthread_creation/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build
+	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/pthread_creation.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/pthread_creation.dir/build
 .PHONY : pthread_creation/fast
 
 #=============================================================================
@@ -406,7 +406,7 @@ pthread_cleanup_handler: cmake_check_build_system
 
 # fast build rule for target.
 pthread_cleanup_handler/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_cleanup_handler.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_cleanup_handler.dir/build
+	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/build
 .PHONY : pthread_cleanup_handler/fast
 
 #=============================================================================
@@ -419,7 +419,7 @@ cplus_waiting_in_eceptional_circumstances: cmake_check_build_system
 
 # fast build rule for target.
 cplus_waiting_in_eceptional_circumstances/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build
+	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/build
 .PHONY : cplus_waiting_in_eceptional_circumstances/fast
 
 #=============================================================================
@@ -432,7 +432,7 @@ pthread_fetch_exit_code_from_thread_termination: cmake_check_build_system
 
 # fast build rule for target.
 pthread_fetch_exit_code_from_thread_termination/fast:
-	$(MAKE) -f Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
+	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
 .PHONY : pthread_fetch_exit_code_from_thread_termination/fast
 
 # Help Target

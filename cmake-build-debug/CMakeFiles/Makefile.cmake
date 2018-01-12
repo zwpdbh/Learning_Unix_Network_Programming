@@ -31,7 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/Platform/UnixPaths.cmake"
   "/Users/zw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4127.32/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "../Concurrent_programming/01_thread_management/CMakeLists.txt"
+  "../Concurrent_programming/01_threads_management/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt"
   "../Learning_TCP_IP_socket_in_C/ch03_names_and_address_families/CMakeLists.txt"
@@ -66,7 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Parallel_Computing/learning_pthreads/02/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Parallel_Computing/learning_OpenMP/01/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -91,9 +91,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/DependInfo.cmake"
   "Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/DependInfo.cmake"
   "Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/DependInfo.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/cplus_creation.dir/DependInfo.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/DependInfo.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/pthread_cleanup_handler.dir/DependInfo.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/DependInfo.cmake"
-  "Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/DependInfo.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/cplus_creation.dir/DependInfo.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/pthread_creation.dir/DependInfo.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/DependInfo.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/DependInfo.cmake"
+  "Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/DependInfo.cmake"
   )

@@ -30,7 +30,8 @@ public:
 
 /**C++ Standard Library, std::thread works with any callable type,
  * so you can pass an instance of a class/structure
- * with a function call operator to the std::thread constructor instead:*/
+ * with a function call operator to the std::thread constructor instead.
+ * Also, use callable type to pass many parameters*/
 class func {
 private:
     int i;
@@ -48,17 +49,20 @@ public:
             do_something(this->i);
             do_another(this->i);
         }
+        std:: cout << std:: endl;
     }
 };
 
 void f() {
-    int some_local_state = 2;
-    int times = 5;
-    func my_func(some_local_state, times);
-    std::thread t(my_func);
+    int true_parallel_num = std::thread::hardware_concurrency();
 
-    thread_guard g(t);
+    for (int i = 1; i <= true_parallel_num; i++) {
+        int times = i * 5;
 
+        func my_func(i, times);
+        std::thread t(my_func);
+        thread_guard g(t);
+    }
     printf("do something in current thread\n");
 }
 

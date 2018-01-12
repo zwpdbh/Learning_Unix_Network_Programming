@@ -41,62 +41,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cd25fb-ddae-4d6a-a4ce-2fda2a220c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/CMakeLists.txt" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/bin/pthread_creation" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/bin/pthread_creation" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/CXX.includecache" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/build.make" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/depend.internal" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/depend.make" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/flags.make" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/link.txt" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/progress.make" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_creation.dir/pthread_creation_main.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/Makefile" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/pthread_creation_main.c" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/pthread_creation_main.cpp" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" afterPath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/01_thread_management.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/01_thread_management.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/flags.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_creation.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_thread_management/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/bin/cplus_waiting_in_eceptional_circumstances" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/bin/cplus_waiting_in_eceptional_circumstances" />
+      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/cplus_waiting_in_eceptional_circumstances.cpp.o" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/cplus_waiting_in_eceptional_circumstances.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/cplus_waiting_in_eceptional_circumstances.cpp" afterPath="$PROJECT_DIR$/Concurrent_programming/01_thread_management/cplus_waiting_in_eceptional_circumstances.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,8 +77,8 @@
       <file leaf-file-name="cplus_waiting_in_eceptional_circumstances.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_thread_management/cplus_waiting_in_eceptional_circumstances.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="298">
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
               <folding>
                 <element signature="e#45#62#0" expanded="true" />
               </folding>
@@ -308,12 +255,6 @@
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
               <item name="Concurrent_programming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrent_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="01_thread_management" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -354,25 +295,25 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.multiple_arguments">
-    <configuration name="OpenMP_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="OpenMP_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="OpenMP_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="OpenMP_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="cplus_creation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="cplus_creation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="cplus_creation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="cplus_creation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
     <configuration name="cplus_waiting_in_eceptional_circumstances" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="cplus_waiting_in_eceptional_circumstances" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="multiple_arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="multiple_arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="multiple_arguments" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="multiple_arguments" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_another_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_another_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="pthread_another_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_another_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_cleanup_handler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_cleanup_handler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="pthread_cleanup_handler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_cleanup_handler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_condition_variables" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_condition_variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_condition_variables" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_condition_variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
     <configuration name="pthread_creation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_creation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
@@ -381,22 +322,22 @@
     <configuration name="pthread_fetch_exit_code_from_thread_termination" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_fetch_exit_code_from_thread_termination" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
       <envs />
     </configuration>
-    <configuration name="pthread_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_join" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_join" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_mutex_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_02_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_mutex_02_1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_mutex_02_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_mutex_02_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_mutex_02_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="pthread_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_fetch_exit_code_from_thread_termination">
+    <configuration name="pthread_stack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="pthread_stack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
-    <configuration name="simple_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="simple_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="simple_one" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="simple_one" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
     <configuration name="tcp_client" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="tcp_client" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_client">
@@ -405,7 +346,7 @@
     <configuration name="tcp_server" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="tcp_server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="tcp_server">
       <envs />
     </configuration>
-    <configuration name="wt_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="wt_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="pthread_cleanup_handler">
+    <configuration name="wt_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="wt_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="cplus_waiting_in_eceptional_circumstances">
       <envs />
     </configuration>
     <list size="18">
@@ -422,11 +363,11 @@
       <item index="10" class="java.lang.String" itemvalue="Application.pthread_mutex_02_1" />
       <item index="11" class="java.lang.String" itemvalue="Application.pthread_mutex_02_2" />
       <item index="12" class="java.lang.String" itemvalue="Application.cplus_creation" />
-      <item index="13" class="java.lang.String" itemvalue="Application.pthread_creation" />
-      <item index="14" class="java.lang.String" itemvalue="Application.pthread_fetch_exit_code_from_thread_termination" />
-      <item index="15" class="java.lang.String" itemvalue="Application.tcp_client" />
-      <item index="16" class="java.lang.String" itemvalue="Application.tcp_server" />
-      <item index="17" class="java.lang.String" itemvalue="Application.cplus_waiting_in_eceptional_circumstances" />
+      <item index="13" class="java.lang.String" itemvalue="Application.cplus_waiting_in_eceptional_circumstances" />
+      <item index="14" class="java.lang.String" itemvalue="Application.pthread_creation" />
+      <item index="15" class="java.lang.String" itemvalue="Application.pthread_fetch_exit_code_from_thread_termination" />
+      <item index="16" class="java.lang.String" itemvalue="Application.tcp_client" />
+      <item index="17" class="java.lang.String" itemvalue="Application.tcp_server" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -476,7 +417,7 @@
       <workItem from="1515112019018" duration="229000" />
       <workItem from="1515126290964" duration="5687000" />
       <workItem from="1515567602883" duration="5075000" />
-      <workItem from="1515706062933" duration="6321000" />
+      <workItem from="1515706062933" duration="6975000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -517,13 +458,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140417000" />
+    <option name="totallyTimeSpent" value="141071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="390" width="1440" height="470" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3197425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35164836" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -872,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_thread_management/cplus_waiting_in_eceptional_circumstances.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="298">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding>
             <element signature="e#45#62#0" expanded="true" />
           </folding>
