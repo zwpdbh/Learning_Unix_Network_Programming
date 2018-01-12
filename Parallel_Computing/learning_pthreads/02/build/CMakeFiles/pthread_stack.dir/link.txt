@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -I/usr/include -L/usr/lib -lpthread -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_stack.dir/pthread_stack.cpp.o  -o ../bin/pthread_stack 

@@ -1,1 +1,0 @@
-/usr/bin/gcc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/OpenMP_demo_01.dir/OpenMP_demo_01_main.c.o  -o ../bin/OpenMP_demo_01 

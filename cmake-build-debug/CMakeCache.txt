@@ -204,6 +204,18 @@ Learning_Unix_Network_Programming_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Pro
 //Value Computed by CMake
 Learning_Unix_Network_Programming_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming
 
+//CXX compiler flags for OpenMP parallelization
+OpenMP_CXX_FLAGS:STRING=NOTFOUND
+
+//CXX compiler libraries for OpenMP parallelization
+OpenMP_CXX_LIB_NAMES:STRING=NOTFOUND
+
+//C compiler flags for OpenMP parallelization
+OpenMP_C_FLAGS:STRING=NOTFOUND
+
+//C compiler libraries for OpenMP parallelization
+OpenMP_C_LIB_NAMES:STRING=NOTFOUND
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
@@ -248,6 +260,12 @@ my_tools_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Netwo
 
 //Value Computed by CMake
 my_tools_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Learning_TCP_IP_socket_in_C/my_tools
+
+//Value Computed by CMake
+parallel_KNN_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/Learning_OpenMP
+
+//Value Computed by CMake
+parallel_KNN_SOURCE_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/Concurrent_programming/Learning_OpenMP
 
 //Value Computed by CMake
 pthreads_creating_and_terminating_BINARY_DIR:STATIC=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Parallel_Computing/learning_OpenMP/01
@@ -366,7 +384,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -407,6 +425,38 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_CXX_ :INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_CXX_fopenmp:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_CXX_mp:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_CXX_openmp:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_C_ :INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_C_fopenmp:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_C_mp:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_COMPILE_RESULT_C_openmp:INTERNAL=FALSE
+//ADVANCED property for variable: OpenMP_CXX_FLAGS
+OpenMP_CXX_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenMP_CXX_LIB_NAMES
+OpenMP_CXX_LIB_NAMES-ADVANCED:INTERNAL=1
+//CXX compiler's OpenMP specification date
+OpenMP_CXX_SPEC_DATE:INTERNAL=
+//ADVANCED property for variable: OpenMP_C_FLAGS
+OpenMP_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OpenMP_C_LIB_NAMES
+OpenMP_C_LIB_NAMES-ADVANCED:INTERNAL=1
+//C compiler's OpenMP specification date
+OpenMP_C_SPEC_DATE:INTERNAL=
+//Result of TRY_COMPILE
+OpenMP_SPECTEST_CXX_:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_SPECTEST_C_:INTERNAL=FALSE
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
 

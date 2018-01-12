@@ -241,136 +241,6 @@ wt_demo_01/fast:
 .PHONY : wt_demo_01/fast
 
 #=============================================================================
-# Target rules for targets named multiple_arguments
-
-# Build rule for target.
-multiple_arguments: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multiple_arguments
-.PHONY : multiple_arguments
-
-# fast build rule for target.
-multiple_arguments/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/build
-.PHONY : multiple_arguments/fast
-
-#=============================================================================
-# Target rules for targets named simple_one
-
-# Build rule for target.
-simple_one: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 simple_one
-.PHONY : simple_one
-
-# fast build rule for target.
-simple_one/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build.make Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/build
-.PHONY : simple_one/fast
-
-#=============================================================================
-# Target rules for targets named pthread_stack
-
-# Build rule for target.
-pthread_stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_stack
-.PHONY : pthread_stack
-
-# fast build rule for target.
-pthread_stack/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/build
-.PHONY : pthread_stack/fast
-
-#=============================================================================
-# Target rules for targets named pthread_another_join
-
-# Build rule for target.
-pthread_another_join: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_another_join
-.PHONY : pthread_another_join
-
-# fast build rule for target.
-pthread_another_join/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/build
-.PHONY : pthread_another_join/fast
-
-#=============================================================================
-# Target rules for targets named pthread_join
-
-# Build rule for target.
-pthread_join: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_join
-.PHONY : pthread_join
-
-# fast build rule for target.
-pthread_join/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build.make Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/build
-.PHONY : pthread_join/fast
-
-#=============================================================================
-# Target rules for targets named pthread_mutex_02_2
-
-# Build rule for target.
-pthread_mutex_02_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_02_2
-.PHONY : pthread_mutex_02_2
-
-# fast build rule for target.
-pthread_mutex_02_2/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/build
-.PHONY : pthread_mutex_02_2/fast
-
-#=============================================================================
-# Target rules for targets named pthread_mutex_02_1
-
-# Build rule for target.
-pthread_mutex_02_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_02_1
-.PHONY : pthread_mutex_02_1
-
-# fast build rule for target.
-pthread_mutex_02_1/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/build
-.PHONY : pthread_mutex_02_1/fast
-
-#=============================================================================
-# Target rules for targets named pthread_condition_variables
-
-# Build rule for target.
-pthread_condition_variables: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_condition_variables
-.PHONY : pthread_condition_variables
-
-# fast build rule for target.
-pthread_condition_variables/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/build
-.PHONY : pthread_condition_variables/fast
-
-#=============================================================================
-# Target rules for targets named pthread_mutex_01
-
-# Build rule for target.
-pthread_mutex_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pthread_mutex_01
-.PHONY : pthread_mutex_01
-
-# fast build rule for target.
-pthread_mutex_01/fast:
-	$(MAKE) -f Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build.make Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/build
-.PHONY : pthread_mutex_01/fast
-
-#=============================================================================
-# Target rules for targets named OpenMP_demo_01
-
-# Build rule for target.
-OpenMP_demo_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenMP_demo_01
-.PHONY : OpenMP_demo_01
-
-# fast build rule for target.
-OpenMP_demo_01/fast:
-	$(MAKE) -f Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build.make Parallel_Computing/learning_OpenMP/01/CMakeFiles/OpenMP_demo_01.dir/build
-.PHONY : OpenMP_demo_01/fast
-
-#=============================================================================
 # Target rules for targets named cplus_creation
 
 # Build rule for target.
@@ -435,6 +305,32 @@ pthread_fetch_exit_code_from_thread_termination/fast:
 	$(MAKE) -f Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build.make Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/build
 .PHONY : pthread_fetch_exit_code_from_thread_termination/fast
 
+#=============================================================================
+# Target rules for targets named main_mytest
+
+# Build rule for target.
+main_mytest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_mytest
+.PHONY : main_mytest
+
+# fast build rule for target.
+main_mytest/fast:
+	$(MAKE) -f K-NN/CMakeFiles/main_mytest.dir/build.make K-NN/CMakeFiles/main_mytest.dir/build
+.PHONY : main_mytest/fast
+
+#=============================================================================
+# Target rules for targets named OpenMP_Hello_World
+
+# Build rule for target.
+OpenMP_Hello_World: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenMP_Hello_World
+.PHONY : OpenMP_Hello_World
+
+# fast build rule for target.
+OpenMP_Hello_World/fast:
+	$(MAKE) -f Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir/build.make Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir/build
+.PHONY : OpenMP_Hello_World/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -453,21 +349,13 @@ help:
 	@echo "... tcp_client"
 	@echo "... tcp_server"
 	@echo "... wt_demo_01"
-	@echo "... multiple_arguments"
-	@echo "... simple_one"
-	@echo "... pthread_stack"
-	@echo "... pthread_another_join"
-	@echo "... pthread_join"
-	@echo "... pthread_mutex_02_2"
-	@echo "... pthread_mutex_02_1"
-	@echo "... pthread_condition_variables"
-	@echo "... pthread_mutex_01"
-	@echo "... OpenMP_demo_01"
 	@echo "... cplus_creation"
 	@echo "... pthread_creation"
 	@echo "... pthread_cleanup_handler"
 	@echo "... cplus_waiting_in_eceptional_circumstances"
 	@echo "... pthread_fetch_exit_code_from_thread_termination"
+	@echo "... main_mytest"
+	@echo "... OpenMP_Hello_World"
 .PHONY : help
 
 

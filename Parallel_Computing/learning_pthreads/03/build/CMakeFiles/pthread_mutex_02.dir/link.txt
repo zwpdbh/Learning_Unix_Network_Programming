@@ -1,1 +1,0 @@
-/usr/bin/gcc  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/pthread_mutex_02.dir/pthread_mutex_02_1.c.o CMakeFiles/pthread_mutex_02.dir/pthread_mutex_02_2.c.o  -o ../bin/pthread_mutex_02 
