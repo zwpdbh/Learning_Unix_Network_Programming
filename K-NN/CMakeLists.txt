@@ -26,29 +26,29 @@ include_directories("/usr/local/include/" "/usr/include")
 link_directories("/usr/include" "/usr/lib")
 link_libraries(flann hdf5)
 
-add_executable(
-        KNN_main
-        common.h
-        csv_parser.cpp
-        csv_parser.h
-#        flann_kdtree_index.h
-#        flann_kmeans_index.h
-#        flann_linear_index.h
-        main.cpp
-        main.h
-        rbc_index.cpp
-        rbc_index.h
-        sdc_index.cpp
-        sdc_index.h
-        sdc_kmeans.h
-        rbc/dists.h
-        rbc/utils.h
-        rbc/defs.h
-)
+#add_executable(
+#        KNN_main
+#        common.h
+#        csv_parser.cpp
+#        csv_parser.h
+##        flann_kdtree_index.h
+##        flann_kmeans_index.h
+##        flann_linear_index.h
+#        main.cpp
+#        main.h
+#        rbc_index.cpp
+#        rbc_index.h
+#        sdc_index.cpp
+#        sdc_index.h
+#        sdc_kmeans.h
+#        rbc/dists.h
+#        rbc/utils.h
+#        rbc/defs.h
+#)
 
 add_executable(
-        main_mytest
-        main_mytest_flann.cpp
+        flann_test
+        flann_test_main.cpp
 )
-target_link_libraries(main_mytest flann hdf5)
+target_link_libraries(flann_test flann hdf5)
 

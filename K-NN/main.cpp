@@ -22,6 +22,7 @@ int main(int argc, char** argv) {
 	}else if(strcmp(alg, "rbc") == 0){
 		IMG::ALG = 4;
 	}
+
 	IMG::REP = atoi(argv[2]);
 	SDCIndex::DEPTH_ = atoi(argv[3]);
 	SDCIndex::BRANCH_ = atoi(argv[4]);

@@ -306,30 +306,17 @@ pthread_fetch_exit_code_from_thread_termination/fast:
 .PHONY : pthread_fetch_exit_code_from_thread_termination/fast
 
 #=============================================================================
-# Target rules for targets named main_mytest
+# Target rules for targets named flann_test
 
 # Build rule for target.
-main_mytest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_mytest
-.PHONY : main_mytest
+flann_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_test
+.PHONY : flann_test
 
 # fast build rule for target.
-main_mytest/fast:
-	$(MAKE) -f K-NN/CMakeFiles/main_mytest.dir/build.make K-NN/CMakeFiles/main_mytest.dir/build
-.PHONY : main_mytest/fast
-
-#=============================================================================
-# Target rules for targets named KNN_main
-
-# Build rule for target.
-KNN_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KNN_main
-.PHONY : KNN_main
-
-# fast build rule for target.
-KNN_main/fast:
-	$(MAKE) -f K-NN/CMakeFiles/KNN_main.dir/build.make K-NN/CMakeFiles/KNN_main.dir/build
-.PHONY : KNN_main/fast
+flann_test/fast:
+	$(MAKE) -f K-NN/CMakeFiles/flann_test.dir/build.make K-NN/CMakeFiles/flann_test.dir/build
+.PHONY : flann_test/fast
 
 #=============================================================================
 # Target rules for targets named OpenMP_Hello_World
@@ -367,8 +354,7 @@ help:
 	@echo "... pthread_cleanup_handler"
 	@echo "... cplus_waiting_in_eceptional_circumstances"
 	@echo "... pthread_fetch_exit_code_from_thread_termination"
-	@echo "... main_mytest"
-	@echo "... KNN_main"
+	@echo "... flann_test"
 	@echo "... OpenMP_Hello_World"
 .PHONY : help
 

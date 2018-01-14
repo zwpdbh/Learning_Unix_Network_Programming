@@ -82,7 +82,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/DependInfo.cmake"
   "Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/DependInfo.cmake"
   "Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/DependInfo.cmake"
-  "K-NN/CMakeFiles/main_mytest.dir/DependInfo.cmake"
-  "K-NN/CMakeFiles/KNN_main.dir/DependInfo.cmake"
+  "K-NN/CMakeFiles/flann_test.dir/DependInfo.cmake"
   "Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir/DependInfo.cmake"
   )

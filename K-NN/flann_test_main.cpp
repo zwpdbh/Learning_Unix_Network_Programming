@@ -15,8 +15,8 @@ int main(int argc, char** argv)
 
     Matrix<float> dataset;
     Matrix<float> query;
-    load_from_file(dataset, "dataset.hdf5","dataset");
-    load_from_file(query, "dataset.hdf5","query");
+    load_from_file(dataset, "resources/dataset.hdf5","dataset");
+    load_from_file(query, "resources/dataset.hdf5","query");
 
     Matrix<int> indices(new int[query.rows*nn], query.rows, nn);
     Matrix<float> dists(new float[query.rows*nn], query.rows, nn);
@@ -28,7 +28,7 @@ int main(int argc, char** argv)
     // do a knn search, using 128 checks
     index.knnSearch(query, indices, dists, nn, flann::SearchParams(128));
 
-    flann::save_to_file(indices,"result.hdf5","result");
+    flann::save_to_file(indices,"resources/result.hdf5","result");
 
     delete[] dataset.ptr();
     delete[] query.ptr();

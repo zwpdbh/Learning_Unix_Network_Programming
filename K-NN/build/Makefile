@@ -111,165 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_mytest
+# Target rules for targets named flann_test
 
 # Build rule for target.
-main_mytest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main_mytest
-.PHONY : main_mytest
+flann_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 flann_test
+.PHONY : flann_test
 
 # fast build rule for target.
-main_mytest/fast:
-	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/build
-.PHONY : main_mytest/fast
+flann_test/fast:
+	$(MAKE) -f CMakeFiles/flann_test.dir/build.make CMakeFiles/flann_test.dir/build
+.PHONY : flann_test/fast
 
-#=============================================================================
-# Target rules for targets named KNN_main
+flann_test_main.o: flann_test_main.cpp.o
 
-# Build rule for target.
-KNN_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KNN_main
-.PHONY : KNN_main
-
-# fast build rule for target.
-KNN_main/fast:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/build
-.PHONY : KNN_main/fast
-
-csv_parser.o: csv_parser.cpp.o
-
-.PHONY : csv_parser.o
+.PHONY : flann_test_main.o
 
 # target to build an object file
-csv_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.o
-.PHONY : csv_parser.cpp.o
+flann_test_main.cpp.o:
+	$(MAKE) -f CMakeFiles/flann_test.dir/build.make CMakeFiles/flann_test.dir/flann_test_main.cpp.o
+.PHONY : flann_test_main.cpp.o
 
-csv_parser.i: csv_parser.cpp.i
+flann_test_main.i: flann_test_main.cpp.i
 
-.PHONY : csv_parser.i
-
-# target to preprocess a source file
-csv_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.i
-.PHONY : csv_parser.cpp.i
-
-csv_parser.s: csv_parser.cpp.s
-
-.PHONY : csv_parser.s
-
-# target to generate assembly for a file
-csv_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.s
-.PHONY : csv_parser.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
+.PHONY : flann_test_main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.i
-.PHONY : main.cpp.i
+flann_test_main.cpp.i:
+	$(MAKE) -f CMakeFiles/flann_test.dir/build.make CMakeFiles/flann_test.dir/flann_test_main.cpp.i
+.PHONY : flann_test_main.cpp.i
 
-main.s: main.cpp.s
+flann_test_main.s: flann_test_main.cpp.s
 
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-main_mytest_flann.o: main_mytest_flann.cpp.o
-
-.PHONY : main_mytest_flann.o
-
-# target to build an object file
-main_mytest_flann.cpp.o:
-	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/main_mytest_flann.cpp.o
-.PHONY : main_mytest_flann.cpp.o
-
-main_mytest_flann.i: main_mytest_flann.cpp.i
-
-.PHONY : main_mytest_flann.i
-
-# target to preprocess a source file
-main_mytest_flann.cpp.i:
-	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/main_mytest_flann.cpp.i
-.PHONY : main_mytest_flann.cpp.i
-
-main_mytest_flann.s: main_mytest_flann.cpp.s
-
-.PHONY : main_mytest_flann.s
+.PHONY : flann_test_main.s
 
 # target to generate assembly for a file
-main_mytest_flann.cpp.s:
-	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/main_mytest_flann.cpp.s
-.PHONY : main_mytest_flann.cpp.s
-
-rbc_index.o: rbc_index.cpp.o
-
-.PHONY : rbc_index.o
-
-# target to build an object file
-rbc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.o
-.PHONY : rbc_index.cpp.o
-
-rbc_index.i: rbc_index.cpp.i
-
-.PHONY : rbc_index.i
-
-# target to preprocess a source file
-rbc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.i
-.PHONY : rbc_index.cpp.i
-
-rbc_index.s: rbc_index.cpp.s
-
-.PHONY : rbc_index.s
-
-# target to generate assembly for a file
-rbc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.s
-.PHONY : rbc_index.cpp.s
-
-sdc_index.o: sdc_index.cpp.o
-
-.PHONY : sdc_index.o
-
-# target to build an object file
-sdc_index.cpp.o:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.o
-.PHONY : sdc_index.cpp.o
-
-sdc_index.i: sdc_index.cpp.i
-
-.PHONY : sdc_index.i
-
-# target to preprocess a source file
-sdc_index.cpp.i:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.i
-.PHONY : sdc_index.cpp.i
-
-sdc_index.s: sdc_index.cpp.s
-
-.PHONY : sdc_index.s
-
-# target to generate assembly for a file
-sdc_index.cpp.s:
-	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.s
-.PHONY : sdc_index.cpp.s
+flann_test_main.cpp.s:
+	$(MAKE) -f CMakeFiles/flann_test.dir/build.make CMakeFiles/flann_test.dir/flann_test_main.cpp.s
+.PHONY : flann_test_main.cpp.s
 
 # Help Target
 help:
@@ -279,23 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... main_mytest"
-	@echo "... KNN_main"
-	@echo "... csv_parser.o"
-	@echo "... csv_parser.i"
-	@echo "... csv_parser.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... main_mytest_flann.o"
-	@echo "... main_mytest_flann.i"
-	@echo "... main_mytest_flann.s"
-	@echo "... rbc_index.o"
-	@echo "... rbc_index.i"
-	@echo "... rbc_index.s"
-	@echo "... sdc_index.o"
-	@echo "... sdc_index.i"
-	@echo "... sdc_index.s"
+	@echo "... flann_test"
+	@echo "... flann_test_main.o"
+	@echo "... flann_test_main.i"
+	@echo "... flann_test_main.s"
 .PHONY : help
 
 

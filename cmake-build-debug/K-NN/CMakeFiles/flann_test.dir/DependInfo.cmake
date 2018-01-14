@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/flann_test_main.cpp" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles/main_mytest.dir/flann_test_main.cpp.o"
+  "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/flann_test_main.cpp" "/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/K-NN/CMakeFiles/flann_test.dir/flann_test_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../"
+  "../K-NN"
   "/usr/local/include"
   )
 
