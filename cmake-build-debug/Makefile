@@ -319,6 +319,19 @@ main_mytest/fast:
 .PHONY : main_mytest/fast
 
 #=============================================================================
+# Target rules for targets named KNN_main
+
+# Build rule for target.
+KNN_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KNN_main
+.PHONY : KNN_main
+
+# fast build rule for target.
+KNN_main/fast:
+	$(MAKE) -f K-NN/CMakeFiles/KNN_main.dir/build.make K-NN/CMakeFiles/KNN_main.dir/build
+.PHONY : KNN_main/fast
+
+#=============================================================================
 # Target rules for targets named OpenMP_Hello_World
 
 # Build rule for target.
@@ -355,6 +368,7 @@ help:
 	@echo "... cplus_waiting_in_eceptional_circumstances"
 	@echo "... pthread_fetch_exit_code_from_thread_termination"
 	@echo "... main_mytest"
+	@echo "... KNN_main"
 	@echo "... OpenMP_Hello_World"
 .PHONY : help
 

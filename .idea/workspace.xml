@@ -2,11 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="Learning_Unix_Network_Programming" targetName="wt_demo_01" />
       <config projectName="Learning_Unix_Network_Programming" targetName="concurrency_playground" />
       <config projectName="Learning_Unix_Network_Programming" targetName="vote_client_binary" />
-      <config projectName="Learning_Unix_Network_Programming" targetName="wt_demo_01" />
       <config projectName="Learning_Unix_Network_Programming" targetName="tcp_server" />
       <config projectName="Learning_Unix_Network_Programming" targetName="cplus_creation" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="KNN_main" />
       <config projectName="Learning_Unix_Network_Programming" targetName="tcp_echo_server" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_fetch_exit_code_from_thread_termination" />
       <config projectName="Learning_Unix_Network_Programming" targetName="share_variable_01" />
@@ -16,8 +17,8 @@
       <config projectName="Learning_Unix_Network_Programming" targetName="tcp_echo_client" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_creation" />
       <config projectName="Learning_Unix_Network_Programming" targetName="cplus_waiting_in_eceptional_circumstances" />
-      <config projectName="Learning_Unix_Network_Programming" targetName="vote_server_binary" />
       <config projectName="Learning_Unix_Network_Programming" targetName="hex_to_ipv4" />
+      <config projectName="Learning_Unix_Network_Programming" targetName="vote_server_binary" />
       <config projectName="Learning_Unix_Network_Programming" targetName="03_tcp_echo_client" />
       <config projectName="Learning_Unix_Network_Programming" targetName="pthread_cleanup_handler" />
       <config projectName="Learning_Unix_Network_Programming" targetName="Learning_C++_Concurrency" />
@@ -33,312 +34,48 @@
   <component name="ChangeListManager">
     <list default="true" id="a1cd25fb-ddae-4d6a-a4ce-2fda2a220c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/bin/OpenMP_demo_01" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/OpenMP_demo_01_main.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/OpenMP_demo_01.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/build/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/bin/multiple_arguments" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/bin/simple_one" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/multiple_arguments.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/multiple_arguments.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/main.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/pthread_01.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/CMakeFiles/simple_one.dir/simple_one.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/build/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/simple_one.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/another_join.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/bin/pthread_another_join" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/bin/pthread_cleanup_handler" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/bin/pthread_join" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/bin/pthread_stack" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/another_join.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_another_join.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_cleanup_handler.dir/pthread_another_handler.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_join.dir/pthread_join.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/CMakeFiles/pthread_stack.dir/pthread_stack.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/build/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_another_handler.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_join.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_stack.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/CMakeLists.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/bin/pthread_condition_variables" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/bin/pthread_mutex_01" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/bin/pthread_mutex_02_1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/bin/pthread_mutex_02_2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/bin/pthread_using_mutex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeCache.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/CMakeOutput.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/Makefile.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/Makefile2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/TargetDirectories.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/cmake.check_cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/feature_tests.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/feature_tests.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/feature_tests.cxx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/progress.marks" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_condition_variables.dir/pthread_condition_variables.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_01.dir/pthread_mutex_01.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/pthread_mutex_02_1.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02.dir/pthread_mutex_02_2.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_1.dir/pthread_mutex_02_1.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_02_2.dir/pthread_mutex_02_2.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_mutex_timedlock.dir/pthread_mutex_timedlock_01.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/C.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/DependInfo.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/build.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/cmake_clean.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/depend.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/flags.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/link.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/progress.make" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/CMakeFiles/pthread_using_mutex.dir/using_mutex.c.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/Makefile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/build/cmake_install.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_condition_variables.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_02_1.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_02_2.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_timedlock_01.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/K-NN/CMakeLists.txt" afterPath="$PROJECT_DIR$/K-NN/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/CXX.includecache" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/depend.internal" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/depend.make" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/KNN_main.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/main_mytest.dir/link.txt" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/main_mytest.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/main_mytest.dir/progress.make" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/main_mytest.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/K-NN/build/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/K-NN/build/Makefile" afterPath="$PROJECT_DIR$/K-NN/build/Makefile" />
+      <change beforePath="$PROJECT_DIR$/K-NN/flann_kdtree_index.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/K-NN/flann_kmeans_index.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/K-NN/flann_linear_index.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/K-NN/main.h" afterPath="$PROJECT_DIR$/K-NN/main.h" />
+      <change beforePath="$PROJECT_DIR$/K-NN/rbc_index.cpp" afterPath="$PROJECT_DIR$/K-NN/rbc_index.cpp" />
+      <change beforePath="$PROJECT_DIR$/K-NN/sdc_kmeans.h" afterPath="$PROJECT_DIR$/K-NN/sdc_kmeans.h" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/01_thread_management.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/01_thread_management.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/cplus_creation.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/cplus_creation.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_cleanup_handler.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_creation.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_creation.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/main_mytest.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/main_mytest.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/main_mytest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/main_mytest.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/K-NN/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/K-NN/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/K-NN/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/K-NN/parallel_KNN.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/K-NN/parallel_KNN.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_client.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeFiles/tcp_echo_server.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCP_IP_sockets_in_C_ch03.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCP_IP_sockets_in_C_ch03.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_client.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeFiles/tcp_server.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/ch02_my_trial.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch02_my_trial/ch02_my_trial.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_client_binary.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/CMakeFiles/vote_server_binary.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TCP_IP_sockets_in_C_ch05.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/ch05_sending_and_receiving_data/TCP_IP_sockets_in_C_ch05.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/my_tools.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/my_tools.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_TCP_IP_socket_in_C/my_tools/CMakeFiles/hex_to_ipv4.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Unix_Network_Programming.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/CMakeFiles/wt_demo_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/Wt_web_development.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Learning_Wt/Wt_web_development.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/multiple_arguments.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/CMakeFiles/simple_one.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/pthreads_creating_and_terminating.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/01/pthreads_creating_and_terminating.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_another_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_join.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/CMakeFiles/pthread_stack.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/02/pthreads_joining_and_detaching.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_condition_variables.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_01.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_1.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/CMakeFiles/pthread_mutex_02_2.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/pthreads_mutex.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Parallel_Computing/learning_pthreads/03/pthreads_mutex.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -356,21 +93,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/CMakeLists.txt">
+      <file leaf-file-name="rbc_index.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="539">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="41" />
+              <folding>
+                <element signature="e#77#99#0" expanded="true" />
+                <element signature="e#681#756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/K-NN/main.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1536">
+              <caret line="96" column="64" lean-forward="false" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
+              <folding>
+                <element signature="e#99#117#0" expanded="true" />
+                <element signature="e#412#454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/K-NN/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_threads_management/CMakeLists.txt">
+      <file leaf-file-name="rbc.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/K-NN/rbc/rbc.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="102" />
+            <state relative-caret-position="272">
+              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="e#160#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rbc_index.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -399,6 +174,8 @@
       <find>pid_t</find>
       <find>err_exit</find>
       <find>CMAKE_CXX</find>
+      <find>shuf</find>
+      <find>buildOneShot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -407,12 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/my_tools/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/my_tools/hex_to_ipv4.c" />
-        <option value="$PROJECT_DIR$/Learning_C++_Concurrency/demo/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.h" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.c" />
         <option value="$PROJECT_DIR$/Learning_C++_Concurrency/demo/sharing.c" />
         <option value="$PROJECT_DIR$/Learning_Qt/CMakeLists.txt" />
@@ -452,12 +223,18 @@
         <option value="$PROJECT_DIR$/Concurrent_programming/01_thread_management/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Concurrent_programming/01_thread_management/cplus_waiting_in_eceptional_circumstances.cpp" />
         <option value="$PROJECT_DIR$/K-NN/test.sh" />
-        <option value="$PROJECT_DIR$/K-NN/sdc_kmeans.h" />
         <option value="$PROJECT_DIR$/K-NN/main_mytest.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/main_01.cpp" />
-        <option value="$PROJECT_DIR$/K-NN/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/K-NN/flann_kdtree_index.h" />
+        <option value="$PROJECT_DIR$/K-NN/flann_kmeans_index.h" />
+        <option value="$PROJECT_DIR$/K-NN/rbc/utils.h" />
+        <option value="$PROJECT_DIR$/K-NN/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/K-NN/sdc_kmeans.h" />
+        <option value="$PROJECT_DIR$/K-NN/sdc_index.cpp" />
+        <option value="$PROJECT_DIR$/K-NN/main.h" />
+        <option value="$PROJECT_DIR$/K-NN/rbc_index.cpp" />
       </list>
     </option>
   </component>
@@ -467,10 +244,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="74" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="786" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -541,6 +318,12 @@
               <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
               <item name="K-NN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Learning_Unix_Network_Programming" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="Learning_Unix_Network_Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="K-NN" type="462c0819:PsiDirectoryNode" />
+              <item name="rbc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -548,24 +331,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP" />
-      <recent name="$PROJECT_DIR$/K-NN" />
-      <recent name="$PROJECT_DIR$/Concurrent_programming/01_thread_management" />
-      <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial" />
-      <recent name="$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/K-NN/resources" />
       <recent name="$PROJECT_DIR$/K-NN" />
       <recent name="$PROJECT_DIR$/Concurrent_programming/my_lib" />
       <recent name="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02" />
       <recent name="$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/K-NN/rbc" />
+      <recent name="$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP" />
+      <recent name="$PROJECT_DIR$/K-NN" />
+      <recent name="$PROJECT_DIR$/Concurrent_programming/01_thread_management" />
+      <recent name="$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,6 +372,9 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-NN/test.sh" />
       <option name="PARAMETERS" value="" />
       <module name="Learning_Unix_Network_Programming" />
+      <envs />
+    </configuration>
+    <configuration name="KNN_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="KNN_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="KNN_main">
       <envs />
     </configuration>
     <configuration name="OpenMP_Hello_World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="OpenMP_Hello_World" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="OpenMP_Hello_World">
@@ -621,7 +407,7 @@
     <configuration name="wt_demo_01" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Learning_Unix_Network_Programming" TARGET_NAME="wt_demo_01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Learning_Unix_Network_Programming" RUN_TARGET_NAME="OpenMP_Hello_World">
       <envs />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Application.wt_demo_01" />
       <item index="1" class="java.lang.String" itemvalue="Application.pthread_cleanup_handler" />
       <item index="2" class="java.lang.String" itemvalue="Application.cplus_creation" />
@@ -629,10 +415,11 @@
       <item index="4" class="java.lang.String" itemvalue="Application.pthread_creation" />
       <item index="5" class="java.lang.String" itemvalue="Application.pthread_fetch_exit_code_from_thread_termination" />
       <item index="6" class="java.lang.String" itemvalue="Application.OpenMP_Hello_World" />
-      <item index="7" class="java.lang.String" itemvalue="Application.main_mytest" />
-      <item index="8" class="java.lang.String" itemvalue="Application.tcp_client" />
-      <item index="9" class="java.lang.String" itemvalue="Application.tcp_server" />
-      <item index="10" class="java.lang.String" itemvalue="Bash.test.sh" />
+      <item index="7" class="java.lang.String" itemvalue="Application.KNN_main" />
+      <item index="8" class="java.lang.String" itemvalue="Application.main_mytest" />
+      <item index="9" class="java.lang.String" itemvalue="Application.tcp_client" />
+      <item index="10" class="java.lang.String" itemvalue="Application.tcp_server" />
+      <item index="11" class="java.lang.String" itemvalue="Bash.test.sh" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -689,7 +476,9 @@
       <workItem from="1515567602883" duration="5075000" />
       <workItem from="1515706062933" duration="7161000" />
       <workItem from="1515720763542" duration="256000" />
-      <workItem from="1515721032436" duration="10034000" />
+      <workItem from="1515721032436" duration="10180000" />
+      <workItem from="1515963530290" duration="1562000" />
+      <workItem from="1515965733741" duration="2618000" />
     </task>
     <task id="LOCAL-00001" summary="&gt; create generic TCP client for echo server, independent if server is IPv4 or IPv6">
       <created>1512108452168</created>
@@ -730,21 +519,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151547000" />
+    <option name="totallyTimeSpent" value="155873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="837" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32403433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33261803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24528302" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24528302" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4407008" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1671159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16576819" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37061995" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -801,34 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/03/pthread_mutex_01.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/csapp.c" />
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/sharing.c" />
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/playground_main.c" />
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/demo/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/playground/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/Learning_C++_Concurrency/02_managing_threads/main_hello_world.cpp" />
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_basic_TCP_sockets/TCPEchoClient4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learning_TCP_IP_socket_in_C/ch02_my_trial/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -858,20 +619,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/simple_one.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/multiple_arguments.cpp" />
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/01/simple_one.cpp" />
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/common_lib.cpp" />
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/common_lib.h" />
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/apue.cpp" />
@@ -897,20 +646,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_thread_management/build/pthread_cleanup_handler.cpp" />
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_another_handler.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_pthreads/02/pthread_another_handler.c" />
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_threads_management/pthread_fetch_exit_code_from_thread_termination.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
@@ -929,9 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="54" column="63" lean-forward="false" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,9 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,140 +680,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-          <folding>
-            <element signature="e#45#62#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/test.sh">
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h" />
+    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c" />
+    <entry file="file://$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/main_01.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/csv_parser.cpp">
+    <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_threads_management/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/flann_kdtree_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1688#1708#0" expanded="false" />
-            <marker date="1501415936000" expanded="true" signature="2140:21785" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="2190:2307" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="2228:2305" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="2460:2487" ph="&lt;Distance&gt;" />
-            <marker date="1501415936000" expanded="true" signature="2534:21759" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="3043:3134" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="3492:3607" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="3696:3855" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="3904:3945" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="4007:4026" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="4209:4549" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="4622:4648" ph="&lt;Archive&gt;" />
-            <marker date="1501415936000" expanded="true" signature="4678:5124" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="5430:5548" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="6039:6478" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="7926:7952" ph="&lt;Archive&gt;" />
-            <marker date="1501415936000" expanded="true" signature="7983:8552" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="8752:9074" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="9491:10069" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="10357:11662" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="11822:12565" ph="{...}" />
-            <marker date="1501415936000" expanded="true" signature="12969:13660" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="13780:13807" ph="&lt;bool with_removed&gt;" />
-            <marker date="1501415936000" expanded="true" signature="13914:14097" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="14284:14311" ph="&lt;bool with_removed&gt;" />
-            <marker date="1501415936000" expanded="true" signature="14427:15396" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="15591:15618" ph="&lt;bool with_removed&gt;" />
-            <marker date="1501415936000" expanded="true" signature="15866:17779" ph="{...}" />
-            <marker date="1501415936000" expanded="false" signature="17855:17882" ph="&lt;bool with_removed&gt;" />
-            <marker date="1501415936000" expanded="true" signature="18043:19417" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/csv_parser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7497">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501415937000" expanded="true" signature="4781:16336" ph="{...}" />
-            <marker date="1501415937000" expanded="true" signature="6236:6325" ph="{...}" />
-            <marker date="1501415937000" expanded="true" signature="8591:8615" ph="{...}" />
-            <marker date="1501415937000" expanded="true" signature="9000:9040" ph="{...}" />
-            <marker date="1501415937000" expanded="true" signature="9757:9784" ph="{...}" />
-            <marker date="1501415937000" expanded="true" signature="10043:10068" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#99#117#0" expanded="false" />
-            <marker date="1501415938000" expanded="true" signature="420:6523" ph="{...}" />
-            <marker date="1501415938000" expanded="true" signature="662:933" ph="{...}" />
-            <marker date="1501415938000" expanded="true" signature="1562:3296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#77#99#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501415924000" expanded="true" signature="356:885" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/sdc_kmeans.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6770">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1515724575791" expanded="true" signature="623:1200" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="766:1198" ph="{...}" />
-            <marker date="1515724575791" expanded="false" signature="1691:1718" ph="&lt;Distance&gt;" />
-            <marker date="1515724575791" expanded="true" signature="1758:14046" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="2385:2790" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="2889:2933" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="3042:3111" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="4218:4223" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="4337:4674" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="6158:6226" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="6490:7636" ph="{...}" />
-            <marker date="1515724575791" expanded="true" signature="8018:13155" ph="{...}" />
-          </folding>
+        <state relative-caret-position="457">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/K-NN/common.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="52">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#142#163#0" expanded="false" />
@@ -1090,47 +710,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/sdc_index.cpp">
+    <entry file="file://$PROJECT_DIR$/K-NN/csv_parser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#83#105#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-4595">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/sdc_index.h">
+    <entry file="file://$PROJECT_DIR$/K-NN/csv_parser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="14" />
-          <folding>
-            <element signature="e#120#143#0" expanded="false" />
-            <marker date="1501415928000" expanded="true" signature="296:999" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-8762">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/K-NN/main_mytest_flann.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/dists.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/utils.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/omp.h">
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Parallel_Computing/learning_OpenMP/01/OpenMP_demo_01_main.c">
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/defs.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/flann_linear_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/flann_kmeans_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="71" column="2" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/flann_kdtree_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1143,43 +798,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-NN/main_mytest_flann.cpp">
+    <entry file="file://$PROJECT_DIR$/K-NN/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/main_01.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/K-NN/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="159">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Concurrent_programming/Learning_OpenMP/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="324">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Concurrent_programming/01_threads_management/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/K-NN/sdc_index.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="102" />
+        <state relative-caret-position="-170">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#120#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/sdc_kmeans.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3926">
+          <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="34" />
+          <folding>
+            <element signature="e#49#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/sdc_index.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5246">
+          <caret line="333" column="28" lean-forward="true" selection-start-line="333" selection-start-column="28" selection-end-line="333" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/utils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#165#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/brute.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1536">
+          <caret line="96" column="64" lean-forward="false" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
+          <folding>
+            <element signature="e#99#117#0" expanded="true" />
+            <element signature="e#412#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc/rbc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#160#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-NN/rbc_index.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#77#99#0" expanded="true" />
+            <element signature="e#681#756#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

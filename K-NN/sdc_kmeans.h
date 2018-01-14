@@ -19,7 +19,8 @@
 #include "flann/util/allocator.h"
 #include "flann/util/saving.h"
 #include "flann/util/logger.h"
-#include "flann_kmeans_index.h"
+//#include "flann_kmeans_index.h"
+#include <flann/algorithms/kmeans_index.h>
 
 using namespace flann;
 

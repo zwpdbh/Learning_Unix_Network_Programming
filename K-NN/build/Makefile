@@ -123,6 +123,73 @@ main_mytest/fast:
 	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/build
 .PHONY : main_mytest/fast
 
+#=============================================================================
+# Target rules for targets named KNN_main
+
+# Build rule for target.
+KNN_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KNN_main
+.PHONY : KNN_main
+
+# fast build rule for target.
+KNN_main/fast:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/build
+.PHONY : KNN_main/fast
+
+csv_parser.o: csv_parser.cpp.o
+
+.PHONY : csv_parser.o
+
+# target to build an object file
+csv_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.o
+.PHONY : csv_parser.cpp.o
+
+csv_parser.i: csv_parser.cpp.i
+
+.PHONY : csv_parser.i
+
+# target to preprocess a source file
+csv_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.i
+.PHONY : csv_parser.cpp.i
+
+csv_parser.s: csv_parser.cpp.s
+
+.PHONY : csv_parser.s
+
+# target to generate assembly for a file
+csv_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/csv_parser.cpp.s
+.PHONY : csv_parser.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 main_mytest_flann.o: main_mytest_flann.cpp.o
 
 .PHONY : main_mytest_flann.o
@@ -150,6 +217,60 @@ main_mytest_flann.cpp.s:
 	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/main_mytest_flann.cpp.s
 .PHONY : main_mytest_flann.cpp.s
 
+rbc_index.o: rbc_index.cpp.o
+
+.PHONY : rbc_index.o
+
+# target to build an object file
+rbc_index.cpp.o:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.o
+.PHONY : rbc_index.cpp.o
+
+rbc_index.i: rbc_index.cpp.i
+
+.PHONY : rbc_index.i
+
+# target to preprocess a source file
+rbc_index.cpp.i:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.i
+.PHONY : rbc_index.cpp.i
+
+rbc_index.s: rbc_index.cpp.s
+
+.PHONY : rbc_index.s
+
+# target to generate assembly for a file
+rbc_index.cpp.s:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/rbc_index.cpp.s
+.PHONY : rbc_index.cpp.s
+
+sdc_index.o: sdc_index.cpp.o
+
+.PHONY : sdc_index.o
+
+# target to build an object file
+sdc_index.cpp.o:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.o
+.PHONY : sdc_index.cpp.o
+
+sdc_index.i: sdc_index.cpp.i
+
+.PHONY : sdc_index.i
+
+# target to preprocess a source file
+sdc_index.cpp.i:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.i
+.PHONY : sdc_index.cpp.i
+
+sdc_index.s: sdc_index.cpp.s
+
+.PHONY : sdc_index.s
+
+# target to generate assembly for a file
+sdc_index.cpp.s:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/sdc_index.cpp.s
+.PHONY : sdc_index.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +280,22 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main_mytest"
+	@echo "... KNN_main"
+	@echo "... csv_parser.o"
+	@echo "... csv_parser.i"
+	@echo "... csv_parser.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... main_mytest_flann.o"
 	@echo "... main_mytest_flann.i"
 	@echo "... main_mytest_flann.s"
+	@echo "... rbc_index.o"
+	@echo "... rbc_index.i"
+	@echo "... rbc_index.s"
+	@echo "... sdc_index.o"
+	@echo "... sdc_index.i"
+	@echo "... sdc_index.s"
 .PHONY : help
 
 

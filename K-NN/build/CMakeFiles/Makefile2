@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Progr
 CMakeFiles/main_mytest.dir/all:
 	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/depend
 	$(MAKE) -f CMakeFiles/main_mytest.dir/build.make CMakeFiles/main_mytest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles --progress-num=1,2 "Built target main_mytest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles --progress-num=6,7 "Built target main_mytest"
 .PHONY : CMakeFiles/main_mytest.dir/all
 
 # Include target in all.
@@ -93,6 +93,43 @@ CMakeFiles/main_mytest.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/main_mytest.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/KNN_main.dir
+
+# All Build rule for target.
+CMakeFiles/KNN_main.dir/all:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/depend
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target KNN_main"
+.PHONY : CMakeFiles/KNN_main.dir/all
+
+# Include target in all.
+all: CMakeFiles/KNN_main.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/KNN_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KNN_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/K-NN/build/CMakeFiles 0
+.PHONY : CMakeFiles/KNN_main.dir/rule
+
+# Convenience name for target.
+KNN_main: CMakeFiles/KNN_main.dir/rule
+
+.PHONY : KNN_main
+
+# clean rule for target.
+CMakeFiles/KNN_main.dir/clean:
+	$(MAKE) -f CMakeFiles/KNN_main.dir/build.make CMakeFiles/KNN_main.dir/clean
+.PHONY : CMakeFiles/KNN_main.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/KNN_main.dir/clean
 
 .PHONY : clean
 

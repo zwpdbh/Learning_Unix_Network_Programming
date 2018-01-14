@@ -24,24 +24,27 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 include_directories("/usr/local/include/" "/usr/include")
 link_directories("/usr/include" "/usr/lib")
-#link_libraries(flann hdf5)
-#add_executable(
-#        KNN_main
-#        common.h
-#        csv_parser.cpp
-#        csv_parser.h
+link_libraries(flann hdf5)
+
+add_executable(
+        KNN_main
+        common.h
+        csv_parser.cpp
+        csv_parser.h
 #        flann_kdtree_index.h
 #        flann_kmeans_index.h
 #        flann_linear_index.h
-#        main.cpp
-#        main.h
-#        rbc_index.cpp
-#        rbc_index.h
-#        sdc_index.cpp
-#        sdc_index.h
-#        sdc_kmeans.h
-#)
-#target_link_libraries(KNN_main flann hdf5)
+        main.cpp
+        main.h
+        rbc_index.cpp
+        rbc_index.h
+        sdc_index.cpp
+        sdc_index.h
+        sdc_kmeans.h
+        rbc/dists.h
+        rbc/utils.h
+        rbc/defs.h
+)
 
 add_executable(
         main_mytest
@@ -49,10 +52,3 @@ add_executable(
 )
 target_link_libraries(main_mytest flann hdf5)
 
-# === another way to set include and link directory
-#include_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/include)
-#link_directories(/opt/NVIDIA_GPU_Computing_SDK/OpenCL/common/<lib or something similar>)
-#
-#add_executable(yourexe src1.c ...)
-#target_link_libraries(yourexe OpenCL)
-# ===
