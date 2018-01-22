@@ -21,7 +21,9 @@ include_directories("${PROJECT_SOURCE_DIR}")
 
 include_directories("/usr/local/include/" "/usr/include")
 link_directories("/usr/include" "/usr/lib")
-link_libraries(-fopenmp)
+# to enable to call openMP functions
+link_libraries(gomp)
+# to enable OpenMP directives
 add_compile_options(-fopenmp)
 
 

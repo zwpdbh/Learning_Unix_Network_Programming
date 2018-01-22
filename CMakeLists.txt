@@ -21,9 +21,6 @@ add_subdirectory(./Learning_Wt)
 # === for Concurrent_programming
 add_subdirectory(./Concurrent_programming/01_threads_management)
 
-# === for Parallel implementation of KNN
-add_subdirectory(K-NN)
-
 
 # === for OpenMP
 add_subdirectory(./Concurrent_programming/Learning_OpenMP)

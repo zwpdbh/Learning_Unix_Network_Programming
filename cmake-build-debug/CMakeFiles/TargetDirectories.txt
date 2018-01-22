@@ -29,9 +29,6 @@
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/cplus_waiting_in_eceptional_circumstances.dir
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/edit_cache.dir
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/01_threads_management/CMakeFiles/pthread_fetch_exit_code_from_thread_termination.dir
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/K-NN/CMakeFiles/rebuild_cache.dir
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/K-NN/CMakeFiles/edit_cache.dir
-/Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/K-NN/CMakeFiles/flann_test.dir
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/Learning_OpenMP/CMakeFiles/rebuild_cache.dir
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/Learning_OpenMP/CMakeFiles/edit_cache.dir
 /Users/zw/code/C_and_C++_Projects/Learning_Unix_Network_Programming/cmake-build-debug/Concurrent_programming/Learning_OpenMP/CMakeFiles/OpenMP_Hello_World.dir

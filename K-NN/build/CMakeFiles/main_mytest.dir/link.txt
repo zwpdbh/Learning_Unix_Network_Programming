@@ -1,1 +1,0 @@
-/usr/local/Cellar/gcc/7.2.0/bin/g++-7   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main_mytest.dir/flann_test_main.cpp.o  -o ../bin/main_mytest  -L/usr/include -Wl,-rpath,/usr/include -lflann -lhdf5 -lflann -lhdf5 

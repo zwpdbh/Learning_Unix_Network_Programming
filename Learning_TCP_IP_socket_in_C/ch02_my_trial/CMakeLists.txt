@@ -1,12 +1,13 @@
 # set minimum version
 cmake_minimum_required(VERSION 3.9)
 
+
+
 # set project name
 project(ch02_my_trial)
 
 set(CMAKE_C_COMPILER /usr/bin/gcc)
 set(CMAKE_CXX_COMPILER /usr/bin/g++)
-
 
 # set the output folder where your program will be created
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
